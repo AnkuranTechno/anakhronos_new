@@ -1,6 +1,6 @@
 
 
-import { gallimg4,gallimg19,gallimg2,gallimg27,gallimg3,gallimg15 } from '../../constants/images';
+import { gallimg4,gallimg19,gallimg2,gallimg27,gallimg3,gallimg15,gallimg10 } from '../../constants/images';
 
 
 export const anakhronosCompetetions = [
