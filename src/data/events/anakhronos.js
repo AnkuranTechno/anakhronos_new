@@ -1,5 +1,8 @@
-import { eventImg } from '../../constants/images';
+
+
 import { gallimg4,gallimg19,gallimg2,gallimg27,gallimg3,gallimg15 } from '../../constants/images';
+
+
 export const anakhronosCompetetions = [
   {
     name: 'Sur Tarang',
@@ -16,7 +19,9 @@ export const anakhronosCompetetions = [
   {
     name: '2 Mins To Fame',
     description: 'Show case ur talent in 2 mins',
+
     image: gallimg27,
+
     link: '',
   },
   {
@@ -28,7 +33,10 @@ export const anakhronosCompetetions = [
   {
     name: 'Band Box',
     description: 'The battle of bands',
+
     image: gallimg15,
+
+
     link: '',
   },
   {
@@ -40,19 +48,19 @@ export const anakhronosCompetetions = [
   {
     name: 'Impression',
     description: 'Photography competition',
-    image: eventImg,
+    image: gallimg10,
     link: '',
   },
   {
     name: 'Short Film Making Competiton',
     description: 'Make short films',
-    image: eventImg,
+    image: gallimg10,
     link: '',
   },
   {
     name: 'ART AND CRAFT',
     description: 'Art and craft competition',
-    image: eventImg,
+    image: gallimg10,
     link: '',
   },
 ];
