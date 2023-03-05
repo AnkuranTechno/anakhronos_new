@@ -20,17 +20,19 @@
       max-height: 280px;
       object-fit: contain;
       overflow: hidden;
-      transform: translateX(-270px);
+      transform: translateX(-170px) !important;
       padding-bottom: 2rem;
       img {
         width: 395px;
         min-height: 280px;
+        border-radius: 0;
+        object-fit: cover;
       }
     }
 
     &__arrow {
       position: absolute;
-      top: 71%;
+      top: 74%;
       left: 46.5%;
       z-index: 10;
 
