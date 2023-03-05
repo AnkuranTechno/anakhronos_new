@@ -168,28 +168,21 @@
 
 // }
 
-.team {
-  padding-top: 100px;
-  //padding-bottom: 100px;
-}
+// .team {
+//   padding-top: 100px;
+//   padding-bottom: 100px;
+// }
 
 .team-container {
   h1:first-child {
-    //text-transform: uppercase;
-    top: 3.125rem;
-    margin-left: 300px;
+    text-transform: uppercase;
+    margin-left: 7rem;
+    //top: 3.125rem;
+    letter-spacing: 0.2rem;
     position: relative;
     padding: 10px 0;
-    font-size: 36px;
-
-    // &::before {
-    //   width: 30px;
-    //   content: ' ';
-    //   position: absolute;
-    //   border-top: solid 3px #f50136;
-    //   left: 0;
-    //   top: 0;
-    // }
+    font-size: 3rem;
+    padding-bottom: 1rem;
   }
 }
 
@@ -213,8 +206,6 @@ html {
   font-size: 62.5%;
 }
 
-
-
 .container {
   max-width: 124rem;
   padding: 4rem 1rem;
@@ -234,7 +225,7 @@ html {
 }
 
 .swiper-slide {
-  width: 37rem;
+  width: 35rem;
   height: 42rem;
   
 
