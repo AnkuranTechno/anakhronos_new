@@ -1,0 +1,59 @@
+// .sponsors {
+//   padding-top: 100px;
+//   padding-bottom: 100px;
+// }
+
+.sponsors-container {
+  h1 {
+    text-transform: uppercase;
+    margin-left: 7rem;
+    //top: 3.125rem;
+    letter-spacing: 0.2rem;
+    position: relative;
+    padding: 10px 0;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.sponsors-slideshow {
+  height: 150px;
+  max-width: 100%;
+  margin: 50px auto;
+  position: relative;
+  overflow: hidden;
+  //border:1px solid black;
+  font-size: 0; /* THIS IS A HACK TO REMOVE THE "WHITESPACE" BETWEEN IMAGES.
+                    YOU COULD ALSO PUT ALL OF THE IMAGES ON THE SAME LINE
+                    (eg: <img src=""><img src=""><img src=""> 
+                    with no spaces or line-breaks),
+                    BUT THAT MAKES THE CODE LESS READABLE SO I'M DOING THIS
+                    FOR THE SAKE OF CREATING THIS EXAMPLE FOR YOU */
+}
+
+.slide {
+  height: 150px;
+  width: max-content;
+  position: absolute;
+  overflow-x: hidden;
+  // padding: 20px 0 0 20px;
+  top: 0;
+  left: 0;
+  animation: moveSlideshow 60s linear infinite;
+}
+
+.slide img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 150px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+  /* filter: invert(100%);  //these two lines would be removed after i've added all the images in the right colour. Inverted images just for the time being so that it doesn't look bad.
+    -webkit-filter: invert(100%); */
+}
+
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-3910px);
+  }
+}
