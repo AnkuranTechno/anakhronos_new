@@ -1,6 +1,9 @@
-export { default as logo } from "../assets/images/yo.png";
-export { default as tmslLogo } from "../assets/images/tmsl-logo.png";
-export { default as eventImg } from "../assets/images/anakhronos/img-3.jpg";
+
+export { default as logo } from '../assets/images/yo.png';
+export { default as tmslLogo } from '../assets/images/tmsl-logo.png';
+export { default as eventImg } from '../assets/images/anakhronos/img-3.jpg';
+export { default as heroImg } from '../assets/images/hero_bg.jpg';
+
 export { default as heroImg } from "../assets/images/hero_bg.jpg";
 
 export { default as gallimg1 } from "../assets/images/gallery/GALLERY1.jpg";
@@ -31,6 +34,7 @@ export { default as gallimg26 } from "../assets/images/gallery/gallery_fresher8.
 export { default as gallimg25 } from "../assets/images/gallery/gallery_fresher9.JPG";
 export { default as gallimg27 } from "../assets/images/gallery/GUITAR1.jpg";
 export { default as arrow } from "../assets/images/gallery/arrow.png";
+
 
 export { default as facebookLogo } from '../assets/images/icons8-facebook.svg';
 export { default as instagramLogo } from '../assets/images/icons8-instagram(1).svg';
