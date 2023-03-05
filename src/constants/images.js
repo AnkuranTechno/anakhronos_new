@@ -1,11 +1,8 @@
 
-export { default as logo } from '../assets/images/yo.png';
-export { default as tmslLogo } from '../assets/images/tmsl-logo.png';
-export { default as eventImg } from '../assets/images/anakhronos/img-3.jpg';
-export { default as heroImg } from '../assets/images/hero_bg.jpg';
-
+export { default as logo } from "../assets/images/yo.png";
+export { default as tmslLogo } from "../assets/images/tmsl-logo.png";
+export { default as eventImg } from "../assets/images/anakhronos/img-3.jpg";
 export { default as heroImg } from "../assets/images/hero_bg.jpg";
-
 export { default as gallimg1 } from "../assets/images/gallery/GALLERY1.jpg";
 export { default as gallimg2 } from "../assets/images/gallery/GALLERY2.jpg";
 export { default as gallimg3 } from "../assets/images/gallery/GALLERY3.jpg";
