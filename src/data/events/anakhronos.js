@@ -1,5 +1,8 @@
-import { eventImg } from '../../constants/images';
-import { gallimg2,gallimg3,gallimg4,gallimg8,gallimg19,gallimg10,gallimg14 } from '../../constants/images';
+
+
+import { gallimg4,gallimg19,gallimg2,gallimg27,gallimg3,gallimg15,gallimg10 } from '../../constants/images';
+
+
 export const anakhronosCompetetions = [
   {
     name: 'Sur Tarang',
@@ -16,7 +19,9 @@ export const anakhronosCompetetions = [
   {
     name: '2 Mins To Fame',
     description: 'Show case ur talent in 2 mins',
-    image: gallimg14,
+
+    image: gallimg27,
+
     link: '',
   },
   {
@@ -28,7 +33,10 @@ export const anakhronosCompetetions = [
   {
     name: 'Band Box',
     description: 'The battle of bands',
-    image: gallimg8,
+
+    image: gallimg15,
+
+
     link: '',
   },
   {
