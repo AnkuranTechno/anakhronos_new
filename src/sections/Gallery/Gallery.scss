@@ -1,0 +1,62 @@
+.gallery {
+  padding-top: 2rem;
+
+  h1 {
+    text-transform: uppercase;
+    margin-left: 7rem;
+    //top: 3.125rem;
+    letter-spacing: 0.2rem;
+    position: relative;
+    padding: 10px 0;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  .swiper {
+    padding-bottom: 3.5rem;
+
+    &__slide {
+      max-width: 395px;
+      max-height: 280px;
+      object-fit: contain;
+      overflow: hidden;
+      transform: translateX(-270px);
+      padding-bottom: 2rem;
+      img {
+        width: 395px;
+        min-height: 280px;
+      }
+    }
+
+    &__arrow {
+      position: absolute;
+      top: 71%;
+      left: 46.5%;
+      z-index: 10;
+
+      img {
+        width: 90px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+@media all and (max-width: 600px) {
+  .gallery {
+    .swiper {
+      &__slide {
+        transform: none;
+      }
+      &__arrow {
+        position: absolute;
+        top: 78%;
+        left: 40%;
+        z-index: 10;
+        img {
+          width: 50px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
