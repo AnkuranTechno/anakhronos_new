@@ -10,7 +10,7 @@ const About = () => {
       <div className='about_wrapper'>
         <div className='about_1'>
         <h1>About The Event</h1>
-        <p> Annual Cultural Fest of Techno India Salt Lake oragnized by team.</p>
+        <p> Annual Cultural Fest of Techno India Salt Lake oragnized by team Ankuran.</p>
           </div>
           <div className='about_2'>
             <h2>Where</h2>
