@@ -154,7 +154,7 @@ const Gallery = () => {
     swiperRef.slideNext();
   };
   return (
-    <div className="app__section gallery" id="gallery">
+    <div className="app__section gallery bgcolour_gallery" id="gallery">
       <h1 className="app__section-container">Gallery</h1>
 
       <div className="swiper">
