@@ -33,12 +33,12 @@ import {
   Abir,
   Arpita,
   Asen
-} from '../../constants/images';
+} from '../../../../constants/images';
 import './Team.scss';
 
 function Team() {
   return (
-    <div className="app__section team" id="team">
+    <div className="app__section team bgcolour_teams" id="team">
       <div className="app__section-container team-container">
         <h1>Our Team</h1>
         <div className="container">

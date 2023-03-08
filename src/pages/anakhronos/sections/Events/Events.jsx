@@ -1,6 +1,6 @@
 import React from 'react';
-import { SectionHeading } from '../../components';
-import { anakhronosCompetetions } from '../../data/events/anakhronos';
+import { SectionHeading } from '../../../../components';
+import { anakhronosCompetetions } from '../../../../data/events/anakhronos';
 import EventCard from './EventCard';
 
 import './Events.scss';
@@ -8,6 +8,7 @@ import './Events.scss';
 const Events = () => {
   return (
     <seciton className="events" id="events">
+      <div className='bgcolour'>
       <div className="section-container">
         <SectionHeading title="Events" />
         <div className="event__card-container">
@@ -20,6 +21,7 @@ const Events = () => {
             />
           ))}
         </div>
+      </div>
       </div>
     </seciton>
   );

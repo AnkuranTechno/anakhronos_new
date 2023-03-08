@@ -34,7 +34,7 @@ import {
   gallimg26,
   gallimg27,
   arrow,
-} from "../../constants/images";
+} from "../../../../constants/images";
 import { useState } from "react";
 
 const data = [
@@ -154,7 +154,7 @@ const Gallery = () => {
     swiperRef.slideNext();
   };
   return (
-    <div className="app__section gallery" id="gallery">
+    <div className="app__section gallery bgcolour_gallery" id="gallery">
       <h1 className="app__section-container">Gallery</h1>
 
       <div className="swiper">

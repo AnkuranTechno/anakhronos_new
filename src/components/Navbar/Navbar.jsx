@@ -1,21 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from '../../components';
-import { tmslLogo } from '../../constants/images';
 import { FaBars } from 'react-icons/fa';
 import { HiX } from 'react-icons/hi';
 import useIsMobile from '../../hooks/useMobile';
 import './Navbar.scss';
+// import { Link } from 'react-router-dom';
 
-const Navbar = () => {
-  const navLinks = [
-    { name: 'Home', link: '#hero' },
-    { name: 'About', link: '#about' },
-    { name: 'Events', link: '#events' },
-    { name: 'Gallery', link: '#gallery' },
-    { name: 'Sponsors', link: '#sponsors' },
-    { name: 'Contact', link: '#contact' },
-  ];
-
+const Navbar = ({navLinks ,logo}) => {
   const isMobile = useIsMobile();
   const [show, setShow] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -48,7 +39,7 @@ const Navbar = () => {
     >
       <div className="navbar__container">
         <div className="navbar__logo">
-          <img src={tmslLogo} alt="logo" />
+          <img src={logo} alt="logo" />
         </div>
         {isMobile ? (
           <div className="navbar__actions navbar__actions--mobile-only">
@@ -58,6 +49,7 @@ const Navbar = () => {
                 <FaBars onClick={() => setToggle(!toggle)} />
               </div>
             )}
+
             {toggle && (
               <div className="navbar__toggle-btn cross">
                 <HiX onClick={() => setToggle(!toggle)} />
@@ -85,7 +77,6 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-
             <Button type="solid" text="Login" />
           </div>
         )}
