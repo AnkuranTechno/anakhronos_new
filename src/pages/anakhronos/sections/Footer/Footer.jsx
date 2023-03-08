@@ -1,12 +1,12 @@
 import React from 'react';
-import { logo } from '../../constants/images';
-
 import {
+  logo,
   facebookLogo,
   instagramLogo,
   youtubelogo,
   twitterlogo,
-} from '../../constants/images';
+} from '../../../../constants/images';
+
 import './Footer.scss';
 
 const Footer = () => {

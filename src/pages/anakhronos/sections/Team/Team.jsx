@@ -33,7 +33,7 @@ import {
   Abir,
   Arpita,
   Asen
-} from '../../constants/images';
+} from '../../../../constants/images';
 import './Team.scss';
 
 function Team() {

@@ -1,6 +1,6 @@
 import React from 'react';
-import { SectionHeading } from '../../components';
-import { anakhronosCompetetions } from '../../data/events/anakhronos';
+import { SectionHeading } from '../../../../components';
+import { anakhronosCompetetions } from '../../../../data/events/anakhronos';
 import EventCard from './EventCard';
 
 import './Events.scss';
