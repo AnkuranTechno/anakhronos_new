@@ -1,17 +1,40 @@
 #event-card{
     position: relative;
-    width: fit-content
+    width: max-content;
+    
+}
+.events:hover{
+     
+    box-shadow: 50px 40px 115px rgb(0 0 0 / 20%);
+}
+.events2:hover{
+    box-shadow: 50px 40px 115px rgb(0 0 0 / 20%);
 }
 .events{
-    width: 100%;
-    height: 100%;
+    width:60%;
+    height: 120%;    
     margin: 70px;
     padding: 100px;
+    border-radius: 10px;
+}
+.events2{
+    width:60%;
+    height: 120%;    
+    margin: 70px;
+    padding: 100px;
+    border-radius: 10px;
+    margin-left: 600px;
 }
 .red{
     
     width: 200px;
+
     height: 200px;
+
+}
+.red >img{
+    width: 250px;
+    height: 320px;
 
 }
 .desc >p {
