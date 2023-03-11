@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button } from '../../components';
-import { logo } from '../../constants/images';
+import { Button } from '../../../../components';
+import { logo } from '../../../../constants/images';
 import './Hero.scss';
 
 const Hero = () => {

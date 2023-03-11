@@ -34,7 +34,7 @@ import {
   gallimg26,
   gallimg27,
   arrow,
-} from "../../constants/images";
+} from "../../../../constants/images";
 import { useState } from "react";
 
 const data = [

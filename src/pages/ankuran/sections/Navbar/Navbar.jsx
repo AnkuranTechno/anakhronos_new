@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from '../../components';
+import { Button } from '../../../../components';
 import { FaBars } from 'react-icons/fa';
 import { HiX } from 'react-icons/hi';
-import useIsMobile from '../../hooks/useMobile';
+import useIsMobile from '../../../../hooks/useMobile';
 import './Navbar.scss';
 // import { Link } from 'react-router-dom';
 

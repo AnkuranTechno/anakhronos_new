@@ -24,7 +24,7 @@ import {
   T2,
   Nexa,
   Red_FM
-} from '../../constants/images';
+} from '../../../../constants/images';
 
 import './Sponsors.scss';
 
