@@ -93,3 +93,7 @@ export { default as Sourajit } from "../assets/anakhronos/images/soura.png";
 export { default as Abir } from "../assets/anakhronos/images/abir1.png";
 export { default as Arpita } from "../assets/anakhronos/images/arpita.png";
 export { default as Asen } from "../assets/anakhronos/images/asen.png";
+
+export { default as Maam } from "../assets/anakhronos/images/maam.jpeg";
+export { default as Meghdut } from "../assets/anakhronos/images/Meghdut.jpeg";
+export { default as Avijit } from "../assets/anakhronos/images/Avijit Kar.jpeg";

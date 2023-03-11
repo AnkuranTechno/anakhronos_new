@@ -1,20 +1,19 @@
-.bgcolour_teams{
+.bgcolour_teams {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(60deg,#925ecac3,#32b0be,#ad58c7);
+  background-image: linear-gradient(60deg, #925ecac3, #32b0be, #ad58c7);
   background-size: 600% 600%;
   animation: bganimation 10s infinite linear;
-  
 }
-@keyframes bganimation{
-  0%{
-      background-position: 0% 85%;
+@keyframes bganimation {
+  0% {
+    background-position: 0% 85%;
   }
-  50%{
-      background-position: 100% 20%;
+  50% {
+    background-position: 100% 20%;
   }
-  100%{
-      background-position: 0% 85%;
+  100% {
+    background-position: 0% 85%;
   }
 }
 .team-container {
