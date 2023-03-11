@@ -113,7 +113,7 @@ function Team() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={`https://user-images.githubusercontent.com/102872077/223781284-6ea390dc-7223-4d8e-bbd0-1d28eb290b9f.jpg`} alt="Ankush" />
+              <img src={`https://user-images.githubusercontent.com/102872077/224475570-51882d21-d77c-4c69-b765-b63fd6d7db14.jpeg`} alt="Ankush" />
               <div className="info">
                 <h2>Ankush</h2>
                 <h3>Web Developer</h3>

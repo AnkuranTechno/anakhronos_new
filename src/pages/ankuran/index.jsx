@@ -11,7 +11,7 @@ const Ankuran = () => {
         <Team/>
         <Megaevent/>
     </div>
-  )
+  );
 };
 
 export default Ankuran;
