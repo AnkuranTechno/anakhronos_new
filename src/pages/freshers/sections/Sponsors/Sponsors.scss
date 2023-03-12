@@ -17,9 +17,9 @@
 }
 
 .sponsors-slideshow {
-  height: 150px;
+  height: 200px;
   max-width: 100%;
-  margin: 50px auto;
+  //margin: 50px auto;
   position: relative;
   overflow: hidden;
   //border:1px solid black;
@@ -32,7 +32,7 @@
 }
 
 .slide {
-  height: 150px;
+  height: 200px;
   width: max-content;
   position: absolute;
   overflow-x: hidden;
