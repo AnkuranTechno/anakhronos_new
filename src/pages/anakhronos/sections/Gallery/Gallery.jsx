@@ -183,7 +183,7 @@ const Gallery = () => {
             })}
           </div>
           <div className="swiper__arrow" onClick={nextHandler}>
-            <img src={arrow} alt="" />
+            <img src={arrow} alt="next" />
           </div>
         </Swiper>
       </div>
