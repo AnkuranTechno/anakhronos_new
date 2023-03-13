@@ -1,4 +1,4 @@
-bgcolour_teams {
+.bgcolour_teams {
   width: 100%;
   height: 100%;
   background-image: linear-gradient(60deg, #925ecac3, #32b0be, #ad58c7);
@@ -21,6 +21,8 @@ bgcolour_teams {
 }
 
 .team-container {
+  padding-block: 4rem;
+
   h1:first-child {
     text-transform: uppercase;
     margin-left: 7rem;
@@ -28,7 +30,7 @@ bgcolour_teams {
     letter-spacing: 0.2rem;
     position: relative;
     padding: 10px 0;
-    font-size: 3rem;
+    font-size: 4rem;
     padding-bottom: 1rem;
   }
 }
@@ -211,7 +213,7 @@ html {
 }
 
 .slider-controller .slider-arrow::after {
-  content: "";
+  content: '';
 }
 
 .swiper-pagination {
