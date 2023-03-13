@@ -1,15 +1,14 @@
 import React from 'react';
-import Ankuran from './pages/ankuran';
-// import Anakhronos from './pages/anakhronos';
-// import Freshers from './pages/freshers';
+import { Route, Routes } from 'react-router-dom';
+import { Ankuran, Anakhronos, Freshers } from './pages';
 
 const App = () => {
   return (
-    <div className="app">
-      <Ankuran />
-      {/* <Anakhronos /> */}
-      {/* <Freshers /> */}
-    </div>
+    <Routes>
+      <Route exact path="/" element={<Ankuran />} />
+      <Route exact path="/anakhronos" element={<Anakhronos />} />
+      <Route exact path="/freshers" element={<Freshers />} />
+    </Routes>
   );
 };
 
