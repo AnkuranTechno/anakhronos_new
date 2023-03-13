@@ -5,6 +5,35 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper';
+// import {
+//   Aniket,
+//   Keshav,
+//   Yesh,
+//   Evan,
+//   Chandan,
+//   Rudrajit,
+//   Sahel,
+//   Somya,
+//   Abhijeet,
+//   Suchetana,
+//   Soham,
+//   Bidyayan,
+//   Oishi,
+//   Hrishav,
+//   Iman,
+//   Dhruba,
+//   Pratyush,
+//   Shatavisha,
+//   ADutta,
+//   Punjay,
+//   Agnish,
+//   Nabanita,
+//   Bishal,
+//   Sourajit,
+//   Abir,
+//   Arpita,
+//   Asen
+// } from '../../../../constants/images';
 import './Team.scss';
 
 function Team() {
@@ -42,6 +71,18 @@ function Team() {
               <div className="info">
                 <h2>Sourajit Mukherjee</h2>
                 <h3>Web Development Head</h3>
+                <a href="#">
+                  <i class="fa-brands fa-instagram "></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-phone"></i>
+                </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -52,6 +93,18 @@ function Team() {
               <div className="info">
                 <h2>Abir Gayen</h2>
                 <h3>Web Development Head</h3>
+                <a href="#">
+                  <i class="fa-brands fa-instagram "></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-phone"></i>
+                </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -62,6 +115,18 @@ function Team() {
               <div className="info">
                 <h2>Sreetama Hazra</h2>
                 <h3>Web Developer</h3>
+                <a href="#">
+                  <i class="fa-brands fa-instagram "></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-phone"></i>
+                </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -72,6 +137,18 @@ function Team() {
               <div className="info">
                 <h2>Akash Gupta</h2>
                 <h3>Web Developer</h3>
+                <a href="#">
+                  <i class="fa-brands fa-instagram "></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-phone"></i>
+                </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -82,6 +159,18 @@ function Team() {
               <div className="info">
                 <h2>Abhishek</h2>
                 <h3>Web Developer</h3>
+                <a href="#">
+                  <i class="fa-brands fa-instagram "></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-phone"></i>
+                </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -92,6 +181,18 @@ function Team() {
               <div className="info">
                 <h2>Souvik Saha</h2>
                 <h3>Web Developer</h3>
+                <a href="#">
+                  <i class="fa-brands fa-instagram "></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-phone"></i>
+                </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -102,6 +203,18 @@ function Team() {
               <div className="info">
                 <h2>Asif</h2>
                 <h3>Web Developer</h3>
+                <a href="#">
+                  <i class="fa-brands fa-instagram "></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-phone"></i>
+                </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -112,6 +225,18 @@ function Team() {
               <div className="info">
                 <h2>Ankush</h2>
                 <h3>Web Developer</h3>
+                <a href="#">
+                  <i class="fa-brands fa-instagram "></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-phone"></i>
+                </a>
               </div>
             </SwiperSlide>
             {/* <div className="slider-controller">
