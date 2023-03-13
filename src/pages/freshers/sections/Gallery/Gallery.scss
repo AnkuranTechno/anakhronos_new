@@ -9,22 +9,29 @@
     position: relative;
     padding: 10px 0;
     font-size: 3rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
   }
-
   .swiper {
     padding-bottom: 3.5rem;
+    .swiper-slide {
+      width: auto;
+      height: auto;
+    }
+    // .swiper-slide img {
+    //   // object-fit: cover;
+    // }
 
     &__slide {
+      transform: translateX(-275px) !important;
       max-width: 395px;
       max-height: 280px;
       object-fit: contain;
       overflow: hidden;
-      transform: translateX(-170px) !important;
       padding-bottom: 2rem;
       img {
         width: 395px;
         min-height: 280px;
+        object-fit: cover;
         border-radius: 0;
         object-fit: cover;
       }
@@ -32,27 +39,42 @@
 
     &__arrow {
       position: absolute;
-      top: 74%;
+      top: 76%;
       left: 46.5%;
       z-index: 10;
 
       img {
-        width: 90px;
+        width: 85px;
         cursor: pointer;
       }
     }
   }
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 500px) {
   .gallery {
     .swiper {
-      &__slide {
-        transform: none;
+      .swiper-slide {
+        height: auto !important;
+        width: auto !important;
       }
+      .swiper-slide img {
+        width: auto !important;
+        height: auto !important;
+        object-fit: contain !important;
+      }
+      &__slide {
+        padding-left: 1rem;
+        transform: none !important;
+        img {
+          max-width: 500px;
+          max-height: 280px;
+        }
+      }
+
       &__arrow {
         position: absolute;
-        top: 78%;
-        left: 40%;
+        top: 80%;
+        left: 45%;
         z-index: 10;
         img {
           width: 50px;
@@ -62,22 +84,21 @@
     }
   }
 }
-.bgcolour_gallery{
+.bgcolour_gallery {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(60deg,#8320edc3,#8cbecc,#e13f88);
+  background-image: linear-gradient(60deg, #8320edc3, #8cbecc, #e13f88);
   background-size: 600% 600%;
   animation: bganimation 10s infinite linear;
-  
 }
-@keyframes bganimation{
-  0%{
-      background-position: 0% 85%;
+@keyframes bganimation {
+  0% {
+    background-position: 0% 85%;
   }
-  50%{
-      background-position: 100% 20%;
+  50% {
+    background-position: 100% 20%;
   }
-  100%{
-      background-position: 0% 85%;
+  100% {
+    background-position: 0% 85%;
   }
 }

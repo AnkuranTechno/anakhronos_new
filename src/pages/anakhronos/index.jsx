@@ -8,7 +8,6 @@ import {
   Team,
   Footer,
   Sponsors,
-  Management,
 } from "./sections";
 
 import "./anakhronos.scss";
@@ -25,7 +24,6 @@ const Anakhronos = () => {
       <Gallery />
       <Team />
       <Sponsors />
-      <Management />
       <Footer />
     </div>
   );
