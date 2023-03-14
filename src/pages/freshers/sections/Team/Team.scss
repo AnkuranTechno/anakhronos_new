@@ -5,17 +5,21 @@
   background-size: 600% 600%;
   animation: bganimation 10s infinite linear;
 }
+
 @keyframes bganimation {
   0% {
     background-position: 0% 85%;
   }
+
   50% {
     background-position: 100% 20%;
   }
+
   100% {
     background-position: 0% 85%;
   }
 }
+
 .team-container {
   h1:first-child {
     text-transform: uppercase;
@@ -73,12 +77,15 @@ html {
 
   .info {
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
     left: 0;
     color: #ffffff;
     font-family: sans-serif;
     padding-left: 2rem;
     padding-bottom: 2rem;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 500ms ease;
   }
 
   .info h2 {
@@ -90,6 +97,30 @@ html {
     font-size: 2.2rem;
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 5px black;
+  }
+
+  .info a {
+    color: #ffffff;
+    top: 25px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-right: 20px;
+  }
+}
+
+.info a:hover {
+  color: rgb(68, 68, 255);
+  background: white;
+}
+
+.swiper-slide:hover {
+  .info {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 500ms ease;
   }
 }
 

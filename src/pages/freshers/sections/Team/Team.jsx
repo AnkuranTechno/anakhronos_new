@@ -1,10 +1,10 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { EffectCoverflow, Pagination, Navigation } from "swiper";
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { EffectCoverflow, Pagination, Navigation } from 'swiper';
 import {
   Aniket,
   Keshav,
@@ -32,9 +32,9 @@ import {
   Sourajit,
   Abir,
   Arpita,
-  Asen,
-} from "../../../../constants/images";
-import "./Team.scss";
+  Asen
+} from '../../../../constants/images';
+import './Team.scss';
 
 function Team() {
   return (
@@ -43,23 +43,23 @@ function Team() {
         <h1>Our Team</h1>
         <div className="container">
           <Swiper
-            effect={"coverflow"}
+            effect={'coverflow'}
             grabCursor={true}
             centeredSlides={true}
             loop={true}
-            slidesPerView={"auto"}
+            slidesPerView={'auto'}
             coverflowEffect={{
               rotate: 0,
               stretch: 0,
               depth: 100,
               modifier: 2.5,
             }}
-            pagination={{ el: ".swiper-pagination", clickable: true }}
-            navigation={{
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-              clickable: true,
-            }}
+             pagination={{ el: '.swiper-pagination', clickable: true }}
+             navigation={{
+               nextEl: '.swiper-button-next',
+               prevEl: '.swiper-button-prev',
+               clickable: true,
+             }}
             modules={[EffectCoverflow, Pagination, Navigation]}
             className="swiper_container"
           >

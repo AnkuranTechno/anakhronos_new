@@ -1,0 +1,173 @@
+.container {
+  .management {
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding-left: 1.5rem;
+    margin-bottom: 4rem;
+  }
+  //CONTAINER FOR THE SPEAKER
+  .wrapper {
+    // background-color: #fff;
+    max-width: 1180px;
+    min-height: 450px;
+    // min-height: 600px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 100px;
+    // margin: 100px 0px auto auto;
+    border-radius: 18px;
+    transition: all ease-in-out 0.2s;
+    &:hover {
+      border: none;
+      background-color: #fff;
+      box-shadow: 18px 18px 60px 10px rgb(212, 211, 211);
+      img {
+        filter: brightness(80%);
+      }
+      //THE CONTENT OF THE SPEAKER ON HOVER STATE
+      .content-2 {
+        opacity: 1;
+        scale: 1.02;
+      }
+      .content-1 {
+        opacity: 1;
+        scale: 1.02;
+      }
+    }
+    //IMAGES CONTAINER OF THE SPEAKER
+    .image-1 {
+      display: flex;
+      justify-content: flex-start;
+      img {
+        max-width: 450px;
+        min-height: 450px;
+        object-fit: cover;
+      }
+    }
+    .image-2 {
+      display: flex;
+      justify-content: flex-end;
+      img {
+        max-width: 450px;
+        min-height: 450px;
+        object-fit: cover;
+        background-size: cover;
+      }
+    }
+    // THE CONTENT OF THE SPEAKERS 1 FOR LEFT ALIGNED TWO FOR RIGHT ALIGNED
+    .content-1 {
+      transition: all ease-in-out 0.2s;
+      font-size: 1.4rem;
+      opacity: 0.9;
+      padding: 3rem 3rem;
+      line-height: 1.7;
+      max-width: 700px;
+      position: absolute;
+      background-color: white;
+      top: 9%;
+      left: 35%;
+      filter: drop-shadow(0.75rem 0.75rem 2rem);
+      color: gray;
+      h1 {
+        color: black;
+        padding-bottom: 0.5rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+      }
+      h2 {
+        color: black;
+        padding-bottom: 1rem;
+        font-size: 2rem;
+        font-weight: 500;
+      }
+    }
+    .content-2 {
+      transition: all ease-in-out 0.2s;
+      font-size: 1.4rem;
+      opacity: 0.9;
+      padding: 3rem 3rem;
+      line-height: 1.7;
+      max-width: 700px;
+      position: absolute;
+      background-color: white;
+      top: 7%;
+      right: 35%;
+      filter: drop-shadow(0.75rem 0.75rem 2rem);
+      color: gray;
+      h1 {
+        color: black;
+        padding-bottom: 0.5rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+      }
+      h2 {
+        color: black;
+        padding-bottom: 1rem;
+        font-size: 2rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 768px) {
+  .container {
+    .wrapper {
+      background-color: #fff;
+      max-width: 500px;
+      height: auto;
+      position: static;
+      display: flex;
+      flex-direction: column;
+      .image-1 {
+        justify-content: center;
+        overflow: hidden;
+        img {
+          filter: none;
+          max-width: 400px;
+          min-height: auto;
+        }
+      }
+      .image-2 {
+        justify-content: center;
+        overflow: hidden;
+        img {
+          filter: none;
+          max-width: 400px;
+          min-height: auto;
+        }
+      }
+      .content-1 {
+        position: static;
+        width: auto;
+        height: auto;
+        opacity: 1;
+      }
+      .content-2 {
+        position: static;
+        width: auto;
+        height: auto;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(60deg, #8320edc3, #8cbecc, #e13f88);
+  background-size: 600% 600%;
+  animation: bganimation 10s infinite linear;
+}
+@keyframes bganimation {
+  0% {
+    background-position: 0% 85%;
+  }
+  50% {
+    background-position: 100% 20%;
+  }
+  100% {
+    background-position: 0% 85%;
+  }
+}
