@@ -11,9 +11,9 @@ const Ankuran = () => {
     <div className="app">
       <Navbar navLinks={navLinks} logo={tmslLogo} />
       <Hero />
-      <Team />
       <Megaevent />
       <Management />
+      <Team />
       <Footer />
     </div>
   );

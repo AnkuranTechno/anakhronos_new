@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './MegaEventCard.css';
+import {logo} from '../../../../constants/images'
 
 const MegaCard = (props) => {
   console.log({ props });
   return (
-    <>
+    <div className='megaeventswrapper'>
       <div className="events">
         <div id="event-card">
           <div className="red">
@@ -30,7 +31,7 @@ const MegaCard = (props) => {
         <div id="event-card">
           <div className="red">
             <img
-              src="https://raw.githubusercontent.com/Ankush109/anakhronos_new/master/src/assets/anakhronos/images/Prarambh.png"
+              src={logo}
               alt="event_image"
             />
           </div>
@@ -46,7 +47,8 @@ const MegaCard = (props) => {
           </div>
         </div>
       </div>
-    </>
+    
+    </div>
   );
 };
 

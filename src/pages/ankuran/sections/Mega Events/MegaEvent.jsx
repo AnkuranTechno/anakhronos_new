@@ -3,7 +3,7 @@ import MegaCard from './MegaEventCard';
 
 const MegaEvent = () => {
     return (
-        <div>
+        <div className='megaevents_wrapper'>
             <MegaCard />
         </div>
     );

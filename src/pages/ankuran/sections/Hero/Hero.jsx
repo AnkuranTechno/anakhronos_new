@@ -1,5 +1,5 @@
 import React from 'react';
-import { ankuranLogo } from '../../../../constants/images';
+import { ankuranLogo ,blurherobg } from '../../../../constants/images';
 import './Hero.scss';
 
 const Hero = () => {
@@ -7,7 +7,8 @@ const Hero = () => {
     <div className="hero" id="hero">
       <div className="hero__container">
         <div className="hero__img-container">
-          <img className="hero__img" src={ankuranLogo} alt="yo" />
+        {/* <img className="hero__bgimg" src={blurherobg} alt="yo" /> */}
+        <img className="hero__img" src={ankuranLogo} alt="yo" />
         </div>
         <div className="hero__content">
           <h1 className="hero__heading">Ankuran</h1>

@@ -5,35 +5,35 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper';
-// import {
-//   Aniket,
-//   Keshav,
-//   Yesh,
-//   Evan,
-//   Chandan,
-//   Rudrajit,
-//   Sahel,
-//   Somya,
-//   Abhijeet,
-//   Suchetana,
-//   Soham,
-//   Bidyayan,
-//   Oishi,
-//   Hrishav,
-//   Iman,
-//   Dhruba,
-//   Pratyush,
-//   Shatavisha,
-//   ADutta,
-//   Punjay,
-//   Agnish,
-//   Nabanita,
-//   Bishal,
-//   Sourajit,
-//   Abir,
-//   Arpita,
-//   Asen
-// } from '../../../../constants/images';
+import {
+  Aniket,
+  Keshav,
+  Yesh,
+  Evan,
+  Chandan,
+  Rudrajit,
+  Sahel,
+  Somya,
+  Abhijeet,
+  Suchetana,
+  Soham,
+  Bidyayan,
+  Oishi,
+  Hrishav,
+  Iman,
+  Dhruba,
+  Pratyush,
+  Shatavisha,
+  ADutta,
+  Punjay,
+  Agnish,
+  Nabanita,
+  Bishal,
+  Sourajit,
+  Abir,
+  Arpita,
+  Asen
+} from '../../../../constants/images';
 import './Team.scss';
 
 function Team() {
@@ -153,28 +153,6 @@ function Team() {
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={`https://user-images.githubusercontent.com/102872077/223781195-7c50d236-7d7e-4137-867d-483cffb341ac.jpg`}
-                alt="Abhishek"
-              />
-              <div className="info">
-                <h2>Abhishek</h2>
-                <h3>Web Developer</h3>
-                <a href="#">
-                  <i class="fa-brands fa-instagram "></i>
-                </a>
-                <a href="#">
-                  <i class="fa-brands fa-linkedin-in"></i>
-                </a>
-                <a href="#">
-                  <i class="fa-brands fa-facebook"></i>
-                </a>
-                <a href="#">
-                  <i class="fa-solid fa-phone"></i>
-                </a>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
                 src={`https://user-images.githubusercontent.com/102872077/223781678-6d54f946-16d4-470f-adde-b2fff3c63142.jpg`}
                 alt="Souvik"
               />
@@ -224,6 +202,25 @@ function Team() {
               />
               <div className="info">
                 <h2>Ankush</h2>
+                <h3>Web Developer</h3>
+                <a href="#">
+                  <i class="fa-brands fa-instagram "></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-phone"></i>
+                </a>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={`https://user-images.githubusercontent.com/102872077/223781195-7c50d236-7d7e-4137-867d-483cffb341ac.jpg`} alt="Abhishek" />
+              <div className="info">
+                <h2>Abhishek</h2>
                 <h3>Web Developer</h3>
                 <a href="#">
                   <i class="fa-brands fa-instagram "></i>

@@ -97,3 +97,6 @@ export { default as Asen } from '../assets/anakhronos/images/asen.png';
 export { default as Maam } from '../assets/anakhronos/images/maam.jpeg';
 export { default as Meghdut } from '../assets/anakhronos/images/Meghdut.jpeg';
 export { default as Avijit } from '../assets/anakhronos/images/Avijit Kar.jpeg';
+
+export { default as blurherobg } from '../assets/anakhronos/images/BLURBG.jpg';
+
