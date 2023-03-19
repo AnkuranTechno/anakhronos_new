@@ -1,6 +1,6 @@
-import React from 'react';
-import { Button } from '../../../../components';
-import './Events.scss';
+import React from "react";
+import { Button } from "../../../../components";
+import "./Events.scss";
 
 const EventCard = ({ title, desc, img }) => {
   return (
