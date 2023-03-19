@@ -1,5 +1,5 @@
-import React from 'react';
-import { Navbar } from '../../components';
+import React from "react";
+import { Navbar } from "../../components";
 import {
   Hero,
   About,
@@ -8,17 +8,19 @@ import {
   Team,
   Footer,
   Sponsors,
-} from './sections';
+  Button,
+} from "./sections";
 
-import './freshers.scss';
-import { navLinks } from '../../data/events/anakhronos';
-import { tmslLogo } from '../../constants/images';
+import "./freshers.scss";
+import { navLinks } from "../../data/events/anakhronos";
+import { tmslLogo } from "../../constants/images";
 
 const Freshers = () => {
   return (
     <div className="app">
       <Navbar navLinks={navLinks} logo={tmslLogo} />
       <Hero />
+      <Button />
       <About />
       <Events />
       <Gallery />

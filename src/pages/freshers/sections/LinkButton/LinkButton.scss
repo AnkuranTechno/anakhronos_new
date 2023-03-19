@@ -1,0 +1,62 @@
+.body {
+  background: linear-gradient(
+    to right bottom,
+    #240730,
+    #1e092c,
+    #190927,
+    #150922,
+    #11081c
+  );
+
+  // background: #20042c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+.button {
+  padding: 0 1rem;
+  position: relative;
+  display: inline-flex;
+  border: none;
+  min-width: 240px;
+  min-height: 64px;
+  transition: all 0.1s ease-in-out;
+  &:hover {
+    scale: 1.05;
+    border: 2px solid transparent;
+    // border-image: linear-gradient(45deg, red, yellow);
+    border-image: linear-gradient(45deg, blue, red);
+    border-image-slice: 1;
+  }
+}
+
+.button-text {
+  font-size: 2.5rem;
+  font-weight: 500;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  // background: linear-gradient(-90deg, #007cf0, #00dfd8, #ff0080, #007cf0);
+  background: linear-gradient(-90deg, #3d0592, #4518c1, #ee3434, #3d0592);
+  animation: backgroundAnimation 6s ease-in-out infinite;
+  background-size: 400% 100%;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    background: transparent;
+    color: rgb(192, 11, 11);
+  }
+}
+
+@keyframes backgroundAnimation {
+  50% {
+    background-position: 140% 50%;
+  }
+}
