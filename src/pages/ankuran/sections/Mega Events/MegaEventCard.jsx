@@ -2,9 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./MegaEventCard.css";
 import { logo } from "../../../../constants/images";
+import LinkButton from "../LinkButton/LinkButton";
 
 const MegaCard = (props) => {
   console.log({ props });
+  const title1 = "Prarambh";
+  const title2 = "Anakhronos";
+  const render1 = "freshers";
+  const render2 = "anakhronos";
   return (
     <div className="megaeventswrapper">
       <div className="events-mega">
@@ -24,6 +29,7 @@ const MegaCard = (props) => {
             <div className="desc">
               <p>about the event some imp details</p>
             </div>
+            <LinkButton title={title1} render={render1} />
           </div>
         </div>
       </div>
@@ -41,6 +47,7 @@ const MegaCard = (props) => {
             <div className="desc">
               <p>about the event some imp details</p>
             </div>
+            <LinkButton title={title2} render={render2} />
           </div>
         </div>
       </div>

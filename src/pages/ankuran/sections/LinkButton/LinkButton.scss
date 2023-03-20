@@ -1,12 +1,12 @@
 .body {
-  background: linear-gradient(
-    to right bottom,
-    #240730,
-    #1e092c,
-    #190927,
-    #150922,
-    #11081c
-  );
+  // background: linear-gradient(
+  //   to right bottom,
+  //   #240730,
+  //   #1e092c,
+  //   #190927,
+  //   #150922,
+  //   #11081c
+  // );
 
   // background: #20042c;
   color: white;
@@ -25,7 +25,7 @@
   min-height: 64px;
   transition: all 0.1s ease-in-out;
   &:hover {
-    scale: 1.05;
+    // scale: 1.03;
     border: 2px solid transparent;
     // border-image: linear-gradient(45deg, red, yellow);
     border-image: linear-gradient(45deg, blue, red);
