@@ -8,7 +8,6 @@ import {
   Team,
   Footer,
   Sponsors,
-  Button,
 } from "./sections";
 
 import "./anakhronos.scss";
@@ -20,7 +19,6 @@ const Anakhronos = () => {
     <div className="app">
       <Navbar navLinks={navLinks} logo={tmslLogo} />
       <Hero />
-      <Button />
       <About />
       <Events />
       <Gallery />
