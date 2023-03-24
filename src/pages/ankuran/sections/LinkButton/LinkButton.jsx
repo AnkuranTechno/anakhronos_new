@@ -11,8 +11,8 @@ const LinkButton = ({ title, render }) => {
         }}
         class="button"
       >
-        <span class="button-background"></span>
-        <span class="button-text">{title}</span>
+        <span className="button-background"></span>
+        <span className="button-text">{title}</span>
       </span>
     </div>
   );

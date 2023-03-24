@@ -1,6 +1,6 @@
-import React from 'react';
-import { ankuranLogo, blurherobg } from '../../../../constants/images';
-import './Hero.scss';
+import React from "react";
+import { ankuranLogo, blurherobg } from "../../../../constants/images";
+import "./Hero.scss";
 
 const Hero = () => {
   return (
