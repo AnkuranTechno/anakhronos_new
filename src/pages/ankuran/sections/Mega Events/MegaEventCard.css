@@ -2,6 +2,8 @@
   position: relative;
   width: max-content;
 }
+.megaevents_wrapper {
+}
 .events-mega:hover {
   box-shadow: 50px 40px 115px rgb(0 0 0 / 20%);
 }
@@ -55,8 +57,17 @@
   top: 50px;
 }
 .megaeventswrapper {
-  background-image: image(".../assets/images/ankuran/GALLERY5.png");
+  padding: 10px;
+  background-image: linear-gradient(
+    to right bottom,
+    #271eaa,
+    #291a78,
+    #18174f,
+    #150922,
+    #040430
+  );
 }
+
 /* .megaeventswrapper{
 background-color: rgba(222, 30, 30, 0.313);
 height: max-content;
