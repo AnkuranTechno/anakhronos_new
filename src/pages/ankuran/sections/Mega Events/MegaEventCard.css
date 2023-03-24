@@ -24,7 +24,6 @@
   margin: 120px;
   padding: 100px;
   border-radius: 10px;
-  margin-left: 600px;
   background-image: linear-gradient(60deg, #2a2cbdc3, #8cbecc, #e13f88);
   animation: bganimation 10s infinite linear;
 }
@@ -49,11 +48,14 @@
   width: 450px;
   height: 320px;
   position: absolute;
-  left: 312px;
   padding: 25px;
+  left: 312px;
 
   box-shadow: 50px 40px 115px rgba(0, 0, 0, 0.651);
   top: 50px;
+}
+.megaeventswrapper {
+  background-image: image(".../assets/images/ankuran/GALLERY5.png");
 }
 /* .megaeventswrapper{
 background-color: rgba(222, 30, 30, 0.313);
