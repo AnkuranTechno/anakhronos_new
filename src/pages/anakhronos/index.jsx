@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar } from "../../components";
+
 import {
   Hero,
   About,
@@ -9,6 +10,7 @@ import {
   Footer,
   Sponsors,
 } from "./sections";
+import Login  from "../../../src/components/Login/Login"
 
 import "./anakhronos.scss";
 import { navLinks } from "../../data/events/anakhronos";
@@ -25,8 +27,8 @@ const Anakhronos = () => {
       <Team />
       <Sponsors />
       <Footer />
+      {/* <Login/> */}
     </div>
   );
 };
-
 export default Anakhronos;

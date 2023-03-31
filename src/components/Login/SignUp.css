@@ -7,11 +7,11 @@
 /*-------------------- Buttons --------------------*/
 .btn {
     display: block;
-    background: #bded7d;
+    /* background: #bded7d; */
     color: #fff;
     text-decoration: none;
     margin: 20px 0;
-    padding: 15px 15px;
+    /* padding: 15px 15px; */
     border-radius: 5px;
     position: relative;
 }
@@ -24,11 +24,11 @@
     width: 100%;
     height: 100%;
     transition: all 0.2s ease-in-out;
-    box-shadow: inset 0 3px 0 rgba(0, 0, 0, 0), 0 3px 3px rgba(0, 0, 0, .2);
+    box-shadow: inset 0 3px 0 rgba(0, 0, 0, 0), 0 3px 3px rgba(65, 14, 14, 0.2);
     border-radius: 5px;
 }
 .btn:hover::after {
-    box-shadow: inset 0 3px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 3px 0 rgba(61, 8, 8, 0.5);
 }
 .btn:hover{
     color: white;
