@@ -12,7 +12,7 @@ const Ankuran = () => {
       <Navbar navLinks={navLinks} logo={tmslLogo} />
       <Hero />
       <College />
-      <Megaevent />
+      {/* <Megaevent /> */}
       <Management />
       <Team />
       <Footer />
