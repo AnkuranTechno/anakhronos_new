@@ -62,15 +62,15 @@ const SignUp = () => {
 		<div className="bg">
 			<div className="signup">
 				<div className="signup-connect">
-					<h1 style={{ color: "#e73d3b" }}>Login with Google</h1>
+					<h2 style={{ color: "#e73d3b" }}>Login with Google</h2>
 					<a href="#" className="btn btn-google" onClick={googleLogin}>
 						<FaGoogle style={{ marginRight: "10px" }} /> Sign in with Google
 					</a>
 				</div>
-				<div className="signup-classic" style={{ color: "black" }}>
-					<h2 style={{ fontWeight: "600", fontSize: "25px" }}>
+				<div className="signup-classic" style={{ color: "#e73d3b" }}>
+					<h1 style={{ fontWeight: "600", fontSize: "25px" }}>
 						Create Your Account
-					</h2>
+					</h1>
 					<div className="form" style={{ color: "black" }}>
 						<fieldset className="username">
 							<input
@@ -96,8 +96,15 @@ const SignUp = () => {
 								onChange={(e) => setpassword(e.target.value)}
 							/>
 						</fieldset>
+						<fieldset className="person">
+						<select title="Select your type" defaultValue="" style={{ color: "black" }} onChange={(e) => console.log(e.target.value)}>
+							<option value="" disabled> Student/Professional </option>
+							<option value="student">Student</option>
+							<option value="professional">Professional</option>
+						</select>
+						</fieldset>
 						<button className="btn" onClick={EmailLogin}>
-							sign up
+							Sign up
 						</button>
 					</div>
 				</div>
