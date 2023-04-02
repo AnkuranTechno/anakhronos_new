@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./SignUp.css";
 // import "../../pages/anakhronos/sections/About/About.scss"
 import { FaGoogle } from "react-icons/fa";
@@ -84,6 +85,10 @@ const Login = () => {
 							Login
 						</button>
 					</div>
+						<div style={{marginTop: "15px", color: "#e73d3b",textAlign: "center"}}>
+						<p>Create have an account</p>
+						<Link to="/signup">Sign Up here</Link>
+						</div>
 				</div>
 			</div>
 		</div>

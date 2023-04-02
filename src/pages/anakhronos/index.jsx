@@ -10,7 +10,8 @@ import {
   Footer,
   Sponsors,
 } from "./sections";
-import Login  from "../../../src/components/Login/Login"
+
+// import Login  from "../../../src/components/Login/Login"
 
 import "./anakhronos.scss";
 import { navLinks } from "../../data/events/anakhronos";
@@ -27,7 +28,7 @@ const Anakhronos = () => {
       <Team />
       <Sponsors />
       <Footer />
-      <Login/>
+      {/* <Login/> */}
     </div>
   );
 };

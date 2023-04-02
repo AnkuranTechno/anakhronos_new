@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./SignUp.css";
 import { FaGoogle } from "react-icons/fa";
 import {
@@ -107,6 +108,10 @@ const SignUp = () => {
 							Sign up
 						</button>
 					</div>
+						<div style={{marginTop: "15px", color: "#e73d3b",textAlign: "center"}}>
+						<p>Already have an account?</p>
+						<Link to="/login">Sign In here</Link>
+						</div>
 				</div>
 			</div>
 		</div>
