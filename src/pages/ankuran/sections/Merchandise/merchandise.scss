@@ -1,0 +1,64 @@
+.merchandise_container{
+height: 100vh;
+    width: 100%;
+    display:block;
+    background-image: linear-gradient(60deg, #f90515ac, rgb(248, 248, 43), rgb(250, 163, 0));
+    background-size: 600% 600%;
+    animation: bganimation 10s infinite linear;
+  }
+  @keyframes bganimation {
+    0% {
+      background-position: 0% 85%;
+    }
+    50% {
+      background-position: 100% 20%;
+    }
+    100% {
+      background-position: 0% 85%;
+    }
+  }
+  .merchandise_wrapper{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .merchandise_wrapper2{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .merchandise_heading{
+    font-size: 4rem;
+  }
+  .merchandise_description{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .merchandise_modelmerchandise{
+    position:relative;
+    top: 0vh;
+    right: 0;
+    height: 90vh;
+    width: 40vw;
+    z-index: 99;
+  }
+  .merchandise_groupmerchandise{
+    height: 80vh;
+    width: 30vw;
+  }
+  .merchandise_button{
+    background-image: linear-gradient(60deg, #ff766aac, rgba(255, 94, 0, 0.792), rgb(250, 163, 0));
+    background-size: 600% 600%;
+    animation: bganimation 10s infinite linear;
+    padding: 10px;
+    border-radius: 30%;
+}
+

@@ -101,3 +101,7 @@ export { default as Avijit } from "../assets/anakhronos/images/Avijit Kar.jpeg";
 
 export { default as blurherobg } from "../assets/anakhronos/images/BLURBG.jpg";
 export { default as techno } from "../assets/anakhronos/images/technomain.jpg";
+
+export { default as GroupMerchandise } from "../assets/anakhronos/images/gallery/Group merchbg.png";
+export { default as MerchandiseModel } from "../assets/anakhronos/images/gallery/Dummymerchmodel.png";
+export { default as MerchandiseButton } from "../assets/anakhronos/images/gallery/MerchandiseButton.png";
