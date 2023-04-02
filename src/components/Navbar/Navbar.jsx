@@ -4,7 +4,7 @@ import { FaBars } from 'react-icons/fa';
 import { HiX } from 'react-icons/hi';
 import useIsMobile from '../../hooks/useMobile';
 import './Navbar.scss';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navbar = ({navLinks ,logo}) => {
   const isMobile = useIsMobile();
@@ -60,9 +60,9 @@ const Navbar = ({navLinks ,logo}) => {
               <ul className="navbar__menu navbar__menu--mobile-only">
                 {navLinks.map((link) => (
                   <li className="navbar__menu-item" key={link.name}>
-                    <a href={link.link} onClick={() => setToggle(!toggle)}>
-                      {link.name}
-                    </a>
+                    <Link to={link.link} onClick={() => setToggle(!toggle)}>
+                      {link.name}  
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -73,11 +73,16 @@ const Navbar = ({navLinks ,logo}) => {
             <ul className="navbar__menu">
               {navLinks.map((link) => (
                 <li className="navbar__menu-item" key={link.name}>
-                  <a href={link.link}> {link.name} </a>
+                  <Link to={link.link}> {link.name} </Link>
                 </li>
               ))}
             </ul>
+            <Link to="/login">
             <Button type="solid" text="Login" />
+            </Link>
+            <Link to ="/signup">
+            <Button type="solid" text="SignUp" />
+            </Link>
           </div>
         )}
       </div>

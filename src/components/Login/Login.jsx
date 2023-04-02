@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./SignUp.css";
+// import "../../pages/anakhronos/sections/About/About.scss"
 import { FaGoogle } from "react-icons/fa";
 import {
 	signInWithPopup,
@@ -56,13 +57,13 @@ const Login = () => {
 		<div className="bg">
 			<div className="signup">
 				<div className="signup-connect">
-					<h1 style={{ color: "#e73d3b" }}>Login with Google</h1>
+					<h2 style={{ color: "#e73d3b" }}>Login with Google</h2>
 					<a href="#" className="btn btn-google" onClick={googleLogin}>
 						<FaGoogle style={{ marginRight: "10px" }} /> Sign in with Google
 					</a>
 				</div>
 				<div className="signup-classic">
-					<h2 style={{ fontWeight: "600", fontSize: "25px" }}>Login</h2>
+					<h2 style={{ fontWeight: "600", fontSize: "25px" , color: "#e73d3b"}}>Login</h2>
 					<div className="form">
 						<fieldset className="email">
 							<input
