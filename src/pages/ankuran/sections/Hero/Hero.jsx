@@ -12,6 +12,9 @@ const Hero = () => {
             <img className="hero__img" src={ankuranLogo} alt="yo" />
           </div>
         </div>
+        {/* <video className="hero__video" autoPlay muted loop>
+            <source src="https://user-images.githubusercontent.com/73426684/229353841-049efeaf-0f99-485b-988f-fb40732a98d7.mp4" type="video/mp4" />
+          </video> */}
         <div className="hero__content">
           <h1 className="hero__heading">Ankuran</h1>
           <p className="hero__desc">
