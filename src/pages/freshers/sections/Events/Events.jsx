@@ -1,6 +1,6 @@
 import React from 'react';
 import { SectionHeading } from '../../../../components';
-import { anakhronosCompetetions } from '../../../../data/events/anakhronos';
+import { freshersCompetitions } from '../../../../data/events/freshers';
 import EventCard from './EventCard';
 
 import './Events.scss';
@@ -12,7 +12,7 @@ const Events = () => {
       <div className="section-container">
         <SectionHeading title="Events" />
         <div className="event__card-container">
-          {anakhronosCompetetions.map((e, index) => (
+          {freshersCompetitions.map((e, index) => (
             <EventCard
               key={index}
               title={e.name}

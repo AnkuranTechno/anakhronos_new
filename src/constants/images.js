@@ -2,6 +2,7 @@ export { default as logo } from "../assets/anakhronos/images/yo.png";
 export { default as tmslLogo } from "../assets/anakhronos/images/tmsl-logo.png";
 export { default as eventImg } from "../assets/anakhronos/images/ana/img-3.jpg";
 export { default as eventImgBg } from "../assets/anakhronos/images/events_bg.jpg";
+export { default as Prarambh } from "../assets/anakhronos/images/Prarambh.png";
 
 export { default as heroImg } from "../assets/anakhronos/images/hero_bg.jpg";
 
