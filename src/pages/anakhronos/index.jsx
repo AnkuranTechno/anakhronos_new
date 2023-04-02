@@ -27,7 +27,7 @@ const Anakhronos = () => {
       <Team />
       <Sponsors />
       <Footer />
-      {/* <Login/> */}
+      <Login/>
     </div>
   );
 };

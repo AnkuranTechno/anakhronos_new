@@ -120,7 +120,7 @@ export const WebTeamData = [
   },
   {
     name: 'Sreetama Hazra',
-    description: 'Web Developer',
+    description: 'Backend Developer',
     image: 'https://user-images.githubusercontent.com/102872077/223780995-35f4c59b-0467-4d85-95c9-bb1246ab3dd9.jpg',
     instagram: '',
     facebook: '',
@@ -129,7 +129,7 @@ export const WebTeamData = [
   },
   {
     name: 'Akash Gupta',
-    description: 'Web Developer',
+    description: 'Full Stack Developer',
     image: 'https://user-images.githubusercontent.com/102872077/223781125-1dbb342f-4614-49b2-8da2-61460daf5a61.jpg',
     instagram: '',
     facebook: '',
@@ -138,7 +138,7 @@ export const WebTeamData = [
   },
   {
     name: 'Souvik Saha',
-    description: 'Web Developer',
+    description: 'Frontend Developer',
     image: 'https://user-images.githubusercontent.com/102872077/223781678-6d54f946-16d4-470f-adde-b2fff3c63142.jpg',
     instagram: '',
     facebook: '',
@@ -147,7 +147,7 @@ export const WebTeamData = [
   },
   {
     name: 'Asif',
-    description: 'Web Developer',
+    description: 'Frontend Developer',
     image: 'https://user-images.githubusercontent.com/102872077/223781284-6ea390dc-7223-4d8e-bbd0-1d28eb290b9f.jpg',
     instagram: '',
     facebook: '',
@@ -156,8 +156,17 @@ export const WebTeamData = [
   },
   {
     name: 'Ankush',
-    description: 'Web Developer',
+    description: 'Frontend Developer',
     image: 'https://user-images.githubusercontent.com/102872077/224475570-51882d21-d77c-4c69-b765-b63fd6d7db14.jpeg',
+    instagram: '',
+    facebook: '',
+    phone: '',
+    linkedin: ''
+  },
+  {
+    name: 'Abhishek Chakraborty',
+    description: 'Frontend Developer',
+    image: 'https://user-images.githubusercontent.com/73426684/229357783-30cc798d-e1fe-43e5-bfe5-71834a612854.jpeg',
     instagram: '',
     facebook: '',
     phone: '',
