@@ -24,7 +24,7 @@ const Events = () => {
         </div>
       </div>
     </seciton>
-  );
+  ); 
 };
 
 export default Events;

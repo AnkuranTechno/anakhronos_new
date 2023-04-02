@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, Management, Team, Footer, College } from "./sections";
+import { Hero, Management, Team, Footer, College, Contact } from "./sections";
 import { Navbar } from "../../components";
 import { navLinks } from "../../data/events/anakhronos";
 import { tmslLogo } from "../../constants/images";
@@ -15,6 +15,7 @@ const Ankuran = () => {
       <Megaevent />
       <Management />
       <Team />
+      <Contact/>
       <Footer />
     </div>
   );

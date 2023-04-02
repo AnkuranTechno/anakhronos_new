@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '../../../../components';
-import { logo } from '../../../../constants/images';
+import { Prarambh } from '../../../../constants/images';
 import './Hero.scss';
 
 const Hero = () => {
@@ -8,20 +8,18 @@ const Hero = () => {
     <div className="hero" id="hero">
       <div className="hero__container">
         <div className="hero__img-container">
-          <img className="hero__img" src={logo} alt="yo" />
+          <img className="hero__img" src={Prarambh} alt="Prarambh" />
         </div>
         <div className="hero__content">
-          <h1 className="hero__heading">Freshers</h1>
+          <h1 className="hero__heading">Prarambh</h1>
           <p className="hero__desc">
-            From a small beginning back in 2001 to being one of the most awaited
-            fests of Kolkata,
+          Techno Main Saltlake's cultural committee offers a welcoming  
             <br />
-            Anakhronos has always been an occasion to break the monotonous chain
-            of college life.
+            platform for students to showcase their skills and adjust to college life.
             <br />
-            It has always been a gateway to a whole new dimension that redefines
+            The Freshers' welcome event includes on-stage and off-stage 
             <br />
-            entertainment with events spanning for three days.
+            activities, creating a supportive environment and boosting participants' morale.
           </p>
 
           <Button
