@@ -1,10 +1,18 @@
-import React from "react";
-import { Hero, Management, Team, Footer, College, Contact, Merchandise } from "./sections";
-import { Navbar } from "../../components";
-import { navLinks } from "../../data/events/anakhronos";
-import { tmslLogo } from "../../constants/images";
-import Megaevent from "./sections/Mega Events/MegaEventCard";
-import "./ankuran.scss";
+import React from 'react';
+import {
+  Hero,
+  Management,
+  Team,
+  Footer,
+  College,
+  Contact,
+  Merchandise,
+} from './sections';
+import { Navbar } from '../../components';
+import { navLinks } from '../../data/events/anakhronos';
+import { tmslLogo } from '../../constants/images';
+import Megaevent from './sections/Mega Events/MegaEvent';
+import './ankuran.scss';
 
 const Ankuran = () => {
   return (
@@ -14,9 +22,9 @@ const Ankuran = () => {
       <College />
       <Megaevent />
       <Management />
-      <Merchandise/>
+      <Merchandise />
       <Team />
-      <Contact/>
+      <Contact />
       <Footer />
     </div>
   );
