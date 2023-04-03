@@ -1,6 +1,6 @@
 
 
-import { gallimg4,gallimg19,gallimg2,gallimg27,gallimg3,gallimg15,gallimg10 } from '../../constants/images';
+import { gallimg4,gallimg19,gallimg2,gallimg27,gallimg3,gallimg15,gallimg10, Jojo } from '../../constants/images';
 import { Aniket ,Keshav,
   Yesh,
   Evan,
@@ -27,7 +27,9 @@ import { Aniket ,Keshav,
   Abir,
   Arpita,
   Asen, } from '../../constants/images';
-
+import { AbhijeetBhattacharya, Fossils, Cactus, Chandrabindu, Lopamudra, Nachiketa,Anjan_dutta,Anushka_manchanda,Armaan_malik,Ash_king
+,Benny_dayal,Dev_negi,Fakira,Indian_ocean,Javed_ali,Jonita_gandhi,KK,Krosswindz, kunal_ganjawala, Milind_gaba, Msonic, Muhammed_Irfan, Parikrama,
+Prithibi, Raeth, Raghu_dixit, Riddles, Rupankar, Shaan, usha_uttup, Vishal_dadlani } from '../../constants/images';  
 
 export const anakhronosCompetetions = [
   {
@@ -417,5 +419,136 @@ export const MemberData = [
     facebook: '',
     phone: '',
     linkedin: ''
+  },
+]
+
+export const Artists = [
+  {
+    id: '#1',
+    image: Chandrabindu
+  },
+  {
+    id: '#2',
+    image: Lopamudra
+  },
+  {
+    id: '#3',
+    image: Jojo
+  },
+  {
+    id: '#4',
+    image: Cactus
+  },
+  {
+    id: '#5',
+    image: AbhijeetBhattacharya
+  },
+  {
+    id: '#6',
+    image: Nachiketa
+  },
+  {
+    id: '#7',
+    image: Fossils
+  },
+  {
+    id: '#8',
+    image: Shaan
+  },
+  {
+    id: '#9',
+    image: KK
+  },
+  {
+    id: '#10',
+    image: Krosswindz
+  },
+  {
+    id: '#11',
+    image: Prithibi
+  },
+  {
+    id: '#12',
+    image: kunal_ganjawala
+  },
+  {
+    id: '#13',
+    image: Parikrama
+  },
+  {
+    id: '#14',
+    image: Rupankar
+  },
+  {
+    id: '#15',
+    image: Vishal_dadlani
+  },
+  {
+    id: '#16',
+    image: Anjan_dutta
+  },
+  {
+    id: '#17',
+    image: Indian_ocean
+  },
+  {
+    id: '#18',
+    image: Raghu_dixit
+  },
+  {
+    id: '#19',
+    image: Javed_ali
+  },
+  {
+    id: '#20',
+    image: usha_uttup
+  },
+  {
+    id: '#21',
+    image: Benny_dayal
+  },
+  {
+    id: '#22',
+    image: Muhammed_Irfan
+  },
+  {
+    id: '#23',
+    image: Ash_king
+  },
+  {
+    id: '#24',
+    image: Raeth
+  },
+  {
+    id: '#25',
+    image: Armaan_malik
+  },
+  {
+    id: '#26',
+    image: Anushka_manchanda
+  },
+  {
+    id: '#27',
+    image: Fakira
+  },
+  {
+    id: '#28',
+    image: Jonita_gandhi
+  },
+  {
+    id: '#29',
+    image: Msonic
+  },
+  {
+    id: '#30',
+    image: Dev_negi
+  },
+  {
+    id: '#31',
+    image: Riddles
+  },
+  {
+    id: '#32',
+    image: Milind_gaba
   },
 ]
