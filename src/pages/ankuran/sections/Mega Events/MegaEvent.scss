@@ -1,13 +1,23 @@
 $event-primary: rgb(138, 22, 21);
 $event-dark-primary: rgb(109, 16, 14);
-$event-light-primary: rgba(190, 153, 152, 0.622);
+$event-light-primary: rgba(215, 196, 196, 0.886);
 $event-text: #ffffff;
 $event-primary-text: #212121;
 $event-secondary-text: #757575;
 $event-accent: rgba(210, 184, 183, 0.622);
 
-.mega-events-section {
-  padding: 100px 0;
+.mega-events {
+  &-section {
+    padding: 50px 0 100px 0;
+  }
+
+  &-heading {
+    font-size: 5rem;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+  }
 }
 
 .timeline {
@@ -16,11 +26,11 @@ $event-accent: rgba(210, 184, 183, 0.622);
   &::before {
     content: '';
     background: $event-light-primary;
-    width: 5px;
+    width: 10px;
     height: 85%;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) translateY(10%);
   }
 }
 
