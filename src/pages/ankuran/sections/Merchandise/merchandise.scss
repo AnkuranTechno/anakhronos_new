@@ -1,7 +1,11 @@
 .merchandise_container{
-height: 100vh;
+height: fit-content;
+ 
     width: 100%;
-    display:block;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-image: linear-gradient(60deg, #f90515ac, rgb(248, 248, 43), rgb(250, 163, 0));
     background-size: 600% 600%;
     animation: bganimation 10s infinite linear;
@@ -17,48 +21,47 @@ height: 100vh;
       background-position: 0% 85%;
     }
   }
-  .merchandise_wrapper{
+  .merchandise_content{
     display: flex;
-    height: 80%;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+   
+    margin-bottom: 2%;
   }
-  .merchandise_wrapper2{
-    display: flex;
-    height: 100%;
-    width: 100%;
-    
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  .merchandise_heading{
-    font-size: 4rem;
+  .merchandise_image img{
+      width: 70%;
+      height: 100%;
+      margin-left:15% ;
   }
   .merchandise_description{
     display: flex;
-    width: 50%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    margin-right:11% ;
+    justify-content: space-evenly;
   }
-  .merchandise_modelmerchandise{
-    position:relative;
-    top: 0vh;
-    right: 0;
-    height: 90vh;
-    width: 40vw;
-    z-index: 99;
+  .merchandise_heading{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
   }
-  .merchandise_groupmerchandise{
-    height: 80vh;
-    width: 30vw;
+  .merchandise_mainheading{
+    margin-right: auto;
+    margin-left:11% ;
+    font-size: 3rem;
+    margin-top: 3%;
+    margin-bottom: 2%;
+  }
+  .merchandise_heading_desc{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
   }
   .merchandise_button{
-    background-image: linear-gradient(60deg, #ff766aac, rgba(255, 94, 0, 0.792), rgb(250, 163, 0));
-    background-size: 600% 600%;
-    animation: bganimation 10s infinite linear;
-    padding: 10px;
-    border-radius: 30%;
-}
+    width: fit-content;
+    font-size: 2rem ;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  
 
