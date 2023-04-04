@@ -9,7 +9,8 @@ import {
   Team,
   Footer,
   Sponsors,
-  Artist
+  Artist,
+  Merchandise
 } from "./sections";
 
 // import Login  from "../../../src/components/Login/Login"
@@ -26,6 +27,7 @@ const Anakhronos = () => {
       <About />
       <Events />
       <Gallery />
+      <Merchandise/>
       <Team />
       <Artist/>
       <Sponsors />
