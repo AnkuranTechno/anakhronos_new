@@ -9,8 +9,10 @@ import {
   Team,
   Footer,
   Sponsors,
+  Artist
 } from "./sections";
-import Login  from "../../../src/components/Login/Login"
+
+// import Login  from "../../../src/components/Login/Login"
 
 import "./anakhronos.scss";
 import { navLinks } from "../../data/events/anakhronos";
@@ -25,9 +27,10 @@ const Anakhronos = () => {
       <Events />
       <Gallery />
       <Team />
+      <Artist/>
       <Sponsors />
       <Footer />
-      <Login/>
+      {/* <Login/> */}
     </div>
   );
 };
