@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
 .artist {
-  padding-top: 2rem;
+  padding: 5rem 0;
 
   h1 {
     text-transform: uppercase;
@@ -20,22 +22,19 @@
       width: auto;
       height: auto;
 
-      .appearance-year {
+      .artist-info {
         position: absolute;
         bottom: 15px;
         left: 0;
         color: #ffffff;
-        font-family: sans-serif;
         padding-left: 2rem;
         padding-bottom: 2rem;
 
-        span
-        {
+        span {
           font-size: 25px;
-          font-family: sans-serif;
+          font-family: 'Poppins', sans-serif;
           text-shadow: 2px 2px 5px black;
-          font-weight: 600;
-
+          font-weight: 400;
         }
       }
     }
