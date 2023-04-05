@@ -40,6 +40,9 @@ const Artist = () => {
                       src={item.image}
                       alt=""
                     />
+                    <div className="appearance-year">
+                      <span>{item.year}</span>
+                    </div>
                   </SwiperSlide>
                 </div>
               );
