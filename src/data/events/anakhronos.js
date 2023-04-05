@@ -425,130 +425,162 @@ export const MemberData = [
 export const Artists = [
   {
     id: '#1',
-    image: Chandrabindu
+    image: Chandrabindu,
+    year: "2003, 2005"
   },
   {
     id: '#2',
-    image: Lopamudra
+    image: Lopamudra,
+    year: "2003"
   },
   {
     id: '#3',
-    image: Jojo
+    image: Jojo,
+    year: "2003"
   },
   {
     id: '#4',
-    image: Cactus
+    image: Cactus,
+    year: "2004"
   },
   {
     id: '#5',
-    image: AbhijeetBhattacharya
+    image: AbhijeetBhattacharya,
+    year: "2004"
   },
   {
     id: '#6',
-    image: Nachiketa
+    image: Nachiketa,
+    year: "2005"
   },
   {
     id: '#7',
-    image: Fossils
+    image: Fossils,
+    year: "2006"
   },
   {
     id: '#8',
-    image: Shaan
+    image: Shaan,
+    year: "2006"
   },
   {
     id: '#9',
-    image: KK
+    image: KK,
+    year: "2007"
   },
   {
     id: '#10',
-    image: Krosswindz
+    image: Krosswindz,
+    year: "2007"
   },
   {
     id: '#11',
-    image: Prithibi
+    image: Prithibi,
+    year: "2007"
   },
   {
     id: '#12',
-    image: kunal_ganjawala
+    image: kunal_ganjawala,
+    year: "2008"
   },
   {
     id: '#13',
-    image: Parikrama
+    image: Parikrama,
+    year: "2008"
   },
   {
     id: '#14',
-    image: Rupankar
+    image: Rupankar,
+    year: "2009"
   },
   {
     id: '#15',
-    image: Vishal_dadlani
+    image: Vishal_dadlani,
+    year: "2009"
   },
   {
     id: '#16',
-    image: Anjan_dutta
+    image: Anjan_dutta,
+    year: "2009"
   },
   {
     id: '#17',
-    image: Indian_ocean
+    image: Indian_ocean,
+    year: "2009"
   },
   {
     id: '#18',
-    image: Raghu_dixit
+    image: Raghu_dixit,
+    year: "2010"
   },
   {
     id: '#19',
-    image: Javed_ali
+    image: Javed_ali,
+    year: "2011"
   },
   {
     id: '#20',
-    image: usha_uttup
+    image: usha_uttup,
+    year: "2011"
   },
   {
     id: '#21',
-    image: Benny_dayal
+    image: Benny_dayal,
+    year: "2013"
   },
   {
     id: '#22',
-    image: Muhammed_Irfan
+    image: Muhammed_Irfan,
+    year: "2014"
   },
   {
     id: '#23',
-    image: Ash_king
+    image: Ash_king,
+    year: "2015"
   },
   {
     id: '#24',
-    image: Raeth
+    image: Raeth,
+    year: "2015"
   },
   {
     id: '#25',
-    image: Armaan_malik
+    image: Armaan_malik,
+    year: "2016"
   },
   {
     id: '#26',
-    image: Anushka_manchanda
+    image: Anushka_manchanda,
+    year: "2017"
   },
   {
     id: '#27',
-    image: Fakira
+    image: Fakira,
+    year: "2017"
   },
   {
     id: '#28',
-    image: Jonita_gandhi
+    image: Jonita_gandhi,
+    year: "2018"
   },
   {
     id: '#29',
-    image: Msonic
+    image: Msonic,
+    year: "2018"
   },
   {
     id: '#30',
-    image: Dev_negi
+    image: Dev_negi,
+    year: "2019"
   },
   {
     id: '#31',
-    image: Riddles
+    image: Riddles,
+    year: "2019"
   },
   {
     id: '#32',
-    image: Milind_gaba
+    image: Milind_gaba,
+    year: "2022"
   },
 ]
