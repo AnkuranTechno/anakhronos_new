@@ -28,10 +28,28 @@
   }
 
   &__img {
+    &-container {
+      width: max-content;
+      margin: 0 auto;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
     width: 400px;
 
     @media screen and (max-width: 760px) {
       width: 300px;
+    }
+
+    &.yo {
+      width: 350px;
+
+      @media screen and (max-width: 760px) {
+        width: 250px;
+      }
     }
   }
 
