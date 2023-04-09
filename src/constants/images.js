@@ -101,7 +101,6 @@ export { default as Meghdut } from '../assets/anakhronos/images/Meghdut.jpeg';
 export { default as Avijit } from '../assets/anakhronos/images/Avijit Kar.jpeg';
 
 export { default as blurherobg } from '../assets/anakhronos/images/BLURBG.jpg';
-export { default as techno } from '../assets/anakhronos/images/technomain.jpg';
 
 export { default as GroupMerchandise } from '../assets/anakhronos/images/Merchandise_image.png';
 
