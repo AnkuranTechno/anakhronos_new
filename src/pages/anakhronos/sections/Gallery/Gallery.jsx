@@ -3,148 +3,126 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
+import {arrow} from "../../../../constants/anakhronosImg"
 import "swiper/css/pagination";
 import "./Gallery.scss";
-import {
-  gallimg1,
-  gallimg2,
-  gallimg3,
-  gallimg4,
-  gallimg5,
-  gallimg6,
-  gallimg7,
-  gallimg8,
-  gallimg9,
-  gallimg10,
-  gallimg11,
-  gallimg12,
-  gallimg13,
-  gallimg14,
-  gallimg15,
-  gallimg16,
-  gallimg17,
-  gallimg18,
-  gallimg19,
-  gallimg20,
-  gallimg21,
-  gallimg22,
-  gallimg23,
-  gallimg24,
-  gallimg25,
-  gallimg26,
-  gallimg27,
-  arrow,
-} from "../../../../constants/images";
+import { anakhImg1, anakhImg2, anakhImg3,anakhImg4,anakhImg5,anakhImg6,anakhImg7,anakhImg8,anakhImg9,anakhImg10,anakhImg11,anakhImg12,anakhImg13,anakhImg14,anakhImg15,anakhImg16,anakhImg17,anakhImg18,anakhImg19,anakhImg20,anakhImg21,anakhImg22,anakhImg23,anakhImg24,anakhImg25,anakhImg26,anakhImg27,anakhImg28,anakhImg29} from "../../../../constants/anakhronosImg";
 import { useState } from "react";
 
 const data = [
   {
-    img: gallimg1,
+    img: anakhImg1,
     id: 1,
   },
   {
-    img: gallimg2,
+    img: anakhImg2,
     id: 2,
   },
   {
-    img: gallimg3,
+    img: anakhImg3,
     id: 3,
   },
   {
-    img: gallimg4,
+    img: anakhImg4,
     id: 4,
   },
   {
-    img: gallimg5,
+    img: anakhImg5,
     id: 5,
   },
   {
-    img: gallimg6,
+    img: anakhImg6,
     id: 6,
   },
   {
-    img: gallimg7,
+    img: anakhImg7,
     id: 7,
   },
   {
-    img: gallimg8,
+    img: anakhImg8,
     id: 8,
   },
   {
-    img: gallimg9,
+    img: anakhImg9,
     id: 9,
   },
   {
-    img: gallimg10,
+    img: anakhImg10,
     id: 10,
   },
   {
-    img: gallimg11,
+    img: anakhImg11,
     id: 11,
   },
   {
-    img: gallimg12,
+    img: anakhImg12,
     id: 12,
   },
   {
-    img: gallimg13,
+    img: anakhImg13,
     id: 13,
   },
   {
-    img: gallimg14,
+    img: anakhImg14,
     id: 14,
   },
   {
-    img: gallimg15,
+    img: anakhImg15,
     id: 15,
   },
   {
-    img: gallimg16,
+    img: anakhImg16,
     id: 16,
   },
   {
-    img: gallimg17,
+    img: anakhImg17,
     id: 17,
   },
   {
-    img: gallimg18,
+    img: anakhImg18,
     id: 18,
   },
   {
-    img: gallimg19,
+    img: anakhImg19,
     id: 19,
   },
   {
-    img: gallimg20,
+    img: anakhImg20,
     id: 20,
   },
   {
-    img: gallimg21,
+    img: anakhImg21,
     id: 21,
   },
   {
-    img: gallimg22,
+    img: anakhImg22,
     id: 22,
   },
   {
-    img: gallimg23,
+    img: anakhImg23,
     id: 23,
   },
   {
-    img: gallimg24,
+    img: anakhImg24,
     id: 24,
   },
   {
-    img: gallimg25,
+    img: anakhImg25,
     id: 25,
   },
   {
-    img: gallimg26,
+    img: anakhImg26,
     id: 26,
   },
   {
-    img: gallimg27,
+    img: anakhImg27,
     id: 27,
+  }, {
+    img: anakhImg28,
+    id: 28,
+  },{
+    img: anakhImg29,
+    id: 29,
   },
 ];
 const Gallery = () => {

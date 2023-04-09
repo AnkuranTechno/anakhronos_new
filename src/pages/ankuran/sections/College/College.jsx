@@ -1,13 +1,13 @@
 import React from "react";
 import "./College.scss";
-import { techno } from "../../../../constants/images";
+import { technoImg } from "../../../../constants/images";
 
 const College = () => {
   return (
     <div className="college" id="college">
       <div className="college__wrapper container">
         <div className="college__left">
-          <img className="" src={techno} alt="college_image" />
+          <img className="" src={technoImg} alt="college_image" />
         </div>
         <div className="college__right">
           <h1>Techno Main Salt Lake </h1>
