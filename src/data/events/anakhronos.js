@@ -93,10 +93,13 @@ export const anakhronosCompetetions = [
   },
 ];
 export const navLinks = [
-  { name: 'Home', link: '#hero' },
-  { name: 'About', link: '#about' },
+  { name: 'Home', link: '/' },
+  { name: 'About', link: '#hero' },
   { name: 'Events', link: '#events' },
+  { name: 'Artists', link: '#events' },
   { name: 'Gallery', link: '#gallery' },
+  { name: 'Merchandise', link: '#merchandise'},
+  { name: 'Our Team', link: '#team' },
   { name: 'Sponsors', link: '#sponsors' },
   { name: 'Contact', link: '#contact' },
 ];
