@@ -133,3 +133,19 @@ export { default as Rupankar } from '../assets/anakhronos/images/Rupankar.jpg';
 export { default as Shaan } from '../assets/anakhronos/images/Shaan.jpg';
 export { default as usha_uttup } from '../assets/anakhronos/images/usha_uttup.jpg';
 export { default as Vishal_dadlani } from '../assets/anakhronos/images/Vishal_dadlani.jpg';
+
+export { default as TWOMINS2FAME } from '../assets/anakhronos/images/2MINS2FAME.jpg';
+export { default as ARTANDCRAFT } from '../assets/anakhronos/images/ART AND CRAFT.jpg';
+export { default as BANDBOX } from '../assets/anakhronos/images/BANDBOX.jpg';
+export { default as CLUBFEET } from '../assets/anakhronos/images/CLUBFEET.png';
+export { default as IMPRESSION } from '../assets/anakhronos/images/IMPRESSION.jpeg';
+export { default as PANACHE } from '../assets/anakhronos/images/PANACHE.jpg';
+export { default as SHORTFILMMAKING } from '../assets/anakhronos/images/SHORTFILMMAKING.jpeg';
+export { default as STEPUP } from '../assets/anakhronos/images/STEPUP.jpeg';
+export { default as SURTARANG } from '../assets/anakhronos/images/SURTARANG.jpeg';
+
+export { default as DANCETECHNODANCE } from '../assets/anakhronos/images/DANCE TECHNO DANCE.jpg';
+export { default as FRESHERART } from '../assets/anakhronos/images/FRESHERART.jpg';
+export { default as FRESHERPHOTOGRAPHY } from '../assets/anakhronos/images/FRESHERPHOTOGRAPHY.jpg';
+export { default as MRMISSFRESHER } from '../assets/anakhronos/images/MR MISS FRESHER.jpg';
+export { default as TECHNOIDOL } from '../assets/anakhronos/images/TECHNO IDOL.jpg';

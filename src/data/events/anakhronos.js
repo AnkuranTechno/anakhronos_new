@@ -1,6 +1,5 @@
 
-
-import { gallimg4,gallimg19,gallimg2,gallimg27,gallimg3,gallimg15,gallimg10, Jojo } from '../../constants/images';
+import { SURTARANG, STEPUP, TWOMINS2FAME, CLUBFEET, BANDBOX, PANACHE, IMPRESSION, SHORTFILMMAKING, ARTANDCRAFT } from '../../constants/images';
 import { Aniket ,Keshav,
   Yesh,
   Evan,
@@ -29,40 +28,40 @@ import { Aniket ,Keshav,
   Asen, } from '../../constants/images';
 import { AbhijeetBhattacharya, Fossils, Cactus, Chandrabindu, Lopamudra, Nachiketa,Anjan_dutta,Anushka_manchanda,Armaan_malik,Ash_king
 ,Benny_dayal,Dev_negi,Fakira,Indian_ocean,Javed_ali,Jonita_gandhi,KK,Krosswindz, kunal_ganjawala, Milind_gaba, Msonic, Muhammed_Irfan, Parikrama,
-Prithibi, Raeth, Raghu_dixit, Riddles, Rupankar, Shaan, usha_uttup, Vishal_dadlani } from '../../constants/images';  
+Prithibi, Raeth, Raghu_dixit, Riddles, Rupankar, Shaan, usha_uttup, Vishal_dadlani, Jojo } from '../../constants/images';  
 
 export const anakhronosCompetetions = [
   {
     name: 'Sur Tarang',
     description: 'Solo Singing',
-    image: gallimg4,
+    image: SURTARANG,
     link: '',
   },
   {
     name: 'Step Up',
     description: 'Solo dance',
-    image: gallimg19,
+    image: STEPUP,
     link: '',
   },
   {
     name: '2 Mins To Fame',
     description: 'Show case ur talent in 2 mins',
 
-    image: gallimg27,
+    image: TWOMINS2FAME,
 
     link: '',
   },
   {
     name: 'Club Feet',
     description: 'The group dance',
-    image: gallimg3,
+    image: CLUBFEET,
     link: '',
   },
   {
     name: 'Band Box',
     description: 'The battle of bands',
 
-    image: gallimg15,
+    image: BANDBOX,
 
 
     link: '',
@@ -70,25 +69,25 @@ export const anakhronosCompetetions = [
   {
     name: 'Panache',
     description: 'Fashion show',
-    image: gallimg2,
+    image: PANACHE,
     link: '',
   },
   {
     name: 'Impression',
     description: 'Photography competition',
-    image: gallimg10,
+    image: IMPRESSION,
     link: '',
   },
   {
     name: 'Short Film Making Competiton',
     description: 'Make short films',
-    image: gallimg10,
+    image: SHORTFILMMAKING,
     link: '',
   },
   {
     name: 'ART AND CRAFT',
     description: 'Art and craft competition',
-    image: gallimg10,
+    image: ARTANDCRAFT,
     link: '',
   },
 ];
