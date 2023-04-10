@@ -28,7 +28,7 @@ const Anakhronos = () => {
       <Events />
       <Artist/>
       <Gallery />
-      {/* <Merchandise/> */}
+      <Merchandise/>
       <Team />
       <Sponsors />
       <Footer />
