@@ -24,12 +24,12 @@ const Anakhronos = () => {
     <div className="app">
       <Navbar navLinks={navLinks} logo={tmslLogo} />
       <Hero />
-      <About />
+      {/* <About /> */}
       <Events />
-      <Gallery />
-      <Merchandise/>
-      <Team />
       <Artist/>
+      <Gallery />
+      {/* <Merchandise/> */}
+      <Team />
       <Sponsors />
       <Footer />
       {/* <Login/> */}

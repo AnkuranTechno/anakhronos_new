@@ -23,7 +23,7 @@ const Ankuran = () => {
       <Megaevent />
       <Management />
       {/* <Merchandise /> */}
-      <Team />
+      {/* <Team /> */}
       <Contact />
       <Footer />
     </div>

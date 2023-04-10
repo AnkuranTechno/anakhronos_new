@@ -1,4 +1,4 @@
-.hero {
+.freshers__hero {
   background-image: linear-gradient(
     to right bottom,
     #240730,
@@ -7,7 +7,7 @@
     #150922,
     #11081c
   );
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   place-items: center;
   color: var(--clr-white);
@@ -20,24 +20,37 @@
 
     width: var(--container-width);
     max-width: var(--container-max-width);
+
+    @media screen and (max-width: 1000px) {
+      flex-direction: column;
+      margin-top: 100px;
+    }
   }
 
   &__img {
     width: 400px;
     position: relative;
     top: 20px;
+
+    @media screen and (max-width: 760px) {
+      width: 250px;
+    }
   }
 
   &__content {
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    @media screen and (max-width: 760px) {
+      margin-bottom: 50px;
+    }
   }
 
   &__heading {
     background: linear-gradient(
       111.6deg,
-      rgb(217, 111, 111) 0.4%,
+      rgb(225, 15, 15) 0.4%,
       rgb(34, 14, 215) 100.3%
     );
     background-clip: text;

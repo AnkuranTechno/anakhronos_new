@@ -7,18 +7,11 @@
     #150922,
     #11081c
   );
-  // background-image:url('./../../../../assets/anakhronos/images/BLURBG.jpg');
 
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   place-items: center;
   color: var(--clr-white);
-
-  // .hero__left {
-  //   background-image: url(https://user-images.githubusercontent.com/73426684/229353841-049efeaf-0f99-485b-988f-fb40732a98d7.mp4);
-  //   background-size: cover;
-  //   background-position: center;
-  // }
 
   &__container {
     display: flex;
@@ -28,27 +21,32 @@
 
     width: var(--container-width);
     max-width: var(--container-max-width);
-  }
 
-  &__left {
-    width: 2100px;
+    @media screen and (max-width: 1000px) {
+      flex-direction: column;
+      margin-top: 100px;
+    }
   }
 
   &__img {
+    max-width: 400px;
+
     &-container {
       position: relative;
-      top: 0;
-      left: 0;
     }
-    position: absolute;
-    width: 550px;
-    z-index: 2;
-    top: -100px;
+
+    // @media screen and (min-width: 760px) {
+    //   position: absolute;
+    //   width: 550px;
+    //   z-index: 2;
+    //   top: -100px;
+    // }
   }
 
   &__bgimg {
     position: absolute;
     width: 400px;
+    max-width: 400px;
     z-index: 1;
     opacity: 0.7;
     top: -30px;
@@ -58,18 +56,26 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    @media screen and (max-width: 1000px) {
+      margin-top: 100px;
+    }
   }
 
   &__heading {
     background: linear-gradient(
       111.6deg,
-      rgb(217, 111, 111) 0.4%,
+      rgb(225, 15, 15) 0.4%,
       rgb(34, 14, 215) 100.3%
     );
     background-clip: text;
 
     font-size: 7rem;
     color: transparent;
+
+    @media screen and (max-width: 1000px) {
+      font-size: 4rem;
+    }
   }
 
   &__desc {

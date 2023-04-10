@@ -1,5 +1,5 @@
 import React from 'react';
-import { ankuranLogo, blurherobg } from '../../../../constants/images';
+import { ankuranLogo} from '../../../../constants/images';
 import './Hero.scss';
 
 const Hero = () => {
@@ -8,7 +8,6 @@ const Hero = () => {
       <div className="hero__container">
         <div className="hero__left">
           <div className="hero__img-container">
-            <img className="hero__bgimg" src={blurherobg} alt="yo" />
             <img className="hero__img" src={ankuranLogo} alt="yo" />
           </div>
         </div>

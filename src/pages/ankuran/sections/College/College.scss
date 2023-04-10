@@ -18,12 +18,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
     img {
-      max-width: 450px;
+      max-width: 500px;
+      height: 100%;
       border-radius: 12px;
       transition: all 0.2s ease-in-out;
       &:hover {
-        // box-shadow: 5px 5px 20px 5px rgb(212, 211, 211);
         scale: 1.02;
       }
     }
@@ -44,18 +45,11 @@
         rgb(255, 0, 0) 0.4%,
         rgb(47, 4, 239) 100.3%
       );
-      background-clip: text;
+      -webkit-background-clip: text;
       //   background: linear-gradient(-90deg, #ff0000, #980eb7, #fb6ddd, #ff0000);
       //   animation: animate 7s linear infinite;
       //   background-size: 400% 100%;
-
       color: transparent;
-
-      //   @keyframes animate {
-      //     50% {
-      //       background-position: 140% 50%;
-      //     }
-      //   }
     }
     p {
       letter-spacing: 1.5px;
@@ -75,6 +69,7 @@
     &__left {
       img {
         max-width: 500px;
+        height: 100%;
       }
     }
     &__right {
@@ -89,10 +84,12 @@
     &__left {
       img {
         max-width: 350px;
+        height: 100%;
       }
     }
     &__right {
       h1 {
+        padding-bottom: 2rem;
         line-height: 1.2;
         font-size: 3.2rem;
       }
