@@ -22,7 +22,6 @@ const Ankuran = () => {
       <College />
       <Megaevent />
       <Management />
-      {/* <Merchandise /> */}
       {/* <Team /> */}
       <Contact />
       <Footer />
