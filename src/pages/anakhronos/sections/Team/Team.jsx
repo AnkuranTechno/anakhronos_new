@@ -1,44 +1,44 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { EffectCoverflow, Pagination, Navigation } from "swiper";
-import { MemberData } from "../../../../data/events/anakhronos";
-import "./Team.scss";
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { EffectCoverflow, Pagination, Navigation } from 'swiper';
+import { MemberData } from '../../../../data/events/anakhronos';
+import './Team.scss';
 
 function Team() {
   return (
-    <div className="app__section team bgcolour_teams" id="team">
+    <div className="app__section team bgcolour_teams" id="anakhronos-team">
       <div className="app__section-container team-container">
         <h1>Our Team</h1>
         <div className="container">
           <Swiper
-            effect={"coverflow"}
+            effect={'coverflow'}
             grabCursor={true}
             centeredSlides={true}
             loop={true}
-            slidesPerView={"auto"}
+            slidesPerView={'auto'}
             coverflowEffect={{
               rotate: 0,
               stretch: 0,
               depth: 100,
               modifier: 2.5,
             }}
-            pagination={{ el: ".swiper-pagination", clickable: true }}
+            pagination={{ el: '.swiper-pagination', clickable: true }}
             navigation={{
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
               clickable: true,
             }}
             modules={[EffectCoverflow, Pagination, Navigation]}
             className="swiper_container"
           >
-            {MemberData.map((e,index) => (
+            {MemberData.map((e, index) => (
               <SwiperSlide>
                 <img key={index} src={e.image} alt={e.name} />
-                <div className='info'>
+                <div className="info">
                   <h2 key={index}>{e.name}</h2>
                   <h3 key={index}>{e.description}</h3>
                   <a href="/">

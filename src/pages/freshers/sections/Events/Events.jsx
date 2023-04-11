@@ -7,21 +7,21 @@ import './Events.scss';
 
 const Events = () => {
   return (
-    <seciton className="events" id="events">
-      <div className='bgcolour'>
-      <div className="section-container">
-        <SectionHeading title="Events" />
-        <div className="event__card-container">
-          {freshersCompetitions.map((e, index) => (
-            <EventCard
-              key={index}
-              title={e.name}
-              desc={e.description}
-              img={e.image}
-            />
-          ))}
+    <seciton className="events" id="freshers-events">
+      <div className="bgcolour">
+        <div className="section-container">
+          <SectionHeading title="Events" />
+          <div className="event__card-container">
+            {freshersCompetitions.map((e, index) => (
+              <EventCard
+                key={index}
+                title={e.name}
+                desc={e.description}
+                img={e.image}
+              />
+            ))}
+          </div>
         </div>
-      </div>
       </div>
     </seciton>
   );

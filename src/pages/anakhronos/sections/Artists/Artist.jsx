@@ -1,11 +1,11 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "./Artist.scss";
-import {arrow} from "../../../../constants/images";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import './Artist.scss';
+import { arrow } from '../../../../constants/images';
 
-import { useState } from "react";
-import { Artists } from "../../../../data/events/anakhronos";
+import { useState } from 'react';
+import { Artists } from '../../../../data/events/anakhronos';
 
 const Artist = () => {
   const [swiperRef, setSwiperRef] = useState(null);
@@ -14,19 +14,16 @@ const Artist = () => {
     swiperRef.slideNext();
   };
   return (
-    <div className="app__section artist bgcolour_artist" id="artist">
+    <div className="app__section artist bgcolour_artist" id="anakhronos-artist">
       <h1 className="app__section-container">Artists</h1>
 
       <div className="swiper">
         <Swiper
           onSwiper={(swiper) => setSwiperRef(swiper)}
-          slidesPerView={"auto"}
-
+          slidesPerView={'auto'}
           grabCursor={true}
-
           spaceBetween={30}
           loop={true}
-
           className="mySwiper"
         >
           <div className=" container">

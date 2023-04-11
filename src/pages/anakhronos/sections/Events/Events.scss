@@ -1,11 +1,12 @@
 .events {
   .section-container {
     padding: 10rem 0;
+    overflow: hidden;
   }
 }
 
 .event__card {
-  $card-width: 400px;
+  $card-width: min(400px, 99vw);
 
   &-container {
     display: grid;
@@ -17,7 +18,7 @@
 
   width: $card-width;
   max-width: 500px;
-  min-width: 250px;
+  min-width: min(250px, 99vw);
   background-color: var(--clr-primary-accent-light);
   padding: 15px;
   border-radius: 6px;
