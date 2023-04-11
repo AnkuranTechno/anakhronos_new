@@ -42,10 +42,10 @@ const data = [
     img: freImg5,
     id: 5,
   },
-  {
-    img: freImg6,
-    id: 6,
-  },
+  // {
+  //   img: freImg6,
+  //   id: 6,
+  // },
   {
     img: freImg7,
     id: 7,
