@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { anakhImg1 } from '../../../../constants/anakhronosImg';
 
 const MegaCard = ({ title, date, desc, link ,img}) => {
   return (
@@ -9,7 +8,7 @@ const MegaCard = ({ title, date, desc, link ,img}) => {
 
       <div class="timeline-content timeline-card js--fadeInRight">
         <div class="timeline-img-header">
-          <div  className='imagess'>
+          <div  className='imageEvent'>
            <img src={img} alt=''/>
           </div>
           <h2>{title}</h2>
