@@ -23,14 +23,17 @@ import {
   Stadel_logo,
   T2,
   Nexa,
-  Red_FM
+  Red_FM,
 } from '../../../../constants/images';
 
 import './Sponsors.scss';
 
 const Sponsors = () => {
   return (
-    <div className="app__section sponsors bgcolour_sponsors" id="sponsors">
+    <div
+      className="app__section sponsors bgcolour_sponsors"
+      id="freshers-sponsors"
+    >
       <div className="app__section-container sponsors-container">
         <h1>Our sponsors</h1>
         <div className="sponsors-slideshow">
@@ -60,7 +63,6 @@ const Sponsors = () => {
             <img src={T2} alt="t2" />
             <img src={Red_FM} alt="red_fm" />
 
-
             <img src={nestleLogo} alt="nestle" />
             <img src={olaCabLogo} alt="ola" />
             <img src={timesOfIndiaLogo} alt="times_of_india" />
@@ -108,7 +110,6 @@ const Sponsors = () => {
             <img src={Nexa} alt="nexa" />
             <img src={T2} alt="t2" />
             <img src={Red_FM} alt="red_fm" />
-
           </div>
         </div>
       </div>

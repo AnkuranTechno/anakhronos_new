@@ -7,7 +7,7 @@ const MegaCard = ({ title, date, desc, link }) => {
       <div class="timeline-img"></div>
 
       <div class="timeline-content timeline-card js--fadeInRight">
-        <div class="timeline-img-header">
+        <div class={`timeline-img-header ${title}`}>
           <h2>{title}</h2>
         </div>
         <div class="date">{date}</div>

@@ -20,6 +20,14 @@ $event-accent: rgba(210, 184, 183, 0.622);
   }
 }
 
+.gradient-bg {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(60deg, #8320edc3, #8cbecc, #d76c9c);
+  background-size: 600% 600%;
+  animation: bganimation 10s infinite linear;
+}
+
 .timeline {
   position: relative;
 
@@ -136,9 +144,19 @@ $event-accent: rgba(210, 184, 183, 0.622);
 
 .timeline-item {
   .timeline-img-header {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
-      url('https://picsum.photos/1000/800/?random') center center no-repeat;
     background-size: cover;
+
+    &.Prarambh {
+      background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+        url('https://user-images.githubusercontent.com/73426684/231242830-5fe409ff-3d33-4cdb-b761-526f6d810a5e.JPG')
+          center center no-repeat;
+    }
+
+    &.Anakhronos {
+      background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+        url('https://user-images.githubusercontent.com/73426684/231242851-251ef52d-d68c-4305-8f69-037f861b461f.png')
+          center center no-repeat;
+    }
   }
 }
 
