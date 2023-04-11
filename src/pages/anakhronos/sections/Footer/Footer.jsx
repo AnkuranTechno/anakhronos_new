@@ -11,7 +11,7 @@ import './Footer.scss';
 
 const Footer = () => {
   return (
-    <footer className="app__section footer" id="footer">
+    <footer className="app__section footer" id="anakhronos-footer">
       <div className="app__section-container footer-container">
         <div className="footer-1">
           <div className="contact-about">
@@ -47,12 +47,9 @@ const Footer = () => {
           </div>
         </div>
 
-   
-
         <div className="footer-2">
           <h1>ANAKHRONOS Copyright © 2021</h1>
         </div>
-        
       </div>
     </footer>
   );

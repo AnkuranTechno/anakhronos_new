@@ -1,5 +1,5 @@
-import React from "react";
-import { Navbar } from "../../components";
+import React from 'react';
+import { Navbar } from '../../components';
 import {
   Hero,
   About,
@@ -8,11 +8,11 @@ import {
   Team,
   Footer,
   Sponsors,
-} from "./sections";
+} from './sections';
 
-import "./freshers.scss";
-import { navLinks } from "../../data/events/anakhronos";
-import { tmslLogo } from "../../constants/images";
+import './freshers.scss';
+import { navLinks } from '../../data/events/freshers';
+import { tmslLogo } from '../../constants/images';
 
 const Freshers = () => {
   return (

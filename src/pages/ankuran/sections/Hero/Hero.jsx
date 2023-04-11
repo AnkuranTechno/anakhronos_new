@@ -1,5 +1,5 @@
 import React from 'react';
-import { ankuranLogo} from '../../../../constants/images';
+import { ankuranLogo } from '../../../../constants/images';
 import './Hero.scss';
 
 const Hero = () => {
