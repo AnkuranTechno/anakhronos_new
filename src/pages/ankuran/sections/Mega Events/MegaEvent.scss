@@ -22,9 +22,11 @@ $event-accent: rgba(210, 184, 183, 0.622);
 
 .timeline {
   position: relative;
+  
 
   &::before {
     content: '';
+    top:80px;
     background: $event-light-primary;
     width: 10px;
     height: 85%;
@@ -91,6 +93,7 @@ $event-accent: rgba(210, 184, 183, 0.622);
 }
 
 .timeline-img {
+ 
   width: 30px;
   height: 30px;
   background: $event-primary;
@@ -135,10 +138,21 @@ $event-accent: rgba(210, 184, 183, 0.622);
 }
 
 .timeline-item {
+
   .timeline-img-header {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
-      url('https://picsum.photos/1000/800/?random') center center no-repeat;
-    background-size: cover;
+    // background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+    //   url('https://picsum.photos/1000/800/?random') center center no-repeat;
+    // background-size: cover;
+   
+  }
+  .imagess{
+    img{
+      width: 100%;
+      height: 220px;
+      background-size: cover;
+      filter: brightness(80%);
+
+    }
   }
 }
 
@@ -177,6 +191,11 @@ blockquote {
   .timeline {
     &::before {
       left: 50px;
+      top: 55px;
+    }
+    .mega-events-heading{
+      font-size: 4rem;
+      padding: 20px 0px;
     }
 
     .timeline-img {
