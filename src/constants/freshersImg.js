@@ -1,6 +1,12 @@
-export { default as freImg1 } from '../assets/anakhronos/images/gallery/freshers/DANCE TECHNO DANCE.jpg';
-export { default as freImg2 } from '../assets/anakhronos/images/gallery/freshers/FRESHERART.jpg';
-export { default as freImg3 } from '../assets/anakhronos/images/gallery/freshers/FRESHERPHOTOGRAPHY.jpg';
-export { default as freImg4 } from '../assets/anakhronos/images/gallery/freshers/MR MISS FRESHER.jpg';
-export { default as freImg5 } from '../assets/anakhronos/images/gallery/freshers/TECHNO IDOL.jpg';
+export { default as freImg1 } from '../assets/anakhronos/images/gallery/freshers/FRESHER WELCOME.jpg';
+export { default as freImg2 } from '../assets/anakhronos/images/gallery/freshers/INDUCTION1.jpg';
+export { default as freImg3 } from '../assets/anakhronos/images/gallery/freshers/SLIDER2.jpg';
+export { default as freImg4 } from '../assets/anakhronos/images/gallery/freshers/STEPUP.jpg';
+export { default as freImg5 } from '../assets/anakhronos/images/gallery/freshers/gallery_fresher3.jpg';
+export { default as freImg6 } from '../assets/anakhronos/images/gallery/freshers/gallery_fresher4.jpg';
+export { default as freImg7 } from '../assets/anakhronos/images/gallery/freshers/gallery_fresher5.jpg';
+export { default as freImg8 } from '../assets/anakhronos/images/gallery/freshers/gallery_fresher6.jpg';
+export { default as freImg9 } from '../assets/anakhronos/images/gallery/freshers/gallery_fresher7.jpg';
+export { default as freImg10 } from '../assets/anakhronos/images/gallery/freshers/gallery_fresher8.jpg';
+export { default as freImg11 } from '../assets/anakhronos/images/gallery/freshers/gallery_fresher1.JPG';
 export { default as arrow } from '../assets/anakhronos/images/gallery/freshers/arrow.png';

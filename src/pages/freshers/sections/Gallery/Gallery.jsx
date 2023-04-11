@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "./Gallery.scss";
-import { freImg1,freImg2,freImg3,freImg4,freImg5,arrow } from "../../../../constants/freshersImg";
+import { freImg1,freImg2,freImg3,freImg4,freImg5, freImg6,freImg7,freImg8,freImg9,freImg10,freImg11,arrow } from "../../../../constants/freshersImg";
 import { useState } from "react";
 
 const data = [
@@ -30,16 +30,29 @@ const data = [
     id: 5,
   },   
   {
-    img: freImg1,
+    img: freImg6,
     id: 6,
   },
    {
-    img: freImg2,
+    img: freImg7,
     id: 7,
   }, 
   {
-    img: freImg3,
+    img: freImg8,
     id: 8,
+  }, 
+   {
+    img: freImg9,
+    id: 9,
+  }, 
+  
+  {
+    img: freImg10,
+    id: 10,
+  }, 
+    {
+    img: freImg11,
+    id: 11,
   }, 
 
   
