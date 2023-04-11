@@ -11,27 +11,11 @@ import './Footer.scss';
 
 const Footer = () => {
   return (
-    <footer className="app__section footer" id="freshers-footer">
+    <footer className="app__section footer" id="footer">
       <div className="app__section-container footer-container">
         <div className="footer-1">
           <div className="contact-about">
-            <div className="footer-logo">
-              <img src={logo} alt="" />
-            </div>
-            <div className="footer-detail">
-              <p>
-                Techno Main Salt Lake, was established in the year of 2001. In
-                the test of time, it has stood tall and thrives to be better
-                than what it was yesterday. It is a place where everyone is
-                motivated to be the best versions of themselves and do what they
-                can do their best. A college where everyone believes that
-                practice makes a human perfect, our efforts always pay off and
-                that dreams do come true
-              </p>
-            </div>
-          </div>
-          <div className="contact-us">
-            <div className="contact-us-detail">
+          <div className="contact-us-detail">
               <h1>Team Ankuran</h1>
               <h3>Techno Main Salt Lake</h3>
               <h3>Kolkata - 700091, West Bengal.</h3>
@@ -45,11 +29,30 @@ const Footer = () => {
               <img src={instagramLogo} alt="" />
             </div>
           </div>
+          <div className="contact-us">
+          <div className="contact-us-detail">
+              <h2>Bank Details</h2>
+              <h3>Team Ankuran</h3>
+              <h3>A/C No. :</h3>
+              <h3>IFSC code :</h3>
+              <h3>Bank Name :</h3>
+              <h3>Bank Address :</h3>
+              <h3>Upi Id :</h3>
+            </div>
+          </div>
+          <div className="contact-us">
+          <div className="contact-us-detail">
+              <h2>Scan Here to pay</h2>
+              <h3>Team Ankuran</h3>
+            </div>
+          </div>
+          {/* qr code image should go after it  */}
         </div>
 
         <div className="footer-2">
-          <h1>ANAKHRONOS Copyright © 2021</h1>
+          <h1>Ankuran Copyright © 2023</h1>
         </div>
+        
       </div>
     </footer>
   );
