@@ -1,6 +1,7 @@
 import React from 'react';
 import MegaCard from './MegaEventCard';
 import './MegaEvent.scss';
+import { Anakhronos, FreshersMega } from '../../../../constants/images';
 
 const MegaEvent = () => {
   return (
@@ -13,12 +14,14 @@ const MegaEvent = () => {
             date="Coming Soon"
             desc=" The official freshers welcome event of Techno Main Salt Lake organized by Team Ankuran"
             link="freshers"
+            img={FreshersMega}
           />
           <MegaCard
             title="Anakhronos"
             date="Coming Soon"
             desc=" The official cultural fest of Techno Main Salt Lake organized by Team Ankuran"
             link="anakhronos"
+            img={Anakhronos}
           />
         </div>
       </div>

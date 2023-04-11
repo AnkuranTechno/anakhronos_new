@@ -149,3 +149,5 @@ export { default as FRESHERART } from '../assets/anakhronos/images/FRESHERART.jp
 export { default as FRESHERPHOTOGRAPHY } from '../assets/anakhronos/images/FRESHERPHOTOGRAPHY.jpg';
 export { default as MRMISSFRESHER } from '../assets/anakhronos/images/MR MISS FRESHER.jpg';
 export { default as TECHNOIDOL } from '../assets/anakhronos/images/TECHNO IDOL.jpg';
+export { default as Anakhronos } from '../assets/anakhronos/images/ANAKHRONOS.png';
+export { default as FreshersMega } from '../assets/anakhronos/images/PRARAMBH.JPG';
