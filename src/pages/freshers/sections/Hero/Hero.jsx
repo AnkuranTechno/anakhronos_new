@@ -13,15 +13,15 @@ const Hero = () => {
         <div className="freshers__hero__content">
           <h1 className="freshers__hero__heading">Prarambh</h1>
           <p className="freshers__hero__desc">
-            Techno Main Saltlake's cultural committee offers a welcoming
+          The transition from school to college life is a defining moment in every student’s life
             <br />
-            platform for students to showcase their skills and adjust to college
-            life.
+          which further lays the foundation for his/her personality development. The cultural committee
             <br />
-            The Freshers' welcome event includes on-stage and off-stage
+          of Techno Main Saltlake has always been committed to giving these young minds a jump-start by
             <br />
-            activities, creating a supportive environment and boosting
-            participants' morale.
+          providing them an incubating platform to showcase their skills. Freshers' welcome is one such 
+            <br/>
+          platformthat encompasses a series of both on-stage & off-stage events which rightly boost the morale of the young participants by hosting them in a compassionate surrounding.
           </p>
 
           <Button

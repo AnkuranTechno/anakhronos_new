@@ -1,36 +1,36 @@
-import { gallimg24, gallimg20 ,gallimg19,gallimg3,gallimg15} from '../../constants/images';
+import { DANCETECHNODANCE, FRESHERART, FRESHERPHOTOGRAPHY, TECHNOIDOL, MRMISSFRESHER } from "../../constants/images";
 export const freshersCompetitions = [
     {
       name: 'Mr and Ms Fresher',
       description: '',
-      image: gallimg24,
+      image: MRMISSFRESHER,
       link: '',
     },
     {
       name: 'Techno Idol',
       description: 'Solo Singing Competition',
-      image: gallimg20,
+      image: TECHNOIDOL,
       link: '',
     },
     {
       name: 'Dance Techno Dance',
       description: 'Solo Dance Competition',
   
-      image: gallimg19,
+      image: DANCETECHNODANCE,
   
       link: '',
     },
     {
       name: 'Photography',
       description: '',
-      image: gallimg3,
+      image: FRESHERPHOTOGRAPHY,
       link: '',
     },
     {
       name: 'Art & Craft',
       description: '',
   
-      image: gallimg15,
+      image: FRESHERART,
   
   
       link: '',

@@ -19,7 +19,7 @@ const Freshers = () => {
     <div className="app">
       <Navbar navLinks={navLinks} logo={tmslLogo} />
       <Hero />
-      <About />
+      {/* <About /> */}
       <Events />
       <Gallery />
       <Team />
