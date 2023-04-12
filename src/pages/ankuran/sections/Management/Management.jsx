@@ -32,7 +32,7 @@ const Management = () => {
             <img src={Meghdut} alt="maam" />
           </div>
           <div className="content-2">
-            <h1>Co-Chairman's Desk</h1>
+            <h1>Director's (Global Operations) Desk</h1>
             <h2>Mr. Meghdut Roy Chowdhury</h2>
             The thrill and joy of a cultural fest is not unknown to students and
             their peers. Therefore, it brings me immense pleasure and happiness

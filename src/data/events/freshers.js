@@ -10,13 +10,13 @@ export const freshersCompetitions = [
     name: 'Mr and Ms Fresher',
     description: '',
     image: MRMISSFRESHER,
-    link: '',
+    link: '/login',
   },
   {
     name: 'Techno Idol',
     description: 'Solo Singing Competition',
     image: TECHNOIDOL,
-    link: '',
+    link: '/login',
   },
   {
     name: 'Dance Techno Dance',
@@ -24,21 +24,21 @@ export const freshersCompetitions = [
 
     image: DANCETECHNODANCE,
 
-    link: '',
+    link: '/login',
   },
   {
     name: 'Photography',
-    description: '',
+    description: 'Picture perfect memories',
     image: FRESHERPHOTOGRAPHY,
-    link: '',
+    link: '/login',
   },
-  {
+  { 
     name: 'Art & Craft',
-    description: '',
+    description: 'Creativity in motion',
 
     image: FRESHERART,
 
-    link: '',
+    link: '/login',
   },
 ];
 
