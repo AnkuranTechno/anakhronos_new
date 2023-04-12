@@ -8,7 +8,7 @@ import './Events.scss';
 const Events = () => {
   return (
     <seciton className="events" id="anakhronos-events">
-      <div className="bgcolour">
+      <div className="gradient-bg">
         <div className="section-container">
           <SectionHeading title="Events" />
           <div className="event__card-container">

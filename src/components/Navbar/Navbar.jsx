@@ -6,7 +6,7 @@ import useIsMobile from '../../hooks/useMobile';
 import './Navbar.scss';
 import { Link } from 'react-router-dom';
 
-const Navbar = ({navLinks ,logo}) => {
+const Navbar = ({ navLinks, logo }) => {
   const isMobile = useIsMobile();
   const [show, setShow] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -60,9 +60,16 @@ const Navbar = ({navLinks ,logo}) => {
               <ul className="navbar__menu navbar__menu--mobile-only">
                 {navLinks.map((link) => (
                   <li className="navbar__menu-item" key={link.name}>
-                    <Link to={link.link} onClick={() => setToggle(!toggle)}>
-                      {link.name}  
-                    </Link>
+                    {link.name === 'Home' ? (
+                      <Link to={link.link} onClick={() => setToggle(!toggle)}>
+                        {' '}
+                        {link.name}{' '}
+                      </Link>
+                    ) : (
+                      <a href={link.link} onClick={() => setToggle(!toggle)}>
+                        {link.name}
+                      </a>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -73,15 +80,19 @@ const Navbar = ({navLinks ,logo}) => {
             <ul className="navbar__menu">
               {navLinks.map((link) => (
                 <li className="navbar__menu-item" key={link.name}>
-                  <Link to={link.link}> {link.name} </Link>
+                  {link.name === 'Home' ? (
+                    <Link to={link.link}> {link.name} </Link>
+                  ) : (
+                    <a href={link.link}>{link.name}</a>
+                  )}
                 </li>
               ))}
             </ul>
             <Link to="/login">
-            <Button type="solid" text="Login" />
+              <Button type="solid" text="Login" />
             </Link>
-            <Link to ="/signup">
-            <Button type="solid" text="SignUp" />
+            <Link to="/signup">
+              <Button type="solid" text="SignUp" />
             </Link>
           </div>
         )}
