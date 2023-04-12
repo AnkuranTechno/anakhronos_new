@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="anakhronos__hero__content">
           <h1 className="anakhronos__hero__heading">"Anakhronos"</h1>
           <p className="anakhronos__hero__desc">
-          The Official Annual Cultural Fest of Techno Main Salt Lake organized by Team Ankuran
+      Experience a vibrant celebration of diversity and creativity at our annual cultural fest night!.
           </p>
 
           <Button

@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="freshers__hero__content">
           <h1 className="freshers__hero__heading">"Prarambh"</h1>
           <p className="freshers__hero__desc">
-          The Freshers' Welcome event of Techno Main Salt Lake organized by Team Ankuran.
+          Join us for a night of fun, music, and memories as we welcome the newest members of our college family at the Techno Main Salt Lake.
           </p>
 
           <Button
