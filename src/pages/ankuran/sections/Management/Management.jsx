@@ -1,9 +1,9 @@
-import React from "react";
-import "./Management.scss";
-import { Maam, Avijit, Meghdut } from "../../../../constants/images";
+import React from 'react';
+import './Management.scss';
+import { Maam, Avijit, Meghdut } from '../../../../constants/images';
 const Management = () => {
   return (
-    <div className="main">
+    <div className="main" id="management">
       <div className="container ">
         <h1 className="management">Management Desk</h1>
         <div className="wrapper">

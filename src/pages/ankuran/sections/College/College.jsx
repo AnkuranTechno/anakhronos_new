@@ -1,10 +1,10 @@
-import React from "react";
-import "./College.scss";
-import { technoImg } from "../../../../constants/images";
+import React from 'react';
+import './College.scss';
+import { technoImg } from '../../../../constants/images';
 
 const College = () => {
   return (
-    <div className="college" id="college">
+    <div className="college" id="about">
       <div className="college__wrapper container">
         <div className="college__left">
           <img className="" src={technoImg} alt="college_image" />
