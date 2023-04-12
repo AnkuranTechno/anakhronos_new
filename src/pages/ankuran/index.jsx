@@ -13,10 +13,12 @@ import { navLinks } from '../../data/events/anakhronos';
 import { tmslLogo } from '../../constants/images';
 import Megaevent from './sections/Mega Events/MegaEvent';
 import './ankuran.scss';
+import Loader from './sections/Loader/Loader';
 
 const Ankuran = () => {
   return (
     <div className="app">
+      <Loader/>
       <Navbar navLinks={navLinks} logo={tmslLogo} />
       <Hero />
       <College />
