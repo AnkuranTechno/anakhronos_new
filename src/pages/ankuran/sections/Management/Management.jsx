@@ -11,8 +11,8 @@ const Management = () => {
             <img src={Maam} alt="maam" />
           </div>
           <div className="content-1">
-            <h1>Co-Chairman's Desk</h1>
-            <h2>Mrs. Manashi Roy Chowdhury</h2>
+            <h1>Mrs. Manashi Roy Chowdhury</h1>
+            <h2>Co-Chairman, Techno India Group</h2>
             In the middle of every difficulty lies an opportunity. Let’s us all
             embrace the golden rays of chances to showcase our potentialities in
             every path we cross in our life. There are no limits to what one can
@@ -29,11 +29,11 @@ const Management = () => {
         </div>
         <div className="wrapper">
           <div className="image-2">
-            <img src={Meghdut} alt="maam" />
+            <img src={Meghdut} alt="sir" />
           </div>
           <div className="content-2">
-            <h1>Director's (Global Operations) Desk</h1>
-            <h2>Mr. Meghdut Roy Chowdhury</h2>
+            <h1>Mr. Meghdut Roy Chowdhury</h1>
+            <h2>Director Global Operations, Techno India Group</h2>
             The thrill and joy of a cultural fest is not unknown to students and
             their peers. Therefore, it brings me immense pleasure and happiness
             to introduce to the world the new website for the annual cultural
@@ -68,11 +68,11 @@ const Management = () => {
         </div>
         <div className="wrapper">
           <div className="image-1">
-            <img src={Avijit} alt="maam" />
+            <img src={Avijit} alt="sir" />
           </div>
           <div className="content-1">
-            <h1>Director, Techno Main Salt Lake </h1>
-            <h2>Prof. Avijit Kar</h2>
+            <h1>Prof. Avijit Kar</h1>
+            <h2>Director, Techno Main Salt Lake </h2>
             "A true artist is not the one who is inspired, but the one who
             inspires others"-With this mindset, I believe that the Cultural
             Committee of Techno Main SaltLake, is the most dedicated platform to
