@@ -26,7 +26,7 @@ const Anakhronos = () => {
       <Loader/>
       <Navbar navLinks={navLinks} logo={tmslLogo} />
       <Hero />
-      {/* <About /> */}
+      <About />
       <Events />
       <Artist/>
       <Gallery />
@@ -34,7 +34,6 @@ const Anakhronos = () => {
       <Team />
       <Sponsors />
       <Footer />
-      {/* <Login/> */}
     </div>
   );
 };

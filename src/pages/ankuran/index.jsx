@@ -9,7 +9,7 @@ import {
   Merchandise,
 } from './sections';
 import { Navbar } from '../../components';
-import { navLinks } from '../../data/events/anakhronos';
+import { navLinks } from '../../data/ankuran';
 import { tmslLogo } from '../../constants/images';
 import Megaevent from './sections/Mega Events/MegaEvent';
 import './ankuran.scss';
@@ -24,7 +24,6 @@ const Ankuran = () => {
       <College />
       <Megaevent />
       <Management />
-      {/* <Merchandise /> */}
       {/* <Team /> */}
       <Contact />
       <Footer />

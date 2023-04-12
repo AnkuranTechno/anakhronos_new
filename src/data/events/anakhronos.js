@@ -1,6 +1,17 @@
-
-import { SURTARANG, STEPUP, TWOMINS2FAME, CLUBFEET, BANDBOX, PANACHE, IMPRESSION, SHORTFILMMAKING, ARTANDCRAFT } from '../../constants/images';
-import { Aniket ,Keshav,
+import {
+  SURTARANG,
+  STEPUP,
+  TWOMINS2FAME,
+  CLUBFEET,
+  BANDBOX,
+  PANACHE,
+  IMPRESSION,
+  SHORTFILMMAKING,
+  ARTANDCRAFT,
+} from '../../constants/images';
+import {
+  Aniket,
+  Keshav,
   Yesh,
   Evan,
   Chandan,
@@ -25,10 +36,42 @@ import { Aniket ,Keshav,
   Sourajit,
   Abir,
   Arpita,
-  Asen, } from '../../constants/images';
-import { AbhijeetBhattacharya, Fossils, Cactus, Chandrabindu, Lopamudra, Nachiketa,Anjan_dutta,Anushka_manchanda,Armaan_malik,Ash_king
-,Benny_dayal,Dev_negi,Fakira,Indian_ocean,Javed_ali,Jonita_gandhi,KK,Krosswindz, kunal_ganjawala, Milind_gaba, Msonic, Muhammed_Irfan, Parikrama,
-Prithibi, Raeth, Raghu_dixit, Riddles, Rupankar, Shaan, usha_uttup, Vishal_dadlani, Jojo } from '../../constants/images';  
+  Asen,
+} from '../../constants/images';
+import {
+  AbhijeetBhattacharya,
+  Fossils,
+  Cactus,
+  Chandrabindu,
+  Lopamudra,
+  Nachiketa,
+  Anjan_dutta,
+  Anushka_manchanda,
+  Armaan_malik,
+  Ash_king,
+  Benny_dayal,
+  Dev_negi,
+  Fakira,
+  Indian_ocean,
+  Javed_ali,
+  Jonita_gandhi,
+  KK,
+  Krosswindz,
+  kunal_ganjawala,
+  Milind_gaba,
+  Msonic,
+  Muhammed_Irfan,
+  Parikrama,
+  Prithibi,
+  Raeth,
+  Raghu_dixit,
+  Riddles,
+  Rupankar,
+  Shaan,
+  usha_uttup,
+  Vishal_dadlani,
+  Jojo,
+} from '../../constants/images';
 
 export const anakhronosCompetetions = [
   {
@@ -63,7 +106,6 @@ export const anakhronosCompetetions = [
 
     image: BANDBOX,
 
-
     link: '',
   },
   {
@@ -91,92 +133,101 @@ export const anakhronosCompetetions = [
     link: '',
   },
 ];
+
 export const navLinks = [
   { name: 'Home', link: '/' },
-  { name: 'About', link: '#hero' },
-  { name: 'Events', link: '#events' },
-  { name: 'Artists', link: '#events' },
-  { name: 'Gallery', link: '#gallery' },
-  { name: 'Merchandise', link: '#merchandise'},
-  { name: 'Our Team', link: '#team' },
-  { name: 'Sponsors', link: '#sponsors' },
-  { name: 'Contact', link: '#contact' },
+  { name: 'About', link: '#anakhronos-about' },
+  { name: 'Events', link: '#anakhronos-about' },
+  { name: 'Artists', link: '#anakhronos-artists' },
+  { name: 'Gallery', link: '#anakhronos-gallery' },
+  { name: 'Merchandise', link: '#anakhronos-merchandise' },
+  { name: 'Team', link: '#anakhronos-team' },
+  { name: 'Sponsors', link: '#anakhronos-sponsors' },
+  { name: 'Contact Us', link: '#anakhronos-contact' },
 ];
 
 export const WebTeamData = [
   {
     name: 'Sourajit Mukherjee',
     description: 'Web Development Head',
-    image: 'https://user-images.githubusercontent.com/102872077/223775333-f7335900-500c-4d2d-83bc-f834097bace3.png',
+    image:
+      'https://user-images.githubusercontent.com/102872077/223775333-f7335900-500c-4d2d-83bc-f834097bace3.png',
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Abir Gayen',
     description: 'Web Development Head',
-    image: 'https://user-images.githubusercontent.com/102872077/223774934-d639cd0f-321b-4a9a-b5de-3fc1ad43491d.png',
+    image:
+      'https://user-images.githubusercontent.com/102872077/223774934-d639cd0f-321b-4a9a-b5de-3fc1ad43491d.png',
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Sreetama Hazra',
     description: 'Backend Developer',
-    image: 'https://user-images.githubusercontent.com/102872077/223780995-35f4c59b-0467-4d85-95c9-bb1246ab3dd9.jpg',
+    image:
+      'https://user-images.githubusercontent.com/102872077/223780995-35f4c59b-0467-4d85-95c9-bb1246ab3dd9.jpg',
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Akash Gupta',
     description: 'Full Stack Developer',
-    image: 'https://user-images.githubusercontent.com/102872077/223781125-1dbb342f-4614-49b2-8da2-61460daf5a61.jpg',
+    image:
+      'https://user-images.githubusercontent.com/102872077/223781125-1dbb342f-4614-49b2-8da2-61460daf5a61.jpg',
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Souvik Saha',
     description: 'Frontend Developer',
-    image: 'https://user-images.githubusercontent.com/102872077/223781678-6d54f946-16d4-470f-adde-b2fff3c63142.jpg',
+    image:
+      'https://user-images.githubusercontent.com/102872077/223781678-6d54f946-16d4-470f-adde-b2fff3c63142.jpg',
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Asif',
     description: 'Frontend Developer',
-    image: 'https://user-images.githubusercontent.com/102872077/223781284-6ea390dc-7223-4d8e-bbd0-1d28eb290b9f.jpg',
+    image:
+      'https://user-images.githubusercontent.com/102872077/223781284-6ea390dc-7223-4d8e-bbd0-1d28eb290b9f.jpg',
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Ankush',
     description: 'Frontend Developer',
-    image: 'https://user-images.githubusercontent.com/102872077/224475570-51882d21-d77c-4c69-b765-b63fd6d7db14.jpeg',
+    image:
+      'https://user-images.githubusercontent.com/102872077/224475570-51882d21-d77c-4c69-b765-b63fd6d7db14.jpeg',
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Abhishek Chakraborty',
     description: 'Frontend Developer',
-    image: 'https://user-images.githubusercontent.com/73426684/229357783-30cc798d-e1fe-43e5-bfe5-71834a612854.jpeg',
+    image:
+      'https://user-images.githubusercontent.com/73426684/229357783-30cc798d-e1fe-43e5-bfe5-71834a612854.jpeg',
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
-]
+];
 
 export const MemberData = [
   {
@@ -186,7 +237,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Keshav Vashist',
@@ -195,7 +246,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Yesh Jha',
@@ -204,7 +255,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Evan Bose',
@@ -213,7 +264,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Chandan Kumar',
@@ -222,7 +273,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Rudrajit Sengupta',
@@ -231,7 +282,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Sahel Majumder',
@@ -240,7 +291,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Somya Shekhar',
@@ -249,7 +300,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Abhijeet Raj',
@@ -258,7 +309,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Suchetana Dasgupta',
@@ -267,7 +318,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Soham Sur',
@@ -276,7 +327,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Bidyayan Goswami',
@@ -285,7 +336,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Oishi Panda',
@@ -294,7 +345,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Hrishav Banik',
@@ -303,7 +354,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Iman Majumdar',
@@ -312,7 +363,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Dhruba Roy',
@@ -321,7 +372,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Pratyush Biswakarma',
@@ -330,7 +381,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Shatavisha Banerjee',
@@ -339,7 +390,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Ayush Dutta',
@@ -348,7 +399,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Punjay Chetan Sharma',
@@ -357,7 +408,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Agnish Ghosh',
@@ -366,7 +417,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Nabanita Saha',
@@ -375,7 +426,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Bishal Poddar',
@@ -384,7 +435,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Sourajit Mukherjee',
@@ -393,7 +444,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Abir Gayen',
@@ -402,7 +453,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Arpita Mitra',
@@ -411,7 +462,7 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
   {
     name: 'Ayush Sen',
@@ -420,201 +471,201 @@ export const MemberData = [
     instagram: '',
     facebook: '',
     phone: '',
-    linkedin: ''
+    linkedin: '',
   },
-]
+];
 
 export const Artists = [
   {
-    name: "Chandrabindu",
+    name: 'Chandrabindu',
     id: '#1',
     image: Chandrabindu,
-    year: "2003, 2005"
+    year: '2003, 2005',
   },
   {
-    name: "Lopamudra",
+    name: 'Lopamudra',
     id: '#2',
     image: Lopamudra,
-    year: "2003"
+    year: '2003',
   },
   {
-    name: "Miss Jojo",
+    name: 'Miss Jojo',
     id: '#3',
     image: Jojo,
-    year: "2003"
+    year: '2003',
   },
   {
-    name: "Cactus",
+    name: 'Cactus',
     id: '#4',
     image: Cactus,
-    year: "2004"
+    year: '2004',
   },
   {
-    name: "Abhijeet Bhattacharya",
+    name: 'Abhijeet Bhattacharya',
     id: '#5',
     image: AbhijeetBhattacharya,
-    year: "2004"
+    year: '2004',
   },
   {
-    name: "Nachiketa",
+    name: 'Nachiketa',
     id: '#6',
     image: Nachiketa,
-    year: "2005"
+    year: '2005',
   },
   {
-    name: "Fossils",
+    name: 'Fossils',
     id: '#7',
     image: Fossils,
-    year: "2006"
+    year: '2006',
   },
   {
-    name: "Shaan",
+    name: 'Shaan',
     id: '#8',
     image: Shaan,
-    year: "2006"
+    year: '2006',
   },
   {
-    name: "KK",
+    name: 'KK',
     id: '#9',
     image: KK,
-    year: "2007"
+    year: '2007',
   },
   {
-    name: "Krosswindz",
+    name: 'Krosswindz',
     id: '#10',
     image: Krosswindz,
-    year: "2007"
+    year: '2007',
   },
   {
-    name: "Prithibi",
+    name: 'Prithibi',
     id: '#11',
     image: Prithibi,
-    year: "2007"
+    year: '2007',
   },
   {
-    name: "Kunal Ganjawala",
+    name: 'Kunal Ganjawala',
     id: '#12',
     image: kunal_ganjawala,
-    year: "2008"
+    year: '2008',
   },
   {
-    name: "Parikrama",
+    name: 'Parikrama',
     id: '#13',
     image: Parikrama,
-    year: "2008"
+    year: '2008',
   },
   {
-    name: "Rupankar",
+    name: 'Rupankar',
     id: '#14',
     image: Rupankar,
-    year: "2009"
+    year: '2009',
   },
   {
-    name: "Vishal Dadlani",
+    name: 'Vishal Dadlani',
     id: '#15',
     image: Vishal_dadlani,
-    year: "2009"
+    year: '2009',
   },
   {
-    name: "Anjan Dutta",
+    name: 'Anjan Dutta',
     id: '#16',
     image: Anjan_dutta,
-    year: "2009"
+    year: '2009',
   },
   {
-    name: "Indian Ocean",
+    name: 'Indian Ocean',
     id: '#17',
     image: Indian_ocean,
-    year: "2009"
+    year: '2009',
   },
   {
-    name: "Raghu Dixit",
+    name: 'Raghu Dixit',
     id: '#18',
     image: Raghu_dixit,
-    year: "2010"
+    year: '2010',
   },
   {
-    name: "Javed Ali",
+    name: 'Javed Ali',
     id: '#19',
     image: Javed_ali,
-    year: "2011"
+    year: '2011',
   },
   {
-    name: "Usha Uttup",
+    name: 'Usha Uttup',
     id: '#20',
     image: usha_uttup,
-    year: "2011"
+    year: '2011',
   },
   {
-    name: "Benny Dayal",
+    name: 'Benny Dayal',
     id: '#21',
     image: Benny_dayal,
-    year: "2013"
+    year: '2013',
   },
   {
-    name: "Muhammed Irfan",
+    name: 'Muhammed Irfan',
     id: '#22',
     image: Muhammed_Irfan,
-    year: "2014"
+    year: '2014',
   },
   {
-    name: "Ash King",
+    name: 'Ash King',
     id: '#23',
     image: Ash_king,
-    year: "2015"
+    year: '2015',
   },
   {
-    name: "Raeth",
+    name: 'Raeth',
     id: '#24',
     image: Raeth,
-    year: "2015"
+    year: '2015',
   },
   {
-    name: "Armaan Malik",
+    name: 'Armaan Malik',
     id: '#25',
     image: Armaan_malik,
-    year: "2016"
+    year: '2016',
   },
   {
-    name: "Anushka Manchanda",
+    name: 'Anushka Manchanda',
     id: '#26',
     image: Anushka_manchanda,
-    year: "2017"
+    year: '2017',
   },
   {
-    name: "Fakira",
+    name: 'Fakira',
     id: '#27',
     image: Fakira,
-    year: "2017"
+    year: '2017',
   },
   {
-    name: "Jonita Gandhi",
+    name: 'Jonita Gandhi',
     id: '#28',
     image: Jonita_gandhi,
-    year: "2018"
+    year: '2018',
   },
   {
-    name: "Msonic",
+    name: 'Msonic',
     id: '#29',
     image: Msonic,
-    year: "2018"
+    year: '2018',
   },
   {
-    name: "Dev Negi",
+    name: 'Dev Negi',
     id: '#30',
     image: Dev_negi,
-    year: "2019"
+    year: '2019',
   },
   {
-    name: "Riddles",
+    name: 'Riddles',
     id: '#31',
     image: Riddles,
-    year: "2019"
+    year: '2019',
   },
   {
-    name: "Milind Gaba",
+    name: 'Milind Gaba',
     id: '#32',
     image: Milind_gaba,
-    year: "2022"
+    year: '2022',
   },
-]
+];

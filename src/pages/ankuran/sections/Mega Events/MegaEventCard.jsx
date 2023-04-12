@@ -1,13 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const MegaCard = ({ title, date, desc, link }) => {
+const MegaCard = ({ title, date, desc, link ,img}) => {
   return (
     <div class="timeline-item">
       <div class="timeline-img"></div>
 
       <div class="timeline-content timeline-card js--fadeInRight">
         <div class="timeline-img-header">
+          <div  className='imageEvent'>
+           <img src={img} alt=''/>
+          </div>
           <h2>{title}</h2>
         </div>
         <div class="date">{date}</div>

@@ -1,13 +1,43 @@
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
-import "swiper/css";
-import {arrow} from "../../../../constants/anakhronosImg"
-import "swiper/css/pagination";
-import "./Gallery.scss";
-import { anakhImg1, anakhImg2, anakhImg3,anakhImg4,anakhImg5,anakhImg6,anakhImg7,anakhImg8,anakhImg9,anakhImg10,anakhImg11,anakhImg12,anakhImg13,anakhImg14,anakhImg15,anakhImg16,anakhImg17,anakhImg18,anakhImg19,anakhImg20,anakhImg21,anakhImg22,anakhImg23,anakhImg24,anakhImg25,anakhImg26,anakhImg27,anakhImg28,anakhImg29} from "../../../../constants/anakhronosImg";
-import { useState } from "react";
+import 'swiper/css';
+import { arrow } from '../../../../constants/anakhronosImg';
+import 'swiper/css/pagination';
+import './Gallery.scss';
+import {
+  anakhImg1,
+  anakhImg2,
+  anakhImg3,
+  anakhImg4,
+  anakhImg5,
+  anakhImg6,
+  anakhImg7,
+  anakhImg8,
+  anakhImg9,
+  anakhImg10,
+  anakhImg11,
+  anakhImg12,
+  anakhImg13,
+  anakhImg14,
+  anakhImg15,
+  anakhImg16,
+  anakhImg17,
+  anakhImg18,
+  anakhImg19,
+  anakhImg20,
+  anakhImg21,
+  anakhImg22,
+  anakhImg23,
+  anakhImg24,
+  anakhImg25,
+  anakhImg26,
+  anakhImg27,
+  anakhImg28,
+  anakhImg29,
+} from '../../../../constants/anakhronosImg';
+import { useState } from 'react';
 
 const data = [
   {
@@ -117,10 +147,12 @@ const data = [
   {
     img: anakhImg27,
     id: 27,
-  }, {
+  },
+  {
     img: anakhImg28,
     id: 28,
-  },{
+  },
+  {
     img: anakhImg29,
     id: 29,
   },
@@ -132,13 +164,16 @@ const Gallery = () => {
     swiperRef.slideNext();
   };
   return (
-    <div className="app__section gallery bgcolour_gallery" id="gallery">
+    <div
+      className="app__section gallery bgcolour_gallery"
+      id="anakhronos-gallery"
+    >
       <h1 className="app__section-container">Gallery</h1>
 
       <div className="swiper">
         <Swiper
           onSwiper={(swiper) => setSwiperRef(swiper)}
-          slidesPerView={"auto"}
+          slidesPerView={'auto'}
           spaceBetween={20}
           loop={true}
           // modules={[]}

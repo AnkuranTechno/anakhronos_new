@@ -1,12 +1,25 @@
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "./Gallery.scss";
-import { freImg1,freImg2,freImg3,freImg4,freImg5,arrow } from "../../../../constants/freshersImg";
-import { useState } from "react";
+import 'swiper/css';
+import 'swiper/css/pagination';
+import './Gallery.scss';
+import {
+  freImg1,
+  freImg2,
+  freImg3,
+  freImg4,
+  freImg5,
+  freImg6,
+  freImg7,
+  freImg8,
+  freImg9,
+  freImg10,
+  freImg11,
+  arrow,
+} from '../../../../constants/freshersImg';
+import { useState } from 'react';
 
 const data = [
   {
@@ -28,21 +41,32 @@ const data = [
   {
     img: freImg5,
     id: 5,
-  },   
-  {
-    img: freImg1,
-    id: 6,
   },
-   {
-    img: freImg2,
-    id: 7,
-  }, 
+  // {
+  //   img: freImg6,
+  //   id: 6,
+  // },
   {
-    img: freImg3,
+    img: freImg7,
+    id: 7,
+  },
+  {
+    img: freImg8,
     id: 8,
-  }, 
+  },
+  {
+    img: freImg9,
+    id: 9,
+  },
 
-  
+  {
+    img: freImg10,
+    id: 10,
+  },
+  {
+    img: freImg11,
+    id: 11,
+  },
 ];
 const Gallery = () => {
   const [swiperRef, setSwiperRef] = useState(null);
@@ -51,13 +75,16 @@ const Gallery = () => {
     swiperRef.slideNext();
   };
   return (
-    <div className="app__section gallery bgcolour_gallery" id="gallery">
+    <div
+      className="app__section gallery bgcolour_gallery"
+      id="freshers-gallery"
+    >
       <h1 className="app__section-container">Gallery</h1>
 
       <div className="swiper">
         <Swiper
           onSwiper={(swiper) => setSwiperRef(swiper)}
-          slidesPerView={"auto"}
+          slidesPerView={'auto'}
           spaceBetween={20}
           loop={true}
           // modules={[]}
