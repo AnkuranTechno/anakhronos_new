@@ -151,3 +151,7 @@ export { default as MRMISSFRESHER } from '../assets/anakhronos/images/MR MISS FR
 export { default as TECHNOIDOL } from '../assets/anakhronos/images/TECHNO IDOL.jpg';
 export { default as Anakhronos } from '../assets/anakhronos/images/ANAKHRONOS.png';
 export { default as FreshersMega } from '../assets/anakhronos/images/PRARAMBH.JPG';
+
+export { default as AnkuranQR } from '../assets/anakhronos/ankuranqr.jpg';
+export { default as Merchandise } from '../assets/anakhronos/ProjectMerch.png';
+export { default as Merchandise2 } from '../assets/anakhronos/Merch2Ankuran.jpg';
