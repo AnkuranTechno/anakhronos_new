@@ -1,12 +1,13 @@
 import React from 'react';
 import {
-  logo,
   facebookLogo,
   instagramLogo,
   youtubelogo,
   twitterlogo,
 } from '../../../../constants/images';
-
+import {
+  AnkuranQR,
+} from '../../../../constants/images';
 import './Footer.scss';
 
 const Footer = () => {
@@ -33,20 +34,20 @@ const Footer = () => {
           <div className="contact-us-detail">
               <h2>Bank Details</h2>
               <h3>Team Ankuran</h3>
-              <h3>A/C No. :</h3>
-              <h3>IFSC code :</h3>
-              <h3>Bank Name :</h3>
-              <h3>Bank Address :</h3>
-              <h3>Upi Id :</h3>
+              <h3>A/C No. :4548000100003955</h3>
+              <h3>IFSC code :PUNB0454800</h3>
+              <h3>Bank Name :Sector V</h3>
+              <h3>Bank Address :Punjab National Bank</h3>
             </div>
           </div>
           <div className="contact-us">
           <div className="contact-us-detail">
               <h2>Scan Here to pay</h2>
-              <h3>Team Ankuran</h3>
+              <img className='Qr_footer' src={AnkuranQR} alt="" />
             </div>
           </div>
           {/* qr code image should go after it  */}
+          
         </div>
 
         <div className="footer-2">
