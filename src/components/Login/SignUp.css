@@ -5,7 +5,14 @@
     height: 100vh;
     overflow: hidden;
   } 
-  
+
+  label {
+    font: 1rem 'Fira Sans', sans-serif;
+  }
+
+  input {
+    margin: 0.4rem;
+}
   .center{
     position: absolute;
     top: 50%;
@@ -20,6 +27,13 @@
     text-align: center;
     padding: 20px 0 20px 0;
     font-size: 25px;
+    border-bottom: 1px solid silver;
+   
+  }
+  .center H3{
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    font-size: 10px;
     border-bottom: 1px solid silver;
    
   }
