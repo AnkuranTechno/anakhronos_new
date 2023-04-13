@@ -18,12 +18,17 @@
   
   .center H1{
     text-align: center;
-    padding: 0 0 20px 0;
+    padding: 20px 0 20px 0;
+    font-size: 25px;
     border-bottom: 1px solid silver;
    
   }
   
-  
+  .btn
+  {
+    position: relative;
+    margin: 0 auto;
+  }
   .center form{
     padding: 0 40px;
     box-sizing: border-box;
@@ -35,20 +40,24 @@
     margin: 30px 0;
   }
   .google-login {
-    background-color: #ffffff;
-    color: #e01111;
-    border: 2px solid #ccc;
-    border-radius: 5px;
+    background-color: #8A1615;
+    color: #ffffff;
+    /* border: 2px solid #ccc; */
+    border-radius: 10px;
     padding: 10px 20px;
+    margin-top: 10px;
     font-size: 16px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     }
     
+    .google-login span
+    {
+      margin-left: 5px;
+    }
     .google-login:hover {
-    background-color: #cccccc;
+    background-color: #5f2020;
     color: #fff;
-    border-color: #2437b9;
     }
   .txt_field input{
     width: 100%;
