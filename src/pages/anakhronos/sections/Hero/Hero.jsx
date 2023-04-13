@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from '../../../../components';
 import { logo, anakhronosLogoText } from '../../../../constants/images';
 import './Hero.scss';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -20,12 +21,13 @@ const Hero = () => {
           <p className="anakhronos__hero__desc">
       Experience a vibrant celebration of diversity and creativity at our annual cultural fest night!.
           </p>
-
+          <Link to="/signup">
           <Button
             className="anakhronos__hero__register-btn"
             type="solid"
             text="Register Now"
           />
+          </Link>
         </div>
       </div>
     </div>
