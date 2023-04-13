@@ -81,12 +81,14 @@ const Login = () => {
 					<button type="submit" className="btn" onClick={EmailLogin}>
 						Login
 					</button>
-					<span>
+					
 						<div className="google-login" onClick={googleLogin}>
+							<div className="google-content">
 							<FaGoogle className="google-icon" />
 							<span> Login with Google </span>
+							</div>
 						</div>
-					</span>
+					
 					<div className="signup_link">
 						Don't have an account? <Link to="/signup">Sign Up</Link>
 					</div>
