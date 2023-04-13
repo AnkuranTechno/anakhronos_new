@@ -54,42 +54,45 @@ const Login = () => {
 	};
 	return (
 		<div className="login">
-		<div className="center">
-		  <h1>Login</h1>
-		  <div className="google-login" onClick={googleLogin}>
-			<FaGoogle className="google-icon" />
-			<span> Login with Google </span>
-		  </div>
-		  <form onSubmit={EmailLogin}>
-			<div className="txt_field">
-			  <input
-				type="email"
-				required
-				value={email}
-				onChange={(e) => setemail(e.target.value)}
-			  />
-			  <span></span>
-			  <label>Email</label>
+			<div className="center">
+				<h1>Login</h1>
+
+				<form onSubmit={EmailLogin}>
+					<div className="txt_field">
+						<input
+							type="email"
+							required
+							value={email}
+							onChange={(e) => setemail(e.target.value)}
+						/>
+						<span></span>
+						<label>Email</label>
+					</div>
+					<div className="txt_field">
+						<input
+							type="password"
+							required
+							value={password}
+							onChange={(e) => setpassword(e.target.value)}
+						/>
+						<span></span>
+						<label>Password</label>
+					</div>
+					<button type="submit" className="btn" onClick={EmailLogin}>
+						Login
+					</button>
+					<span>
+						<div className="google-login" onClick={googleLogin}>
+							<FaGoogle className="google-icon" />
+							<span> Login with Google </span>
+						</div>
+					</span>
+					<div className="signup_link">
+						Don't have an account? <Link to="/signup">Sign Up</Link>
+					</div>
+				</form>
 			</div>
-			<div className="txt_field">
-			  <input
-				type="password"
-				required
-				value={password}
-				onChange={(e) => setpassword(e.target.value)}
-			  />
-			  <span></span>
-			  <label>Password</label>
-			</div>
-			<button type="submit" className="btn" onClick={EmailLogin}>
-			  Login
-			</button>
-			<div className="signup_link">
-			  Don't have an account? <Link to="/signup">Sign Up</Link>
-			</div>
-		  </form>
 		</div>
-	  </div>
 	);
 };
 
