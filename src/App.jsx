@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Ankuran, Anakhronos, Freshers } from './pages';
 import Login from "./components/Login/Login"
 import SignUp from "./components/Login/signUp"
+import Layout from "./components/Layout/Layout"
 const App = () => {
   return (
     <Routes>
@@ -11,6 +12,7 @@ const App = () => {
       <Route exact path="/freshers" element={<Freshers />} />
       <Route path="/login" element={<Login />}/>
       <Route path="/signup" element={<SignUp/>}/>
+      <Route path="/layout" element={<Layout/>}/>
     </Routes>
   );
 };

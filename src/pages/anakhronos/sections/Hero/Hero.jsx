@@ -21,7 +21,7 @@ const Hero = () => {
           <p className="anakhronos__hero__desc">
       Experience a vibrant celebration of diversity and creativity at our annual cultural fest night!.
           </p>
-          <Link to="/signup">
+          <Link to="/layout">
           <Button
             className="anakhronos__hero__register-btn"
             type="solid"
