@@ -18,13 +18,15 @@ import {
 import "./anakhronos.scss";
 import { navLinks } from "../../data/events/anakhronos";
 import { tmslLogo } from "../../constants/images";
+import Loader from "../ankuran/sections/Loader/Loader";
 
 const Anakhronos = () => {
   return (
     <div className="app">
+      <Loader/>
       <Navbar navLinks={navLinks} logo={tmslLogo} />
       <Hero />
-      {/* <About /> */}
+      <About />
       <Events />
       <Artist/>
       <Gallery />
@@ -32,7 +34,6 @@ const Anakhronos = () => {
       <Team />
       <Sponsors />
       <Footer />
-      {/* <Login/> */}
     </div>
   );
 };

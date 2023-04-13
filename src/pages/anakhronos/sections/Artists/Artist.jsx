@@ -14,7 +14,10 @@ const Artist = () => {
     swiperRef.slideNext();
   };
   return (
-    <div className="app__section artist bgcolour_artist" id="anakhronos-artist">
+    <div
+      className="app__section artist bgcolour_artist"
+      id="anakhronos-artists"
+    >
       <h1 className="app__section-container">Artists</h1>
 
       <div className="swiper">

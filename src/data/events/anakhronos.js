@@ -137,6 +137,7 @@ export const anakhronosCompetetions = [
 export const navLinks = [
   { name: 'Home', link: '/' },
   { name: 'About', link: '#anakhronos-about' },
+  { name: 'Events', link: '#anakhronos-events' },
   { name: 'Artists', link: '#anakhronos-artists' },
   { name: 'Gallery', link: '#anakhronos-gallery' },
   { name: 'Merchandise', link: '#anakhronos-merchandise' },
