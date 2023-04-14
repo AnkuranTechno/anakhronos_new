@@ -16,7 +16,7 @@ const Hero = () => {
           <p className="freshers__hero__desc">
           Join us for a night of fun, music, and memories as we welcome the newest members of our college family at the Techno Main Salt Lake.
           </p>
-          <Link to="/signup">
+          <Link to="/prarambhRegister">
           <Button
             className="freshers__hero__register-btn"
             type="solid"

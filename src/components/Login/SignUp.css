@@ -5,7 +5,14 @@
     height: 100vh;
     overflow: hidden;
   } 
-  
+
+  label {
+    font: 1rem 'Fira Sans', sans-serif;
+  }
+
+  input {
+    margin: 0.4rem;
+}
   .center{
     position: absolute;
     top: 50%;
@@ -18,12 +25,24 @@
   
   .center H1{
     text-align: center;
-    padding: 0 0 20px 0;
+    padding: 20px 0 20px 0;
+    font-size: 25px;
+    border-bottom: 1px solid silver;
+   
+  }
+  .center H3{
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    font-size: 10px;
     border-bottom: 1px solid silver;
    
   }
   
-  
+  .btn
+  {
+    position: relative;
+    margin: 0 auto;
+  }
   .center form{
     padding: 0 40px;
     box-sizing: border-box;
@@ -35,20 +54,30 @@
     margin: 30px 0;
   }
   .google-login {
-    background-color: #ffffff;
-    color: #e01111;
-    border: 2px solid #ccc;
-    border-radius: 5px;
+    background-color: #8A1615;
+    color: #ffffff;
+    border-radius: 10px;
     padding: 10px 20px;
+    margin-top: 10px;
     font-size: 16px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     }
+    .google-icon
+    {
+      top: 2.5px;
+      left: 50px;
+      position: relative;
+    }
     
+   
+    .google-login span
+    {
+      margin-left: 55px;
+    }
     .google-login:hover {
-    background-color: #cccccc;
+    background-color: #5f2020;
     color: #fff;
-    border-color: #2437b9;
     }
   .txt_field input{
     width: 100%;
