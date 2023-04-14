@@ -12,14 +12,14 @@ const MegaEvent = () => {
           <MegaCard
             title="Prarambh"
             date="Coming Soon"
-            desc=" The official freshers welcome event of Techno Main Salt Lake organized by Team Ankuran"
+            desc=" The Freshers Welcome Event of Techno Main Salt Lake organized by Team Ankuran"
             link="freshers"
             img={FreshersMega}
           />
           <MegaCard
             title="Anakhronos"
             date="Coming Soon"
-            desc=" The official cultural fest of Techno Main Salt Lake organized by Team Ankuran"
+            desc=" The Cultural Fest of Techno Main Salt Lake organized by Team Ankuran"
             link="anakhronos"
             img={Anakhronos}
           />

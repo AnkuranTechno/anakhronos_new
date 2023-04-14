@@ -1,7 +1,7 @@
 .login{
     margin:0;
     padding:0;
-    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    background-image: linear-gradient(120deg, #2980b9, #8e44ad);
     height: 100vh;
     overflow: hidden;
   } 
@@ -18,7 +18,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
+    min-width: 400px; 
     background: white;
     border-radius: 10px;
   }
@@ -172,4 +172,25 @@
     text-decoration: underline;
     transition: .5s;
     color: #666666;
+  }
+
+  @media (max-width: 425px)
+  {
+    .center
+    {
+      min-width: 320px;
+    }
+
+    .google-icon
+    {
+      top: 2.5px;
+      left: 20px;
+      position: relative;
+    }
+    
+   
+    .google-login span
+    {
+      margin-left: 25px;
+    }
   }
