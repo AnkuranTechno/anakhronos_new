@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import { collection, addDoc } from 'firebase/firestore';
 import { db } from '../../firebase';
 import toast, { Toaster } from 'react-hot-toast';
-import '../Login/SignUp.css';
+//import '../Login/SignUp.css';
+import './anakhronosEvent.scss'
+import { EventQRcode } from '../../constants/images';
 
 const AnakhronosEventform = () => {
   // const [loc, setloc] = useState("");
@@ -15,6 +17,7 @@ const AnakhronosEventform = () => {
     Event: '',
     College: '',
     Screenshot: '',
+    UPI: '',
   });
 
   const SendData = async (e) => {
@@ -54,10 +57,12 @@ const AnakhronosEventform = () => {
           },
         }}
       />
-      <div className="login">
-        <div className="center">
+      <div className="login-anakhronos">
+        <div className="center-anakhronos">
           <h1>Anakhronos Event Registration</h1>
           <h3>Add payment screenshot at the end</h3>
+          <h3>UPI - 8336877281@ybl</h3>
+          <h3>UPI - 8336877281@axl</h3>
           <form onSubmit={SendData}>
             <div className="txt_field">
               <input
@@ -94,6 +99,9 @@ const AnakhronosEventform = () => {
             </div>
             <div className="txt_field">
               <input
+                type='tel'
+                minLength={10}
+                maxLength={10}
                 required
                 onChange={(e) =>
                   setformdata({ ...formdata, Whatsapp: e.target.value })
@@ -104,7 +112,10 @@ const AnakhronosEventform = () => {
             </div>
             <div className="txt_field">
               <input
+                type='tel'
                 required
+                minLength={10}
+                maxLength={10}
                 onChange={(e) =>
                   setformdata({ ...formdata, Contact: e.target.value })
                 }
@@ -113,15 +124,27 @@ const AnakhronosEventform = () => {
               <label>Contact No.</label>
             </div>
             <div className="txt_field">
-              <input
+              <select required>
+                <option value="">--Please choose an event--</option>
+                <option value="Sur Tarang">Sur Tarang(Rs.100)</option>
+                <option value="Step Up">Step Up(Rs. 100)</option>
+                <option value="Club Feet">Club Feet(Rs. 500)</option>
+                <option value="Panache">Panache (Rs. 50/person)</option>
+                <option value="2mins2fame" disabled>2mins2fame</option>
+                <option value="BandBox" disabled>BandBox</option>
+                <option value="Impression" disabled>Impression</option>
+                <option value="Short Film Making" disabled>Short Film Making</option>
+                <option value="Art and Craft" disabled>Art and Craft</option>
+              </select>
+
+              {/* <input
                 required
                 type="text"
                 onChange={(e) =>
                   setformdata({ ...formdata, Event: e.target.value })
                 }
-              />
-              <span></span>
-              <label>Anakhronos Event</label>
+              /> */}
+              {/* <label>Anakhronos Event</label> */}
             </div>
             <div className="txt_field">
               <input
@@ -134,6 +157,17 @@ const AnakhronosEventform = () => {
               <span></span>
               <label>College Name</label>
             </div>
+            {/* <div className="txt_field">
+              <input
+                required
+                type="text"
+                onChange={(e) =>
+                  setformdata({ ...formdata, UPI: e.target.value })
+                }
+              />
+              <span></span>
+              <label>UPI ID</label>
+            </div> */}
             <div className="txt_field">
               <input
                 required
@@ -142,12 +176,18 @@ const AnakhronosEventform = () => {
                   setformdata({ ...formdata, Screenshot: e.target.value })
                 }
               />
-              <span></span>
-              {/* <label>Add Payment Sreenshot</label> */}
             </div>
-            <button type="submit" className="btn">
-              Submit
-            </button>
+            {/* <img className="txt_field" src={EventQRcode} alt='QR'/> */}
+            <div className='buttons'>
+              <button type="submit" className="btn">
+                Submit
+              </button>
+            
+              <a href={EventQRcode} download>
+                Download QR to Pay
+              </a>
+             
+            </div>
           </form>
         </div>
       </div>
