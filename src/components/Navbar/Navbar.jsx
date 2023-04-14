@@ -43,12 +43,12 @@ const Navbar = ({ navLinks, logo }) => {
         </div>
         {isMobile ? (
           <div className="navbar__actions navbar__actions--mobile-only">
-            <Link to="/login">
+            {/* <Link to="/login">
               <Button type="solid" text="Login" />
             </Link>
             <Link to="/signup">
               <Button type="solid" text="SignUp" />
-            </Link>
+            </Link> */}
 
             {!toggle && (
               <div className="navbar__toggle-btn hamburger">
@@ -93,12 +93,12 @@ const Navbar = ({ navLinks, logo }) => {
                 </li>
               ))}
             </ul>
-            <Link to="/login">
+            {/* <Link to="/login">
               <Button type="solid" text="Login" />
             </Link>
             <Link to="/signup">
               <Button type="solid" text="SignUp" />
-            </Link>
+            </Link> */}
           </div>
         )}
       </div>
