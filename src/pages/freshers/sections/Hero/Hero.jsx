@@ -14,14 +14,11 @@ const Hero = () => {
         <div className="freshers__hero__content">
           <h1 className="freshers__hero__heading">"Prarambh"</h1>
           <p className="freshers__hero__desc">
-          Join us for a night of fun, music, and memories as we welcome the newest members of our college family at the Techno Main Salt Lake.
+            Join us for a night of fun, music, and memories as we welcome the
+            newest members of our college family at the Techno Main Salt Lake.
           </p>
-          <Link to="/prarambhRegister">
-          <Button
-            className="freshers__hero__register-btn"
-            type="solid"
-            text="Register Now"
-          />
+          <Link className="freshers__hero__register-btn" to="/prarambhRegister">
+            <Button type="solid" text="Register Now" />
           </Link>
         </div>
       </div>

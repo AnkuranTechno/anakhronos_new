@@ -57,6 +57,16 @@
 
     font-size: 7rem;
     color: transparent;
+
+    @media screen and (max-width: 1000px) {
+      font-size: 5rem;
+    }
+    @media screen and (max-width: 500px) {
+      font-size: 4.2rem;
+    }
+    @media screen and (max-width: 320px) {
+      font-size: 3.5rem;
+    }
   }
 
   &__desc {
@@ -65,7 +75,7 @@
   }
 
   &__register-btn {
-    margin-top: 35px;
+    margin-top: 10px;
     padding-block: 10px;
   }
 }

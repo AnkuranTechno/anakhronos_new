@@ -19,8 +19,8 @@ const Merchandise=()=>{
 		{/* </div> */}
 			<div class="card">
 				<div class="cover item-b">
-					<h1>Merchandise<br/>2022</h1>
-					<span class="price">Check it now</span>
+					<h1>Merchandise</h1>
+					{/* <span class="price">Check it now</span> */}
 					<div class="card-back">
 						<a href="/login">Enquire</a>
 					</div>

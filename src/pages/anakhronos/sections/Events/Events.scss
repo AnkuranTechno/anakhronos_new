@@ -14,7 +14,7 @@
 }
 
 .event__card {
-  $card-width: min(400px, 99vw);
+  $card-width: min(400px, 96vw);
 
   &-container {
     display: grid;
@@ -26,8 +26,8 @@
 
   width: $card-width;
   max-width: 500px;
-  min-width: min(250px, 99vw);
-  background-color: var(--clr-primary-accent-light);
+  min-width: min(250px, 96vw);
+  background-color: rgba(93, 114, 217, 0.412);
   padding: 15px;
   border-radius: 6px;
   overflow: hidden;
@@ -46,15 +46,16 @@
     object-position: center;
     border-radius: 6px;
     border: 1px solid var(--clr-primary-accent-light);
+    overflow: hidden;
   }
 
   &-title {
     margin: 8px 0 5px 0;
-    font-size: 1.4rem;
+    font-size: 2.2rem;
   }
 
   &-description {
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -63,25 +64,7 @@
 
   &-btn {
     gap: 0.5rem;
-    margin-top: 15px;
+    margin-top: 1rem;
     padding: 4px 10px;
-  }
-}
-.bgcolour {
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(60deg, #267cecc3, #1c22df, #1c22df);
-  background-size: 600% 600%;
-  animation: bganimation 10s infinite linear;
-}
-@keyframes bganimation {
-  0% {
-    background-position: 0% 85%;
-  }
-  50% {
-    background-position: 100% 20%;
-  }
-  100% {
-    background-position: 0% 85%;
   }
 }

@@ -44,8 +44,12 @@ const Navbar = ({ navLinks, logo }) => {
         {isMobile ? (
           <div className="navbar__actions navbar__actions--mobile-only">
             <Link to="/login">
-            <Button type="solid" text="Login" />
+              <Button type="solid" text="Login" />
             </Link>
+            <Link to="/signup">
+              <Button type="solid" text="SignUp" />
+            </Link>
+
             {!toggle && (
               <div className="navbar__toggle-btn hamburger">
                 <FaBars onClick={() => setToggle(!toggle)} />
@@ -64,8 +68,7 @@ const Navbar = ({ navLinks, logo }) => {
                   <li className="navbar__menu-item" key={link.name}>
                     {link.name === 'Home' ? (
                       <Link to={link.link} onClick={() => setToggle(!toggle)}>
-                        {' '}
-                        {link.name}{' '}
+                        {link.name}
                       </Link>
                     ) : (
                       <a href={link.link} onClick={() => setToggle(!toggle)}>

@@ -155,3 +155,4 @@ export { default as FreshersMega } from '../assets/anakhronos/images/PRARAMBH.JP
 export { default as AnkuranQR } from '../assets/anakhronos/ankuranqr.jpg';
 export { default as Merchandise } from '../assets/anakhronos/ProjectMerch.png';
 export { default as Merchandise2 } from '../assets/anakhronos/Merch2Ankuran.jpg';
+export { default as EventQRcode } from '../assets/anakhronos/images/EventQR-code.jpeg';
