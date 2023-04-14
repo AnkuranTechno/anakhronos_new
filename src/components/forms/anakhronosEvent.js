@@ -17,6 +17,8 @@ const AnakhronosEventform = () => {
   const navigate = useNavigate();
 
   const [loading, setLoading] = useState(false);
+  const [isSuccess, setIsSuccess] = useState(false);
+
   const [formdata, setformdata] = useState({
     Name: '',
     Gender: '',
@@ -56,11 +58,13 @@ const AnakhronosEventform = () => {
   const SendData = async (e) => {
     e.preventDefault();
     setLoading(true);
+    setIsSuccess(false);
     toast.loading('Submitting the form...');
     console.log('Sumitting the form...');
 
     if (!validateData()) {
       setLoading(false);
+      setIsSuccess(false);
       return;
     }
 
@@ -76,6 +80,7 @@ const AnakhronosEventform = () => {
     if (querySnapshot.size > 0) {
       toast.error('You have already registered for this event');
       setLoading(false);
+      setIsSuccess(false);
       return;
     }
 
@@ -107,13 +112,16 @@ const AnakhronosEventform = () => {
           case 'storage/unauthorized':
             toast.error('You are not authorized to upload');
             setLoading(false);
+            setIsSuccess(false);
             return;
           case 'storage/canceled':
             toast.error('Upload cancelled');
+            setIsSuccess(false);
             setLoading(false);
             return;
           case 'storage/unknown':
             toast.error('Unknown error occured');
+            setIsSuccess(false);
             setLoading(false);
             return;
         }
@@ -131,6 +139,7 @@ const AnakhronosEventform = () => {
       const docRef = await addDoc(collection(db, 'anakhronosEvents'), formdata);
       console.log('Document written with ID: ', docRef.id);
       toast.success('Event for Anakhronos Registered');
+      setIsSuccess(true);
     } catch (error) {
       console.log('Error adding document: ', error);
     }
@@ -139,9 +148,12 @@ const AnakhronosEventform = () => {
     toast.success('Form submitted successfully');
     console.log('Form submitted successfully');
 
-    setTimeout(() => {
-      navigate('/anakhronos');
-    }, 5000);
+    // Navigate to the home page only if the form is submitted successfully
+    if (isSuccess) {
+      setTimeout(() => {
+        navigate('/anakhronos');
+      }, 5000);
+    }
   };
 
   return (
