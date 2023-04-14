@@ -156,3 +156,5 @@ export { default as AnkuranQR } from '../assets/anakhronos/ankuranqr.jpg';
 export { default as Merchandise } from '../assets/anakhronos/ProjectMerch.png';
 export { default as Merchandise2 } from '../assets/anakhronos/Merch2Ankuran.jpg';
 export { default as EventQRcode } from '../assets/anakhronos/images/EventQR-code.jpeg';
+
+export { default as ArtistryLaneLogo } from '../assets/anakhronos/ArtistryLaneLogo.png';

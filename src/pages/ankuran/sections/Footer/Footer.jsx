@@ -22,13 +22,14 @@ const Footer = () => {
               <h3>Kolkata - 700091, West Bengal.</h3>
               <h3>Phone No. : 033-23575683/84/86</h3>
               <h3>Email : tmsl.team.ankuran@gmail.com</h3>
-            </div>
-            <div className="contact-us-logo">
+              <div className="contact-us-logo">
               <img src={facebookLogo} alt="" />
               <img src={youtubelogo} alt="" />
               <img src={twitterlogo} alt="" />
               <img src={instagramLogo} alt="" />
             </div>
+            </div>
+            
           </div>
           <div className="contact-us">
           <div className="contact-us-detail">

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar } from '../../components';
 import {
+  WebTeam,
   Hero,
   About,
   Events,
@@ -25,6 +26,7 @@ const Freshers = () => {
       <Events />
       <Gallery />
       <Team />
+      <WebTeam/>
       <Sponsors />
       <Footer />
     </div>
