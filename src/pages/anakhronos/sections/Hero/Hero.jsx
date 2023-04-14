@@ -19,14 +19,14 @@ const Hero = () => {
         <div className="anakhronos__hero__content">
           <h1 className="anakhronos__hero__heading">"Anakhronos"</h1>
           <p className="anakhronos__hero__desc">
-      Experience a vibrant celebration of diversity and creativity at our annual cultural fest night!.
+            Experience a vibrant celebration of diversity and creativity at our
+            annual cultural fest night!.
           </p>
-          <Link to="/anakhronosRegister">
-          <Button
+          <Link
             className="anakhronos__hero__register-btn"
-            type="solid"
-            text="Register Now"
-          />
+            to="/anakhronosRegister"
+          >
+            <Button type="solid" text="Register Now" />
           </Link>
         </div>
       </div>
