@@ -10,6 +10,7 @@ import {
   Footer,
   Sponsors,
   Artist,
+  WebTeam,
   Merchandise
 } from "./sections";
 
@@ -32,6 +33,7 @@ const Anakhronos = () => {
       <Gallery />
       <Merchandise/>
       <Team />
+      <WebTeam/>
       <Sponsors />
       <Footer />
     </div>

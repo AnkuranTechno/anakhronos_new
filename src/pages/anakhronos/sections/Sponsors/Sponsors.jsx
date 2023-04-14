@@ -1,6 +1,7 @@
 import React from 'react';
 
 import {
+  ArtistryLaneLogo,
   nestleLogo,
   olaCabLogo,
   timesOfIndiaLogo,
@@ -40,6 +41,7 @@ const Sponsors = () => {
           <div className="slide">
             {/* to add a new image/sponsor you need to add it in all three images chunks. No need to resize the image, it is taken care of in the css. */}
             <img src={nestleLogo} alt="nestle" />
+            <img src={ArtistryLaneLogo} alt="artistrylane"/>
             <img src={olaCabLogo} alt="ola" />
             <img src={timesOfIndiaLogo} alt="times_of_india" />
             <img src={chevroletLogo} alt="chevrolet" />
@@ -64,6 +66,7 @@ const Sponsors = () => {
             <img src={Red_FM} alt="red_fm" />
 
             <img src={nestleLogo} alt="nestle" />
+            <img src={ArtistryLaneLogo} alt="artistrylane"/>
             <img src={olaCabLogo} alt="ola" />
             <img src={timesOfIndiaLogo} alt="times_of_india" />
             <img src={chevroletLogo} alt="chevrolet" />
@@ -88,6 +91,7 @@ const Sponsors = () => {
             <img src={Red_FM} alt="red_fm" />
 
             <img src={nestleLogo} alt="nestle" />
+            <img src={ArtistryLaneLogo} alt="artistrylane"/>
             <img src={olaCabLogo} alt="ola" />
             <img src={timesOfIndiaLogo} alt="times_of_india" />
             <img src={chevroletLogo} alt="chevrolet" />

@@ -144,30 +144,10 @@ export const navLinks = [
 
 export const WebTeamData = [
   {
-    name: 'Sourajit Mukherjee',
-    description: 'Web Development Head',
+    name: 'Abhishek Chakraborty',
+    description: 'Frontend Developer',
     image:
-      'https://user-images.githubusercontent.com/102872077/223775333-f7335900-500c-4d2d-83bc-f834097bace3.png',
-    instagram: '',
-    facebook: '',
-    phone: '',
-    linkedin: '',
-  },
-  {
-    name: 'Abir Gayen',
-    description: 'Web Development Head',
-    image:
-      'https://user-images.githubusercontent.com/102872077/223774934-d639cd0f-321b-4a9a-b5de-3fc1ad43491d.png',
-    instagram: '',
-    facebook: '',
-    phone: '',
-    linkedin: '',
-  },
-  {
-    name: 'Sreetama Hazra',
-    description: 'Backend Developer',
-    image:
-      'https://user-images.githubusercontent.com/102872077/223780995-35f4c59b-0467-4d85-95c9-bb1246ab3dd9.jpg',
+      'https://user-images.githubusercontent.com/73426684/229357783-30cc798d-e1fe-43e5-bfe5-71834a612854.jpeg',
     instagram: '',
     facebook: '',
     phone: '',
@@ -214,15 +194,15 @@ export const WebTeamData = [
     linkedin: '',
   },
   {
-    name: 'Abhishek Chakraborty',
-    description: 'Frontend Developer',
-    image:
-      'https://user-images.githubusercontent.com/73426684/229357783-30cc798d-e1fe-43e5-bfe5-71834a612854.jpeg',
+    name: 'Sreetama Hazra',
+    description: 'Backend Developer',
+    image:'https://user-images.githubusercontent.com/102872077/223780995-35f4c59b-0467-4d85-95c9-bb1246ab3dd9.jpg',
     instagram: '',
     facebook: '',
     phone: '',
     linkedin: '',
   },
+  
 ];
 
 export const MemberData = [
