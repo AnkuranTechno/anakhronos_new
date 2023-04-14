@@ -86,52 +86,48 @@ export const anakhronosCompetetions = [
     image: STEPUP,
     link: '',
   },
-  {
-    name: '2 Mins To Fame',
-    description: 'Show case ur talent in 2 mins',
-
-    image: TWOMINS2FAME,
-
-    link: '',
-  },
+  // {
+  //   name: '2 Mins To Fame',
+  //   description: 'Show case ur talent in 2 mins',
+  //   image: TWOMINS2FAME,
+  //   link: '',
+  // },
   {
     name: 'Club Feet',
     description: 'The group dance',
     image: CLUBFEET,
     link: '',
   },
-  {
-    name: 'Band Box',
-    description: 'The battle of bands',
-
-    image: BANDBOX,
-
-    link: '',
-  },
+  // {
+  //   name: 'Band Box',
+  //   description: 'The battle of bands',
+  //   image: BANDBOX,
+  //   link: '',
+  // },
   {
     name: 'Panache',
     description: 'Fashion show',
     image: PANACHE,
     link: '',
   },
-  {
-    name: 'Impression',
-    description: 'Photography competition',
-    image: IMPRESSION,
-    link: '',
-  },
-  {
-    name: 'Short Film Making Competiton',
-    description: 'Make short films',
-    image: SHORTFILMMAKING,
-    link: '',
-  },
-  {
-    name: 'ART AND CRAFT',
-    description: 'Art and craft competition',
-    image: ARTANDCRAFT,
-    link: '',
-  },
+  // {
+  //   name: 'Impression',
+  //   description: 'Photography competition',
+  //   image: IMPRESSION,
+  //   link: '',
+  // },
+  // {
+  //   name: 'Short Film Making Competiton',
+  //   description: 'Make short films',
+  //   image: SHORTFILMMAKING,
+  //   link: '',
+  // },
+  // {
+  //   name: 'ART AND CRAFT',
+  //   description: 'Art and craft competition',
+  //   image: ARTANDCRAFT,
+  //   link: '',
+  // },
 ];
 
 export const navLinks = [
