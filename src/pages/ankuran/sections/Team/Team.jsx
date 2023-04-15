@@ -12,7 +12,7 @@ function Team() {
   return (
     <div className="app__section team bgcolour_teams" id="team">
       <div className="app__section-container team-container">
-        <h1>Our Team</h1>
+        <h1>Core Committee</h1>
         <div className="container">
           <Swiper
             effect={'coverflow'}

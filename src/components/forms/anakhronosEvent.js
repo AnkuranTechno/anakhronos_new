@@ -18,7 +18,7 @@ const AnakhronosEventform = () => {
 
   const [loading, setLoading] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
-
+  const [numberOfParticipants, setNumberOfParticipants] = useState(false)
   const [formdata, setformdata] = useState({
     Name: '',
     Gender: '',
@@ -26,9 +26,20 @@ const AnakhronosEventform = () => {
     Whatsapp: '',
     Email: '',
     Event: '',
+    Number_of_Participants: '',
     College: '',
     Screenshot: '',
   });
+
+  const handleSelect = (event) =>
+  {
+    console.log('Inside Handle forms');
+    setformdata({ ...formdata, Event: event.target.value })
+    if(event.target.value == 'Club Feet' || event.target.value == 'Panache')
+    setNumberOfParticipants(true);
+    else
+    setNumberOfParticipants(false);
+  }
 
   const validateData = () => {
     // Check if the phone number is valid
@@ -262,9 +273,7 @@ const AnakhronosEventform = () => {
             <div className="txt_field">
               <select
                 required
-                onChange={(e) =>
-                  setformdata({ ...formdata, Event: e.target.value })
-                }
+                onChange={handleSelect}
               >
                 <option value="">--Please choose an event--</option>
                 <option value="Sur Tarang">Sur Tarang(Rs.100)</option>
@@ -297,6 +306,17 @@ const AnakhronosEventform = () => {
               /> */}
               {/* <label>Anakhronos Event</label> */}
             </div>
+            {numberOfParticipants && <div className="txt_field">
+              <input
+                required
+                type="text"
+                onChange={(e) =>
+                  setformdata({ ...formdata, Number_of_Participants: e.target.value })
+                }
+              />
+              <span></span>
+              <label>Number_of_Participants</label>
+            </div>}
             <div className="txt_field">
               <input
                 required
