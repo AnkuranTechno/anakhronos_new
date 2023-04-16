@@ -14,6 +14,7 @@ import { tmslLogo } from '../../constants/images';
 import Megaevent from './sections/Mega Events/MegaEvent';
 import './ankuran.scss';
 import Loader from './sections/Loader/Loader';
+import Timer from '../../components/Timer/Timer';
 
 const Ankuran = () => {
   return (
@@ -22,6 +23,7 @@ const Ankuran = () => {
       <Navbar navLinks={navLinks} logo={tmslLogo} />
       <Hero />
       <College />
+      <Timer/>
       <Megaevent />
       <Management />
       {/* <Team /> */}
