@@ -22,12 +22,17 @@ const Hero = () => {
             Experience a vibrant celebration of diversity and creativity at our
             annual cultural fest night!.
           </p>
-          <Link
+          {/* <Link
             className="anakhronos__hero__register-btn"
             to="/anakhronosRegister"
           >
             <Button type="solid" text="Register Now" />
-          </Link>
+          </Link> */}
+          {<Link to="https://heylink.me/anakhronos2023/" target='_blank'
+            className="anakhronos__hero__register-btn"
+          >
+            <Button type="solid" text="Register Now" />
+          </Link>}
         </div>
       </div>
     </div>

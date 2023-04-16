@@ -142,6 +142,16 @@ export const navLinks = [
   { name: 'Contact Us', link: '#anakhronos-contact' },
 ];
 
+export const navLinksPrarambh = [
+  { name: 'Home', link: '/' },
+  { name: 'About', link: '#anakhronos-about' },
+  { name: 'Events', link: '#anakhronos-events' },
+  { name: 'Gallery', link: '#anakhronos-gallery' },
+  { name: 'Team', link: '#anakhronos-team' },
+  { name: 'Sponsors', link: '#anakhronos-sponsors' },
+  { name: 'Contact Us', link: '#anakhronos-contact' },
+];
+
 export const WebTeamData = [
   {
     name: 'Abhishek Chakraborty',
@@ -319,7 +329,7 @@ export const MemberData = [
   },
   {
     name: "Oishi Panda",
-    description: "Dance Society Head",
+    description: "Music Society Head",
     image: Oishi,
     instagram: "https://instagram.com/oishi__panda?igshid=ZDdkNTZiNTM=",
     facebook: "https://www.facebook.com/oishi.panda.14?mibextid=ZbWKwL",
@@ -328,7 +338,7 @@ export const MemberData = [
   },
   {
     name: "Hrishav Banik",
-    description: "Music Society Head",
+    description: "Dance Society Head",
     image: Hrishav,
     instagram: "https://instagram.com/robert.b.weed?igshid=ZDdkNTZiNTM=",
     facebook:
@@ -420,24 +430,6 @@ export const MemberData = [
       "https://www.linkedin.com/in/bishal-poddar-516b58255?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BHMM%2FFEZlQfu0BbuavghhSg%3D%3D",
   },
   {
-    name: "Sourajit Mukherjee",
-    description: "Web Development Head",
-    image: Sourajit,
-    instagram: "",
-    facebook: "",
-    phone: "",
-    linkedin: "",
-  },
-  {
-    name: "Abir Gayen",
-    description: "Web Development Head",
-    image: Abir,
-    instagram: "",
-    facebook: "",
-    phone: "",
-    linkedin: "",
-  },
-  {
     name: "Arpita Mitra",
     description: "Registration Head",
     image: Arpita,
@@ -454,6 +446,24 @@ export const MemberData = [
     facebook: "https://www.facebook.com/ayushi.ayush172001?mibextid=ZbWKwL",
     phone: "8777093414",
     linkedin: "https://www.linkedin.com/in/ayush-sen-4a1b00185",
+  },
+  {
+    name: "Sourajit Mukherjee",
+    description: "Web Development Head",
+    image: Sourajit,
+    instagram: "",
+    facebook: "",
+    phone: "",
+    linkedin: "",
+  },
+  {
+    name: "Abir Gayen",
+    description: "Web Development Head",
+    image: Abir,
+    instagram: "",
+    facebook: "",
+    phone: "",
+    linkedin: "",
   },
 ];
 

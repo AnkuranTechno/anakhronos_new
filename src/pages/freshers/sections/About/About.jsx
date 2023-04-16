@@ -20,7 +20,7 @@ const About = () => {
         </div>
         <div className="about_3">
           <h2>When</h2>
-          <p>23rd, 24th of April</p>
+          <p>23rd of April</p>
         </div>
       </div>
     </div>
