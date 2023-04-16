@@ -23,10 +23,10 @@ const Footer = () => {
               <h3>Phone No. : 033-23575683/84/86</h3>
               <h3>Email : tmsl.team.ankuran@gmail.com</h3>
               <div className="contact-us-logo">
-              <img src={facebookLogo} alt="" />
+              <a href="https://www.facebook.com/Anakhronos?mibextid=ZbWKwL" target='_blank' rel='noreferrer'><img src={facebookLogo} alt=""/></a>
               <img src={youtubelogo} alt="" />
               <img src={twitterlogo} alt="" />
-              <img src={instagramLogo} alt="" />
+              <a href="https://instagram.com/anakhronos_tmsl?igshid=YmMyMTA2M2Y=" target='_blank' rel='noreferrer'><img src={instagramLogo} alt="" /></a>
             </div>
             </div>
             
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
           <div className="contact-us">
           <div className="contact-us-detail">
-              <h2>Scan Here to pay</h2>
+              <h2>Scan Here to pay(Only for Donations)</h2>
               <img className='Qr_footer' src={AnkuranQR} alt="" />
             </div>
           </div>
