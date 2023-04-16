@@ -31,6 +31,9 @@
     p{
         font-size: 4.5rem;
         text-align: center;
+        font-weight: 700;
+         
+
     }
     span{
         font-size: 4.5rem;
@@ -39,9 +42,11 @@
 @media all and (max-width: 768px)
 {
     .timerSec{
+        
         padding:3rem 0;
     }
     .timerItem{
+        
         h2{
             font-size: 4rem;
             margin-bottom: 15px;
@@ -72,17 +77,25 @@
     }
     
     .timerItems{
+        flex-direction: column;
         gap: .2rem;
         border: 2px solid white;
+        // border: none;
         padding: 1.3rem;
         color:#fff;
        
         p{
-            font-size: 2.2rem;
+            font-size: 3.2rem;
             text-align: center;
+            font-weight: 600;
+            
         }
         span{       
-            font-size: 2.2rem;
+          display: none;
         }
+    }
+    .timerCount{
+        margin-bottom: 1rem;
+        border: 3px solid white;
     }
 }

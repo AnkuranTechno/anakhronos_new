@@ -52,28 +52,28 @@ const Timer = () => {
             <p></p>
           </div>
           <div className="timerItems ">
-            <section>
+            <section className="timerCount">
               <p >
                 {timerDays}
               </p>
               <p >Days</p>
-            </section>
+            </section >
             <span >:</span>
-            <section>
+            <section className="timerCount">
               <p >
                 {timerHours}
               </p>
               <p >Hours</p>
             </section>
             <span >:</span>
-            <section>
+            <section className="timerCount">
               <p >
                 {timerMinutes}
               </p>
               <p >Minutes</p>
             </section>
             <span >:</span>
-            <section>
+            <section className="timerCount ">
               <p >
                 {timerSeconds}
               </p>
