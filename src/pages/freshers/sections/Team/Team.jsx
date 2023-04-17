@@ -12,7 +12,7 @@ function Team() {
   return (
     <div className="app__section team bgcolour_teams" id="freshers-team">
       <div className="app__section-container team-container">
-        <h1>Our Team</h1>
+        <h1>Core Committee</h1>
         <div className="container">
           <Swiper
             effect={'coverflow'}
@@ -41,18 +41,18 @@ function Team() {
                 <div className="info">
                   <h2 key={index}>{e.name}</h2>
                   <h3 key={index}>{e.description}</h3>
-                  <a href="/">
+                  {e.instagram !== '' && <a href={e.instagram} target='_blank' rel="noreferrer">
                     <i class="fa-brands fa-instagram "></i>
-                  </a>
-                  <a href="/">
+                  </a>}
+                  {e.linkedin !== '' && <a href={e.linkedin} target='_blank' rel="noreferrer">
                     <i class="fa-brands fa-linkedin-in"></i>
-                  </a>
-                  <a href="/">
+                  </a>}
+                  {e.facebook !== '' && <a href={e.facebook} target='_blank' rel="noreferrer">
                     <i class="fa-brands fa-facebook"></i>
-                  </a>
-                  <a href="/">
+                  </a>}
+                  {e.phone !== '' && <a href={`tel:${e.phone}`}>
                     <i class="fa-solid fa-phone"></i>
-                  </a>
+                  </a>}
                 </div>
               </SwiperSlide>
             ))}
