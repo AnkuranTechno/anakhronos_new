@@ -158,3 +158,5 @@ export { default as Merchandise2 } from '../assets/anakhronos/Merch2Ankuran.jpg'
 export { default as EventQRcode } from '../assets/anakhronos/images/EventQR-code.jpeg';
 
 export { default as ArtistryLaneLogo } from '../assets/anakhronos/ArtistryLaneLogo.png';
+export { default as Ankushdp } from '../assets/anakhronos/Ankushwbdp.jpg';
+export { default as Asifdp } from '../assets/anakhronos/Asifwpdp.jpg';
