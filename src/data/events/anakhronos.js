@@ -153,6 +153,16 @@ export const navLinksPrarambh = [
   { name: 'Sponsors', link: '#anakhronos-sponsors' },
   { name: 'Contact Us', link: '#anakhronos-contact' },
 ];
+export const navLinksAnakhronos = [
+  { name: 'Home', link: '/' },
+  { name: 'About', link: '#anakhronos-about' },
+  { name: 'Events', link: '#anakhronos-events' },
+  { name: 'Artists', link: '#anakhronos-artists' },
+  { name: 'Merchandise', link: '#anakhronos-merchandise' },
+  { name: 'Gallery', link: '#anakhronos-gallery' },
+  { name: 'Team', link: '#anakhronos-team' },
+  { name: 'Sponsors', link: '#anakhronos-sponsors' },
+];
 
 export const WebTeamData = [
   {
