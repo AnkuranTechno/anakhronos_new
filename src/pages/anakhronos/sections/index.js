@@ -9,4 +9,5 @@ export { default as WebTeam } from "../../ankuran/sections/Team/Team";
 export { default as Merchandise } from "./Merchandise/Merchandise";
 export { default as Artist } from "./Artists/Artist";
 export {default as Login } from "../../../components/Login/Login"
+export {default as GuestArtist} from "./GuestArtist/GuestArtist"
 // export {default as SignUp } from "../../../components/Login/signUp"

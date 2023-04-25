@@ -19,11 +19,10 @@ import Timer from '../../components/Timer/Timer';
 const Ankuran = () => {
   return (
     <div className="app">
-      {/* <Loader/> */}
+      <Loader/>
       <Navbar navLinks={navLinks} logo={tmslLogo} />
       <Hero />
       <College />
-      <Timer/>
       <Megaevent />
       <Management />
       {/* <Team /> */}
