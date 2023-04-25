@@ -16,7 +16,7 @@ const About = () => {
         </div>
         <div className="about_2">
           <h2>Where</h2>
-          <p>College Grounds</p>
+          <p>Newtown Mela Ground</p>
         </div>
         <div className="about_3">
           <h2>When</h2>

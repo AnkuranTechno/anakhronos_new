@@ -18,7 +18,7 @@ const GuestArtist = () => {
            and this year is no different. On the final day, we have a spectacular live performance by the one and only Monali Thakur.
            She needs no introduction, and we are thrilled to have her grace on our stage.
           </p>
-          <h2>"TMSl to host its biggest cultural fest of the year"</h2>
+          <h2>"TMSL to host its biggest cultural fest of the year"</h2>
           <h3 className="telegraph">-TELEGRAPH</h3>
           <Link to="https://www.telegraphindia.com/edugraph/campus/anakhronos-2k23-tmsl-to-hold-its-biggest-cultural-fest-of-the-year/cid/1932220"><Button type="solid" text="Explore" /></Link>
         </div>
