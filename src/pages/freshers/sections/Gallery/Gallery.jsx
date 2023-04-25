@@ -11,7 +11,6 @@ import {
   freImg3,
   freImg4,
   freImg5,
-  freImg6,
   freImg7,
   freImg8,
   freImg9,
@@ -42,10 +41,7 @@ const data = [
     img: freImg5,
     id: 5,
   },
-  // {
-  //   img: freImg6,
-  //   id: 6,
-  // },
+ 
   {
     img: freImg7,
     id: 7,

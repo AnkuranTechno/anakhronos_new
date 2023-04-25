@@ -1,0 +1,101 @@
+.timerContainer{
+    background: url('../../assets/anakhronos/ANAKHRONOS_MEGA_EVENT.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.timerSec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0,0,0,0.7);
+    padding:5rem 0;
+    color: #fff;
+}
+.timerItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        font-size: 6rem;
+        text-transform: uppercase;
+    }
+}
+
+.timerItems{
+    display: flex;
+    gap: 1.4rem;
+    border: 4px solid white;
+    padding: 2rem;
+    color:#fff;
+   
+    p{
+        font-size: 4.5rem;
+        text-align: center;
+        font-weight: 700;
+         
+
+    }
+    span{
+        font-size: 4.5rem;
+    }
+}
+@media all and (max-width: 768px)
+{
+    .timerSec{
+        
+        padding:3rem 0;
+    }
+    .timerItem{
+        
+        h2{
+            font-size: 4rem;
+            margin-bottom: 15px;
+        }
+    }
+    
+    .timerItems{
+        gap: 1rem;
+        border: 3px solid white;
+        padding: 2rem;
+        color:#fff;
+       
+        p{
+            font-size: 3rem;
+            text-align: center;
+        }
+        span{
+            font-size: 3rem;
+        }
+    }
+}
+@media all and (max-width: 550px)
+{
+    .timerItem{
+        h2{
+            font-size: 3rem;
+        }
+    }
+    
+    .timerItems{
+        flex-direction: column;
+        gap: .2rem;
+        border: 2px solid white;
+        // border: none;
+        padding: 1.3rem;
+        color:#fff;
+       
+        p{
+            font-size: 3.2rem;
+            text-align: center;
+            font-weight: 600;
+            
+        }
+        span{       
+          display: none;
+        }
+    }
+    .timerCount{
+        margin-bottom: 1rem;
+        border: 3px solid white;
+    }
+}
