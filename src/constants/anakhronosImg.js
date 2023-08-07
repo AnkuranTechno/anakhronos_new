@@ -30,4 +30,3 @@ export { default as anakhImg29 } from '../assets/anakhronos/images/gallery/anakh
 export { default as arrow } from '../assets/anakhronos/images/gallery/anakhronos/arrow.png';
 export { default as anakhronosMegaEvent } from '../assets/anakhronos/ANAKHRONOS_MEGA_EVENT.png';
 export { default as prarambhMegaEvent } from '../assets/anakhronos/PRARAMBH_MEGA_EVENT.JPG';
-export { default as guestArtist } from '../assets/anakhronos/Monali Thakur.jpg';

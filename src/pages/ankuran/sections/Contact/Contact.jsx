@@ -35,10 +35,10 @@ export default function Contact() {
                 <a href="mailto:official@anakhronos.in"> official@anakhronos.in</a>
                 <br />
                 <label className="font13">Please feel free to contact us at:</label>
-                {/* <label className="font13"> +91 79805 64381 / +91 73668 11346</label> */}
-                <a href="tel:+917980564381"> +917980564381</a> 
+               
+                <a href="#"> +91XXXXXXXXXX</a> 
                 <label className="font13"> / </label>
-                <a href="tel:+917366811346"> +917366811346</a> 
+                <a href="#"> +91XXXXXXXXXX</a> 
 
                 {/* <input
                   type="text"

@@ -16,11 +16,11 @@ const About = () => {
         </div>
         <div className="about_2">
           <h2>Where</h2>
-          <p>Newtown Mela Ground</p>
+          <p>To Be Notified.</p>
         </div>
         <div className="about_3">
           <h2>When</h2>
-          <p>24th, 26th of April</p>
+          <p>Coming Soon...</p>
         </div>
       </div>
     </div>

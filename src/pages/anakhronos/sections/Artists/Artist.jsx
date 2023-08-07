@@ -50,7 +50,7 @@ const Artist = () => {
               );
             })}
           </div>
-          <div className="swiper__arrowArtist" onClick={nextHandler}>
+          <div className="swiper__arrow" onClick={nextHandler}>
             <img src={arrow} alt="next" />
           </div>
         </Swiper>

@@ -11,14 +11,14 @@ const MegaEvent = () => {
         <div className="mega-events-cards-container">
           <MegaCard
             title="Prarambh"
-            date="23rd of April"
+            date="Coming Soon..."
             desc=" The Freshers Welcome Event of Techno Main Salt Lake organized by Team Ankuran"
             link="freshers"
             img={FreshersMega}
           />
           <MegaCard
             title="Anakhronos"
-            date="24th, 26th of April"
+            date="Coming Soon..."
             desc=" The Annual Cultural Fest of Techno Main Salt Lake organized by Team Ankuran"
             link="anakhronos"
             img={Anakhronos}

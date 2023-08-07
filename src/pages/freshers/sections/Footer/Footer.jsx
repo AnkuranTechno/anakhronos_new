@@ -20,7 +20,7 @@ const Footer = () => {
               <h1>Team Ankuran</h1>
               <h3>Techno Main Salt Lake</h3>
               <h3>Kolkata - 700091, West Bengal.</h3>
-              <h3>Phone No. : 033-23575683/84/86</h3>
+              <h3>Phone No. : XXXXXXXXXX</h3>
               <h3>Email : tmsl.team.ankuran@gmail.com</h3>
               <div className="contact-us-logo">
               <a href="https://www.facebook.com/Anakhronos?mibextid=ZbWKwL" target='_blank' rel='noreferrer'><img src={facebookLogo} alt=""/></a>
