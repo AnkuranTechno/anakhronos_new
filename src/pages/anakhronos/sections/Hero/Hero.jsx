@@ -9,10 +9,10 @@ const Hero = () => {
     <div className="anakhronos__hero" id="hero">
       <div className="anakhronos__hero__container">
         <div className="anakhronos__hero__img-container">
-          <img className="anakhronos__hero__img yo" src={logo} alt="yo" />
+          <img className="anakhronos__hero__img yo" src='https://github.com/AnkuranTechno/anakhronos_new/assets/102872077/22be0dd0-0878-43d0-bf7a-fb57d11c300e' alt="yo" />
           <img
             className="anakhronos__hero__img"
-            src={anakhronosLogoText}
+            src='https://github.com/AnkuranTechno/anakhronos_new/assets/102872077/4048d0e7-581b-471f-a29b-ad4cda89dcbe'
             alt="anakhronos"
           />
         </div>

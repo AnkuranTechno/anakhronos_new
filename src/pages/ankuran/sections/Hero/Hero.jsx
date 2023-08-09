@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="hero__container">
         <div className="hero__left">
           <div className="hero__img-container">
-            <img className="hero__img" src={ankuranLogo} alt="yo" />
+            <img className="hero__img" src='https://github.com/AnkuranTechno/anakhronos_new/assets/102872077/cf061cc2-49d3-4468-87b2-6aa564c642a0' alt="yo" />
           </div>
         </div>
         {/* <video className="hero__video" autoPlay muted loop>

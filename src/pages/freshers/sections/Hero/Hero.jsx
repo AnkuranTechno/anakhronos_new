@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '../../../../components';
-import { Prarambh } from '../../../../constants/images';
+// import { Prarambh } from '../../../../constants/images';
 import './Hero.scss';
 import { Link } from 'react-router-dom';
 
@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="freshers__hero" id="hero">
       <div className="freshers__hero__container">
         <div className="freshers__hero__img-container">
-          <img className="freshers__hero__img" src={Prarambh} alt="Prarambh" />
+          <img className="freshers__hero__img" src='https://github.com/AnkuranTechno/anakhronos_new/assets/102872077/b223f913-f280-45bf-aa4f-6faa4ec8cf2a' alt="Prarambh" />
         </div>
         <div className="freshers__hero__content">
           <h1 className="freshers__hero__heading">"Prarambh"</h1>

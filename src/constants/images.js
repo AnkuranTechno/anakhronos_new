@@ -1,6 +1,6 @@
 export { default as logo } from '../assets/anakhronos/images/yo.png';
 export { default as tmslLogo } from '../assets/anakhronos/images/tmsl-logo.png';
-export { default as eventImg } from '../assets/anakhronos/images/ana/img-3.jpg';
+//export { default as eventImg } from '../assets/anakhronos/images/ana/img-3.jpg';
 export { default as eventImgBg } from '../assets/anakhronos/images/events_bg.jpg';
 export { default as Prarambh } from '../assets/anakhronos/images/Prarambh.png';
 export { default as anakhronosLogoText } from '../assets/anakhronos/Anakhronos 2023 Logo.png';
@@ -65,9 +65,9 @@ export { default as Stadel_logo } from '../assets/anakhronos/images/Stadel.png';
 export { default as T2 } from '../assets/anakhronos/images/T2.png';
 export { default as Nexa } from '../assets/anakhronos/images/Nexa.png';
 export { default as Red_FM } from '../assets/anakhronos/images/RED_FM_logo.png';
-export { default as Aniket } from '../assets/anakhronos/images/aniket.png';
-export { default as Keshav } from '../assets/anakhronos/images/keshav.png';
-export { default as Yesh } from '../assets/anakhronos/images/yesh.png';
+//export { default as Aniket } from '../assets/anakhronos/images/aniket.png';
+// export { default as Keshav } from '../assets/anakhronos/images/keshav.png';
+/* export { default as Yesh } from '../assets/anakhronos/images/yesh.png';
 export { default as Evan } from '../assets/anakhronos/images/evan.png';
 export { default as Chandan } from '../assets/anakhronos/images/chandan.png';
 export { default as Rudrajit } from '../assets/anakhronos/images/rudra.png';
@@ -91,7 +91,7 @@ export { default as Bishal } from '../assets/anakhronos/images/bishal.png';
 export { default as Sourajit } from '../assets/anakhronos/images/soura.png';
 export { default as Abir } from '../assets/anakhronos/images/abir1.png';
 export { default as Arpita } from '../assets/anakhronos/images/arpita.png';
-export { default as Asen } from '../assets/anakhronos/images/asen.png';
+export { default as Asen } from '../assets/anakhronos/images/asen.png'; */
 
 export { default as Maam } from '../assets/anakhronos/images/maam.jpeg';
 export { default as Meghdut } from '../assets/anakhronos/images/Meghdut.jpeg';
