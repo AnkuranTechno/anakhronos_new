@@ -1,12 +1,12 @@
 import {
   SURTARANG,
   STEPUP,
-  TWOMINS2FAME,
+  // TWOMINS2FAME,
   CLUBFEET,
-  BANDBOX,
+  // BANDBOX,
   PANACHE,
-  IMPRESSION,
-  SHORTFILMMAKING,
+  // IMPRESSION,
+  // SHORTFILMMAKING,
   ARTANDCRAFT,
 } from '../../constants/images';
 import{
@@ -97,12 +97,12 @@ export const anakhronosCompetetions = [
   //   image: SHORTFILMMAKING,
   //   link: '',
   // },
-  // {
-  //   name: 'ART AND CRAFT',
-  //   description: 'Art and craft competition',
-  //   image: ARTANDCRAFT,
-  //   link: '',
-  // },
+  {
+    name: 'ART AND CRAFT',
+    description: 'Art and craft competition',
+    image: ARTANDCRAFT,
+    link: '',
+  },
 ];
 
 export const navLinks = [
@@ -187,7 +187,7 @@ export const WebTeamData = [
     linkedin: 'https://www.linkedin.com/in/ankush-banerjee-05b0b421a',
   },
   {
-    name: 'Sreetama Hazra',
+    name: 'Sreetama Ghosh Hazra',
     description: 'Web Dev Head',
     image:'https://user-images.githubusercontent.com/102872077/223780995-35f4c59b-0467-4d85-95c9-bb1246ab3dd9.jpg',
     instagram: '',

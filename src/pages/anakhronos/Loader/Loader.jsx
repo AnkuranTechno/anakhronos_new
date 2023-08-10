@@ -5,7 +5,7 @@ function Loader() {
     useEffect(() => {
         setTimeout(() => {
             document.querySelector('.loader').style.display = 'none'
-        }, 4000)
+        }, 5000)
     })
   return (
    <div className='loader'>

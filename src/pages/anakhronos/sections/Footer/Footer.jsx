@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
           <div className="contact-us">
           <div className="contact-us-detail">
-              <h2>Scan Here to pay(Only for Donations)</h2>
+              <h2>Support Us (Scan Here to pay)</h2>
               <img className='Qr_footer' src={AnkuranQR} alt="" />
             </div>
           </div>

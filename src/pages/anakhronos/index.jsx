@@ -20,6 +20,7 @@ import "./anakhronos.scss";
 import { navLinksAnakhronos } from "../../data/events/anakhronos";
 import { tmslLogo } from "../../constants/images";
 import Loader from "../ankuran/sections/Loader/Loader";
+import GuestArtist from "./sections/GuestArtist/GuestArtist";
 const Anakhronos = () => {
   return (
     <div className="app">
@@ -27,6 +28,7 @@ const Anakhronos = () => {
       <Navbar navLinks={navLinksAnakhronos} logo={tmslLogo} />
       <Hero />
       <About />
+      <GuestArtist/>
       <Events />
       <Artist/>
       <Gallery />

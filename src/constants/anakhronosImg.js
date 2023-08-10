@@ -28,5 +28,6 @@ export { default as anakhImg27 } from '../assets/anakhronos/images/gallery/anakh
 export { default as anakhImg28 } from '../assets/anakhronos/images/gallery/anakhronos/gallery_fresher4.JPG';
 export { default as anakhImg29 } from '../assets/anakhronos/images/gallery/anakhronos/SLIDERA9.JPG';
 export { default as arrow } from '../assets/anakhronos/images/gallery/anakhronos/arrow.png';
+export { default as guestArtist} from '../assets/anakhronos/Monali Thakur.jpg';
 export { default as anakhronosMegaEvent } from '../assets/anakhronos/ANAKHRONOS_MEGA_EVENT.png';
 export { default as prarambhMegaEvent } from '../assets/anakhronos/PRARAMBH_MEGA_EVENT.JPG';

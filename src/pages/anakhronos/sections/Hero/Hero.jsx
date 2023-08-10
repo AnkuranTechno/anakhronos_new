@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '../../../../components';
-import { logo, anakhronosLogoText } from '../../../../constants/images';
+// import { logo, anakhronosLogoText } from '../../../../constants/images';
 import './Hero.scss';
 import { Link } from 'react-router-dom';
 

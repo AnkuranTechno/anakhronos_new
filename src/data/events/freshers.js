@@ -1,6 +1,6 @@
 import {
   DANCETECHNODANCE,
-  FRESHERART,
+  // FRESHERART
   FRESHERPHOTOGRAPHY,
   TECHNOIDOL,
   MRMISSFRESHER,
@@ -32,14 +32,14 @@ export const freshersCompetitions = [
     image: FRESHERPHOTOGRAPHY,
     link: '/login',
   },
-  { 
-    name: 'Art & Craft',
-    description: 'Creativity in motion',
+  // { 
+  //   name: 'Art & Craft',
+  //   description: 'Creativity in motion',
 
-    image: FRESHERART,
+  //   image: FRESHERART,
 
-    link: '/login',
-  },
+  //   link: '/login',
+  // },
 ];
 
 export const navLinks = [
