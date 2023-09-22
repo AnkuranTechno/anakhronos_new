@@ -392,7 +392,7 @@ export const MemberData = [
   {
     name: "Anurag Maitra",
     description: "Off Stage Events Head",
-    image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/102872077/a9c035a9-3b51-4728-845c-73950b685810',
+    image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/73426684/d4d9bdfc-d996-4e4a-9c9b-da3e435025e7',
     instagram: "",
     facebook: "",
     phone: "",
