@@ -253,24 +253,6 @@ export const MemberData = [
     phone: "",
     linkedin: "",
   },
-  /* {
-    name: "Evan Bose",
-    description: "Promotion Head",
-    image: Evan,
-    instagram: "https://instagram.com/i_m__e_v_a_n?igshid=ZDdkNTZiNTM=",
-    facebook: "https://www.facebook.com/evan.bose.3?mibextid=ZbWKwL",
-    phone: "",
-    linkedin: "",
-  }, */
- /*  {
-    name: "Chandan Kumar",
-    description: "Promotion Head",
-    image: Chandan,
-    instagram: "",
-    facebook: "",
-    phone: "",
-    linkedin: "",
-  }, */
   {
     name: "Akash Mondal",
     description: "Sponsorship Head",
@@ -280,24 +262,6 @@ export const MemberData = [
     phone: "",
     linkedin: "",
   },
-  /* {
-    name: "Sahel Majumder",
-    description: "Management Head",
-    image: Sahel,
-    instagram: "",
-    facebook: "",
-    phone: "",
-    linkedin: "",
-  }, */
-  /* {
-    name: "Somya Shekhar",
-    description: "Audition Head",
-    image: Somya,
-    instagram: "",
-    facebook: "",
-    phone: "",
-    linkedin: "",
-  }, */
   {
     name: "Swarnali Datta",
     description: "Audition Head",
@@ -345,6 +309,11 @@ export const MemberData = [
     phone: "9330261884",
     linkedin: "https://www.linkedin.com/in/oishi-panda-753438197",
   }, */
+  // --------------- to be added --------------------------------------------------------------------------------------
+//   ![007](https://github.com/AnkuranTechno/anakhronos_new/assets/73426684/ff9058db-ebf7-490c-a226-ff3ebaf32881) -- jeet 
+// ![mt6](https://github.com/AnkuranTechno/anakhronos_new/assets/73426684/e5f2a559-a4cf-4120-8851-f3dcd1a22ba8) -- sagnik 
+// ![mt9](https://github.com/AnkuranTechno/anakhronos_new/assets/73426684/dd96b20c-1364-4f5c-8453-b505b955156e) -- sayan
+// --------------------------------------------------------------------------------------------------------------------
   {
     name: "Indrakshi Dutta",
     description: "Dance Society Head",
