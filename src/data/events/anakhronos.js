@@ -229,7 +229,7 @@ export const MemberData = [
   {
     name: "Akash Das",
     description: "Convenor",
-    image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/102872077/beffe74d-b2a0-48af-b4c0-fed620313582',
+    image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/73426684/6909c81a-db34-4c2a-bec2-057d5c1adbcb',
     instagram: "https://instagram.com/_somya_shekhar?igshid=ZDdkNTZiNTM=",
     facebook: "https://www.facebook.com/rudrajit.sengupta?mibextid=LQQJ4d",
     phone: "",
@@ -238,7 +238,7 @@ export const MemberData = [
   {
     name: "Harsh Kumar",
     description: "Convenor",
-    image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/102872077/37123d6c-70d8-4fe9-8096-d0917990a71b',
+    image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/73426684/4f4003df-d8b3-49d0-80a3-e88d6a62565e',
     instagram: "",
     facebook: "",
     phone: "",
@@ -247,19 +247,9 @@ export const MemberData = [
   {
     name: "Bishakha Biswas",
     description: "Co-Convenor",
-    image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/102872077/3ede8b9b-8025-43b3-904d-dfa9d1978ef9',
+    image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/73426684/e6286750-a2f8-40f9-9671-677bb86aff0a',
     instagram: "",
     facebook: "",
-    phone: "",
-    linkedin: "",
-  },
-  {
-    name: "Aniket das",
-    description: "Co-Convenor",
-    image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/102872077/ec2ee084-1b55-48d0-889d-dc5a44729975',
-    instagram: "",
-    facebook:
-      "",
     phone: "",
     linkedin: "",
   },
@@ -284,7 +274,7 @@ export const MemberData = [
   {
     name: "Akash Mondal",
     description: "Sponsorship Head",
-    image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/102872077/61e0e9c3-aa55-40c7-9ec1-b9d605dfbfeb',
+    image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/73426684/101ecc85-92a6-4e04-9f66-0c55c7785ce9',
     instagram: "",
     facebook: "",
     phone: "",
@@ -358,22 +348,13 @@ export const MemberData = [
   {
     name: "Indrakshi Dutta",
     description: "Dance Society Head",
-    image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/102872077/21f7d3cd-5b67-4aad-acf0-3290d7730cfd',
+    image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/73426684/e0027bca-6abe-4cb8-bad5-328e826c6f84',
     instagram: "",
     facebook:
       "",
     phone: "",
     linkedin: "",
   },
-  /* {
-    name: "Iman Majumdar",
-    description: "Dance Society Head",
-    image: Iman,
-    instagram: "https://instagram.com/flame.shine_iman?igshid=ZDdkNTZiNTM=",
-    facebook: "https://www.facebook.com/iman.majumdar.92?mibextid=ZbWKwL",
-    phone: "6290362385",
-    linkedin: "",
-  }, */
   {
     name: "Priyadarshan Roy",
     description: "Media Head",
@@ -383,33 +364,6 @@ export const MemberData = [
     phone: "",
     linkedin: "",
   },
- /*  {
-    name: "Pratyush Biswakarma",
-    description: "Media Head",
-    image: Pratyush,
-    instagram: "",
-    facebook: "",
-    phone: "",
-    linkedin: "",
-  }, */
-  // {
-  //   name: "Shatavisha Banerjee",
-  //   description: "Digital Design Head",
-  //   image: Shatavisha,
-  //   instagram: "",
-  //   facebook: "",
-  //   phone: "",
-  //   linkedin: "",
-  // },
-  /* {
-    name: "Ayush Dutta",
-    description: "Photo/Videography Head",
-    image: ADutta,
-    instagram: "https://instagram.com/saltyadi_?igshid=ODM2MWFjZDg=",
-    facebook: "",
-    phone: "9334475353",
-    linkedin: "",
-  }, */
   {
     name: "Nancy Kashyap",
     description: "Editorial Head",
@@ -420,34 +374,6 @@ export const MemberData = [
     phone: "",
     linkedin: "",
   },
- /*  {
-    name: "Agnish Ghosh",
-    description: "Mr & Ms Freshers Head",
-    image: Agnish,
-    instagram: "https://instagram.com/hoppers_never_lies?igshid=MTIzZWQxMDU=",
-    facebook: "https://www.facebook.com/agnishshor.ghosh?mibextid=ZbWKwL",
-    phone: "9064097352",
-    linkedin: "",
-  }, */
- /*  {
-    name: "Nabanita Saha",
-    description: "Panache Head",
-    image: Nabanita,
-    instagram: "https://instagram.com/nabanitasaha_?igshid=ZDdkNTZiNTM=",
-    facebook: "https://www.facebook.com/nabanita.saha.142892?mibextid=ZbWKwL",
-    phone: "8697353657",
-    linkedin: "https://www.linkedin.com/in/nabanita-saha-74709a201",
-  }, */
-  /* {
-    name: "Bishal Poddar",
-    description: "Panache Head",
-    image: Bishal,
-    instagram: "https://instagram.com/____vi_sh_al______?igshid=YmMyMTA2M2Y=",
-    facebook: "",
-    phone: "8910739810",
-    linkedin:
-      "https://www.linkedin.com/in/bishal-poddar-516b58255?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BHMM%2FFEZlQfu0BbuavghhSg%3D%3D",
-  }, */
   {
     name: "Samata Mondal",
     description: "Registration Head",
@@ -457,37 +383,10 @@ export const MemberData = [
     phone: "",
     linkedin: "",
   },
- /*  {
-    name: "Ayush Sen",
-    description: "Registration Head",
-    image: Asen,
-    instagram: "https://instagram.com/i.u_shhh?igshid=YmMyMTA2M2Y=",
-    facebook: "https://www.facebook.com/ayushi.ayush172001?mibextid=ZbWKwL",
-    phone: "8777093414",
-    linkedin: "https://www.linkedin.com/in/ayush-sen-4a1b00185",
-  }, */
   {
     name: "Sreetama Ghosh Hazra",
     description: "Web Development Head",
-    image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/102872077/1865cfa8-f4f6-4791-a0f4-6903ac33e5b0',
-    instagram: "",
-    facebook: "",
-    phone: "",
-    linkedin: "",
-  },
-  /* {
-    name: "Abir Gayen",
-    description: "Web Development Head",
-    image: Abir,
-    instagram: "https://instagram.com/the__electroguy?igshid=ZDdkNTZiNTM=",
-    facebook: "https://www.facebook.com/abir.gayen.737?mibextid=ZbWKwL",
-    phone: "8450022093",
-    linkedin: "",
-  }, */
-  {
-    name: "Atul Aditya",
-    description: "Subscription Head",
-    image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/102872077/5e31b9b1-6238-4f39-8254-e46efdaacb69',
+    image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/73426684/47ddfc23-0c5a-490f-a04b-febeb74fe9bb',
     instagram: "",
     facebook: "",
     phone: "",
@@ -511,6 +410,7 @@ export const MemberData = [
     phone: "",
     linkedin: "",
   },
+
   {
     name: "Bitanu Dey",
     description: "Food and Stationary Head",
@@ -526,6 +426,25 @@ export const MemberData = [
     image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/102872077/a9c035a9-3b51-4728-845c-73950b685810',
     instagram: "",
     facebook: "",
+    phone: "",
+    linkedin: "",
+  },
+  {
+    name: "Atul Aditya",
+    description: "Subscription Head",
+    image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/73426684/5a18f806-9a4e-4e60-917f-18612c381981',
+    instagram: "",
+    facebook: "",
+    phone: "",
+    linkedin: "",
+  },
+  {
+    name: "Aniket das",
+    description: "Co-Convenor",
+    image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/73426684/f414c834-aa87-436e-abf4-c1d8ed8483bf',
+    instagram: "",
+    facebook:
+      "",
     phone: "",
     linkedin: "",
   },
