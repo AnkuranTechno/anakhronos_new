@@ -263,6 +263,15 @@ export const MemberData = [
     linkedin: "",
   },
   {
+    name: "Sayan Choudhury",
+    description: "Sponsorship Head",
+    image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/102872077/66e906fa-b626-4d17-9c89-829c5b8f81c4',
+    instagram: "",
+    facebook: "",
+    phone: "",
+    linkedin: "",
+  },
+  {
     name: "Swarnali Datta",
     description: "Audition Head",
     image: 'https://github.com/AnkuranTechno/anakhronos_new/assets/102872077/42ee4e94-154c-4eb8-8939-d21f6c0d2149',
