@@ -1,5 +1,5 @@
-import React from 'react';
-import './Contact.scss';
+import React from "react";
+import "./Contact.scss";
 
 export default function Contact() {
   return (
@@ -12,12 +12,14 @@ export default function Contact() {
               We are happy to hear doubts and suggestions
             </p>
           </div>
-          <div className="row" style={{ paddingBottom: '30px' }}>
+          <div className="row" style={{ paddingBottom: "30px" }}>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <form className="form">
                 <label className="font13">For Sponsorship email us at:</label>
-                <a href="mailto:sponsorship@anakhronos.in"> sponsorship@anakhronos.in</a>
-              {/*   <input
+                <a href="mailto:anakhronostmsl03@gmail.com">
+                  anakhronostmsl03@gmail.com
+                </a>
+                {/*   <input
                   type="text"
                   id="fname"
                   name="fname"
@@ -30,15 +32,20 @@ export default function Contact() {
                   name="email"
                   className="font20 extraBold"
                 /> */}
-                <br/>
-                <label className="font13">For Other Queries email us at:</label>
-                <a href="mailto:official@anakhronos.in"> official@anakhronos.in</a>
                 <br />
-                <label className="font13">Please feel free to contact us at:</label>
-               
-                <a href="#"> +91XXXXXXXXXX</a> 
+                <label className="font13">For Other Queries email us at:</label>
+                <a href="mailto:official@anakhronos.in">
+                  {" "}
+                  official@anakhronos.in
+                </a>
+                <br />
+                <label className="font13">
+                  Please feel free to contact us at:
+                </label>
+
+                <a href="#"> +91XXXXXXXXXX</a>
                 <label className="font13"> / </label>
-                <a href="#"> +91XXXXXXXXXX</a> 
+                <a href="#"> +91XXXXXXXXXX</a>
 
                 {/* <input
                   type="text"
@@ -55,7 +62,7 @@ export default function Contact() {
                   className="font20 extraBold"
                 /> */}
               </form>
-             {/*  <div className="submitWrapper flex">
+              {/*  <div className="submitWrapper flex">
                 <input
                   type="submit"
                   value="Send Message"
@@ -66,7 +73,7 @@ export default function Contact() {
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
               <div
-                style={{ width: '50%' }}
+                style={{ width: "50%" }}
                 className="flexNullCenter flexColumn"
               ></div>
             </div>
