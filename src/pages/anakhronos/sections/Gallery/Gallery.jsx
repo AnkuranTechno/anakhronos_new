@@ -1,11 +1,11 @@
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import { arrow } from '../../../../constants/anakhronosImg';
-import 'swiper/css/pagination';
-import './Gallery.scss';
+import "swiper/css";
+import { arrow } from "../../../../constants/anakhronosImg";
+import "swiper/css/pagination";
+import "./Gallery.scss";
 import {
   anakhImg1,
   anakhImg2,
@@ -36,125 +36,195 @@ import {
   anakhImg27,
   anakhImg28,
   anakhImg29,
-} from '../../../../constants/anakhronosImg';
-import { useState } from 'react';
+  show1,
+  show2,
+  show3,
+  show4,
+  show5,
+  show6,
+  show7,
+  show8,
+  show9,
+  show10,
+  show11,
+  show12,
+  show13,
+  show14,
+} from "../../../../constants/anakhronosImg";
+import { useState } from "react";
 
 const data = [
   {
-    img: anakhImg1,
+    img: show1,
     id: 1,
   },
   {
-    img: anakhImg2,
+    img: show2,
     id: 2,
   },
   {
-    img: anakhImg3,
+    img: show3,
     id: 3,
   },
   {
-    img: anakhImg4,
+    img: show4,
     id: 4,
   },
   {
-    img: anakhImg5,
+    img: show5,
     id: 5,
   },
   {
-    img: anakhImg6,
+    img: show6,
     id: 6,
   },
   {
-    img: anakhImg7,
+    img: show7,
     id: 7,
   },
   {
-    img: anakhImg8,
+    img: show8,
     id: 8,
   },
   {
-    img: anakhImg9,
+    img: show9,
     id: 9,
   },
   {
-    img: anakhImg10,
+    img: show10,
     id: 10,
   },
   {
-    img: anakhImg11,
+    img: show11,
     id: 11,
   },
   {
-    img: anakhImg12,
+    img: show12,
     id: 12,
   },
   {
-    img: anakhImg13,
+    img: show13,
     id: 13,
   },
   {
-    img: anakhImg14,
+    img: show14,
     id: 14,
   },
   {
-    img: anakhImg15,
+    img: anakhImg1,
     id: 15,
   },
   {
-    img: anakhImg16,
+    img: anakhImg2,
     id: 16,
   },
   {
-    img: anakhImg17,
+    img: anakhImg3,
     id: 17,
   },
   {
-    img: anakhImg18,
+    img: anakhImg4,
     id: 18,
   },
   {
-    img: anakhImg19,
+    img: anakhImg5,
     id: 19,
   },
   {
-    img: anakhImg20,
+    img: anakhImg6,
     id: 20,
   },
   {
-    img: anakhImg21,
+    img: anakhImg7,
     id: 21,
   },
   {
-    img: anakhImg22,
+    img: anakhImg8,
     id: 22,
   },
   {
-    img: anakhImg23,
+    img: anakhImg9,
     id: 23,
   },
   {
-    img: anakhImg24,
+    img: anakhImg10,
     id: 24,
   },
   {
-    img: anakhImg25,
+    img: anakhImg11,
     id: 25,
   },
   {
-    img: anakhImg26,
+    img: anakhImg12,
     id: 26,
   },
   {
-    img: anakhImg27,
+    img: anakhImg13,
     id: 27,
   },
   {
-    img: anakhImg28,
+    img: anakhImg14,
     id: 28,
   },
   {
-    img: anakhImg29,
+    img: anakhImg15,
     id: 29,
+  },
+  {
+    img: anakhImg16,
+    id: 30,
+  },
+  {
+    img: anakhImg17,
+    id: 31,
+  },
+  {
+    img: anakhImg18,
+    id: 32,
+  },
+  {
+    img: anakhImg19,
+    id: 33,
+  },
+  {
+    img: anakhImg20,
+    id: 34,
+  },
+  {
+    img: anakhImg21,
+    id: 35,
+  },
+  {
+    img: anakhImg22,
+    id: 36,
+  },
+  {
+    img: anakhImg23,
+    id: 37,
+  },
+  {
+    img: anakhImg24,
+    id: 38,
+  },
+  {
+    img: anakhImg25,
+    id: 39,
+  },
+  {
+    img: anakhImg26,
+    id: 40,
+  },
+  {
+    img: anakhImg27,
+    id: 41,
+  },
+  {
+    img: anakhImg28,
+    id: 42,
+  },
+  {
+    img: anakhImg29,
+    id: 43,
   },
 ];
 const Gallery = () => {
@@ -173,7 +243,7 @@ const Gallery = () => {
       <div className="swiper">
         <Swiper
           onSwiper={(swiper) => setSwiperRef(swiper)}
-          slidesPerView={'auto'}
+          slidesPerView={"auto"}
           spaceBetween={20}
           loop={true}
           // modules={[]}
